@@ -62,12 +62,30 @@
     .dossier .conf{font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;color:#4f5d56;display:block;margin-top:8px}
     .dossier .q-evidence{font-size:12.5px;color:#5b6a62;margin:6px 0 0}
     .dossier .q-evidence a{color:#755b29;font-weight:700;text-decoration:underline}
-    .dossier .chip{display:inline-flex;align-items:center;gap:6px;min-height:30px;padding:0 11px;border-radius:4px;font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;border:1px solid;white-space:nowrap}
+    .chip{display:inline-flex;align-items:center;gap:6px;min-height:30px;padding:0 11px;border-radius:4px;font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;border:1px solid;white-space:nowrap}
     .dossier .chip-verified{border-color:#1c6b4a;color:#1c6b4a}
     .dossier .chip-partial{border-color:#6e5716;color:#6e5716}
     .dossier .chip-unverified{border-color:#6b7a72;color:#5b6a62}
     .dossier .chip-contradicted{border-color:#8f2d2d;color:#8f2d2d}
     .dossier .chip-na{border-color:#9aa39c;color:#5b6a62;background:rgba(0,0,0,.04)}
+    /* Verification class chips — ivory dossier panel */
+    .dossier .class-a{border-color:#1c6b4a;color:#1c6b4a}
+    .dossier .class-b{border-color:#6e5716;color:#6e5716}
+    .dossier .class-c{border-color:#6b7a72;color:#5b6a62}
+    .dossier .class-d{border-color:#8f2d2d;color:#8f2d2d}
+    .dossier .class-native{border-color:#755b29;color:#755b29;background:rgba(198,167,106,.18)}
+    .dossier .vclass-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 14px;font:700 11px var(--data);letter-spacing:.1em;text-transform:uppercase;color:#755b29}
+    .dossier .vclass-note{font:500 11px Arial,Helvetica,sans-serif;letter-spacing:0;text-transform:none;color:#5b6a62}
+    /* Verification class chips — dark library cards */
+    .token-card .chip{min-height:26px}
+    .token-card .class-a{border-color:#3f9e74;color:#80DDB2}
+    .token-card .class-b{border-color:#8a6d1f;color:#F0C27A}
+    .token-card .class-c{border-color:#547467;color:#A7BBB0}
+    .token-card .class-d{border-color:#8f2d2d;color:#e08a8a}
+    .token-card .class-native{border-color:#C6A76A;color:#C6A76A}
+    /* Utility line — plain-language purpose, top of every token page */
+    .page-hero .utility-line{margin:16px 0 0;font-size:17px;line-height:1.6;color:var(--ivory);max-width:720px}
+    .page-hero .u-key{display:inline-block;margin-right:10px;font:700 10px var(--data);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);border-radius:4px;padding:5px 9px;vertical-align:2px}
     .dossier .coverage{margin:22px 0 0;padding-top:16px;border-top:1px solid #9eaa9f;font-size:13.5px;color:#30423d}
     .dossier .method-link{font-weight:700;color:#755b29}
     @media(max-width:600px){.dossier{padding:24px 22px}.dossier .qrow{grid-template-columns:32px 1fr}.dossier .q-status{grid-column:2;margin-top:8px}}
@@ -109,6 +127,16 @@
       <div class="record-row"><span>❔ Unverified</span><strong>Insufficient evidence either way — a legitimate result</strong><span class="state">Publish as open</span></div>
       <div class="record-row"><span>🚫 Contradicted</span><strong>Evidence weighs against the claim</strong><span class="state">Publish the finding</span></div>
     </div>
+    <div class="section-head" style="margin-top:60px"><div><div class="kicker">Verification class</div><h2>One class per token. Computed, not judged.</h2></div>
+    <p class="section-intro">Every token page carries a verification class — a single chip derived mechanically from the five question verdicts at build time. No analyst assigns it; the build computes it, and the build refuses to publish any page it cannot classify.</p></div>
+    <div class="record">
+      <div class="record-row"><span>Class A</span><strong>Every applicable question verified</strong><span class="state">Full chain</span></div>
+      <div class="record-row"><span>Class B</span><strong>Verified / partially verified mix — no unverified, no contradicted</strong><span class="state">Gaps noted</span></div>
+      <div class="record-row"><span>Class C</span><strong>One or more questions unverified — a legitimate result</strong><span class="state">Open</span></div>
+      <div class="record-row"><span>Class D</span><strong>Evidence contradicts the claim on at least one question</strong><span class="state">Flagged</span></div>
+      <div class="record-row"><span>Native</span><strong>Bearer-native asset — verified as the thing itself, not on the claim axis</strong><span class="state">Structural</span></div>
+    </div>
+    <p class="section-intro" style="margin-top:26px">Forensic dossiers keep the class assigned during forensic review, on the same A/B/C/D scale. The class is a verification statement, never a quality ranking — automate evidence, not judgment. This class system is published for FORTUNA's review.</p>
     <div class="section-head" style="margin-top:60px"><div><div class="kicker">The discipline</div><h2>Rules we don't break.</h2></div></div>
     <ol class="principles">
       <li><b>01</b><span>Verified is not plausible; unverified is not disproven. The job is to close the chain.</span></li>

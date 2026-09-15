@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="FORTUNA SIGNAL is an independent crypto research publication: free breadcrumbs, subscriber depth, evidence-first methodology.">
+  <meta name="description" content="FORTUNA SIGNAL is an AI-assisted publication: clear explanations, original analogies, and links to the material behind the story.">
   <title>About FORTUNA SIGNAL — FORTUNA SIGNAL</title>
   <style>
     :root{--obsidian:#07120F;--emerald:#073D32;--forest:#0D241D;--gold:#C6A76A;--ivory:#F2EEE5;--sage:#A7BBB0;--mint:#80DDB2;--amber:#F0C27A;--focus:#B7DAD0;--line:#36584B;--display:Georgia,"Times New Roman",serif;--body:Arial,Helvetica,sans-serif;--data:ui-monospace,SFMono-Regular,Consolas,monospace}
@@ -33,27 +33,46 @@
     @media(max-width:860px){.wrap{width:min(100% - 48px,1200px)}.hero-grid{grid-template-columns:1fr;min-height:auto;gap:54px;padding:70px 0 58px}.method{max-width:520px}.section-head,.feature-grid,.archive-grid,.about{grid-template-columns:1fr}.section-head{gap:18px}.narratives{grid-template-columns:1fr 1fr}.about{gap:40px}.token-grid{grid-template-columns:1fr 1fr}}
     @media(max-width:600px){.wrap{width:calc(100% - 48px)}.utility .wrap{display:block;padding:8px 0 6px}.descriptor{display:block;padding:7px 0}.nav{gap:4px 18px;flex-wrap:wrap}.nav a{min-height:38px;font-size:12px}.hero-grid{padding:56px 0 48px}h1{font-size:48px}.lede{font-size:18px}.method{padding:22px 0 0;border-left:0;border-top:1px solid rgba(198,167,106,.55)}.actions{display:grid}.action{width:100%}.section{padding:64px 0}.feature{padding:26px;min-height:390px}.card{padding:23px}.card-bottom{align-items:start;flex-direction:column}.narratives{grid-template-columns:1fr}.anatomy{display:block}.anatomy article,.anatomy article+article{padding:24px 0;border-left:0;border-bottom:1px solid #9eaa9f}.anatomy article:last-child{border-bottom:0}.record-row{grid-template-columns:1fr auto;gap:8px 16px}.record-row span:first-child{grid-column:1/-1}.token-grid{grid-template-columns:1fr}.footer-grid{display:block}.signature{display:block;margin-top:28px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+    /* Emoji-anchored reading: consistent visual vocabulary, scannable rhythm */
+    .story-emoji{font-size:58px;line-height:1;display:block;margin-bottom:20px}
+    .story{min-height:380px;display:flex;flex-direction:column;justify-content:space-between}
+    .concept-key{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 6px}
+    .concept{display:inline-flex;align-items:center;gap:10px;background:var(--forest);border:1px solid var(--line);border-radius:999px;padding:9px 16px 9px 12px;font-size:13px;color:var(--sage)}
+    .concept .e{font-size:20px;font-style:normal;line-height:1}
+    .concept b{color:var(--ivory);font-weight:700}
+    .tldr{border:1px solid var(--gold);border-radius:10px;padding:24px 26px;margin:34px 0 8px;background:rgba(198,167,106,.07);display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start}
+    .tldr .e{font-size:34px;line-height:1.2}
+    .tldr p{margin:0!important;font-size:19px!important;color:var(--ivory)!important}
+    .vocab{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
+    .vocab article{background:var(--forest);border:1px solid var(--line);border-radius:8px;padding:20px 22px}
+    .vocab .e{font-size:32px;display:block;margin-bottom:12px}
+    .vocab h4{margin:0 0 6px;font-size:15px;color:var(--ivory)}
+    .vocab p{margin:0;font-size:13.5px;color:var(--sage)}
+    @media(max-width:600px){.vocab{grid-template-columns:1fr}.tldr{grid-template-columns:1fr}.story-emoji{font-size:46px}}
   </style>
   
 </head>
 <body>
-  <div class="utility"><div class="wrap"><span class="descriptor">Digital market intelligence</span><nav class="nav" aria-label="Primary navigation"><a href="/">Latest</a><a href="/tokens/">Asset Library</a><a href="/methodology/">Methodology</a><a href="/about/" aria-current="page">About</a></nav></div></div>
-  <div class="beta-strip"><div class="wrap">Beta · Asset library live · Deep briefs publishing soon</div></div>
+  <div class="utility"><div class="wrap"><span class="descriptor">Digital market intelligence</span><nav class="nav" aria-label="Primary navigation"><a href="/fortuna-signal-live/">Latest</a><a href="/fortuna-signal-live/tokens/">Asset Library</a><a href="/fortuna-signal-live/methodology/">Methodology</a><a href="/fortuna-signal-live/about/" aria-current="page">About</a></nav></div></div>
+  <div class="beta-strip"><div class="wrap">First Edition · Original explainers · Historical examples</div></div>
   <main>
   
-  <div class="page-hero"><div class="wrap"><div class="crumbs"><a href="/">Home</a> / About</div>
-    <div class="kicker">About</div><h1>FORTUNA SIGNAL.</h1>
-    <p class="lede">Crypto-native intelligence, owned by the people who make it.</p>
+  <div class="page-hero"><div class="wrap"><div class="crumbs"><a href="/fortuna-signal-live/">Home</a> / About</div>
+    <div class="kicker">About</div><h1>Curiosity, with a point of reference.</h1>
+    <p class="lede">FORTUNA is the parent brand. SIGNAL is its editorial home.</p>
   </div></div>
   <section class="section"><div class="wrap about">
-    <div><p class="about-copy">FORTUNA SIGNAL is an independent research publication for digital markets. We read the primary documents — whitepapers, code, filings, on-chain data — and publish what the evidence actually supports.</p>
-    <p class="about-copy" style="margin-top:24px">The model is simple: <strong>breadcrumbs are free, depth is earned.</strong> Short public briefs and the asset library stay open to everyone. Deep investigations, evidence chains, and synthesis are reserved for subscribers — priced to be the cheapest serious subscription in crypto.</p>
-    <p class="about-copy" style="margin-top:24px">We are in beta. The asset library is live; the investigation desk is warming up. Everything published here is research — not investment advice, not signals to trade on.</p></div>
+    <div><p class="about-copy">Emerging markets can feel like a room where everyone is speaking at once. New technologies arrive with unfamiliar language. Announcements move quickly. A compelling story can travel further than the evidence behind it.</p>
+    <p class="about-copy" style="margin-top:24px">FORTUNA SIGNAL is an AI-assisted publication built to make that room easier to navigate. We explore digital markets through clear explanations, original analogies, and links to the material behind the story.</p>
+    <p class="about-copy" style="margin-top:24px">Our approach begins with curiosity. What does this technology actually do? Who uses it? What connects an ambitious idea to an observable result? We take time with those questions so readers can build an understanding that lasts beyond a headline.</p>
+    <p class="about-copy" style="margin-top:24px">SIGNAL is a place to follow an idea, inspect its foundations, and return as the evidence develops.</p>
+    <p class="about-copy" style="margin-top:24px">The model is simple: <strong>breadcrumbs are free, depth is earned.</strong> Short public briefs and the asset library stay open to everyone. Deep investigations, evidence chains, and synthesis are reserved for subscribers.</p>
+    <p style="margin-top:30px"><span class="signature">AD ASTRA.</span></p></div>
     <div><ol class="principles">
       <li><b>01</b><span>Prove trust before proving intelligence.</span></li>
       <li><b>02</b><span>Automate evidence, not judgment.</span></li>
-      <li><b>03</b><span>Methodology public. Live signals private until they're verified.</span></li>
-      <li><b>04</b><span>No undisclosed conflicts. If we depend on infrastructure we cover, we say so.</span></li>
+      <li><b>03</b><span>Methodology public. Live signals private until they are verified.</span></li>
+      <li><b>04</b><span>Educational content — not personalized investment advice.</span></li>
     </ol></div>
   </div></section>
   </main>

@@ -33,6 +33,22 @@
     @media(max-width:860px){.wrap{width:min(100% - 48px,1200px)}.hero-grid{grid-template-columns:1fr;min-height:auto;gap:54px;padding:70px 0 58px}.method{max-width:520px}.section-head,.feature-grid,.archive-grid,.about{grid-template-columns:1fr}.section-head{gap:18px}.narratives{grid-template-columns:1fr 1fr}.about{gap:40px}.token-grid{grid-template-columns:1fr 1fr}}
     @media(max-width:600px){.wrap{width:calc(100% - 48px)}.utility .wrap{display:block;padding:8px 0 6px}.descriptor{display:block;padding:7px 0}.nav{gap:4px 18px;flex-wrap:wrap}.nav a{min-height:38px;font-size:12px}.hero-grid{padding:56px 0 48px}h1{font-size:48px}.lede{font-size:18px}.method{padding:22px 0 0;border-left:0;border-top:1px solid rgba(198,167,106,.55)}.actions{display:grid}.action{width:100%}.section{padding:64px 0}.feature{padding:26px;min-height:390px}.card{padding:23px}.card-bottom{align-items:start;flex-direction:column}.narratives{grid-template-columns:1fr}.anatomy{display:block}.anatomy article,.anatomy article+article{padding:24px 0;border-left:0;border-bottom:1px solid #9eaa9f}.anatomy article:last-child{border-bottom:0}.record-row{grid-template-columns:1fr auto;gap:8px 16px}.record-row span:first-child{grid-column:1/-1}.token-grid{grid-template-columns:1fr}.footer-grid{display:block}.signature{display:block;margin-top:28px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+    /* Emoji-anchored reading: consistent visual vocabulary, scannable rhythm */
+    .story-emoji{font-size:58px;line-height:1;display:block;margin-bottom:20px}
+    .story{min-height:380px;display:flex;flex-direction:column;justify-content:space-between}
+    .concept-key{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 6px}
+    .concept{display:inline-flex;align-items:center;gap:10px;background:var(--forest);border:1px solid var(--line);border-radius:999px;padding:9px 16px 9px 12px;font-size:13px;color:var(--sage)}
+    .concept .e{font-size:20px;font-style:normal;line-height:1}
+    .concept b{color:var(--ivory);font-weight:700}
+    .tldr{border:1px solid var(--gold);border-radius:10px;padding:24px 26px;margin:34px 0 8px;background:rgba(198,167,106,.07);display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start}
+    .tldr .e{font-size:34px;line-height:1.2}
+    .tldr p{margin:0!important;font-size:19px!important;color:var(--ivory)!important}
+    .vocab{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
+    .vocab article{background:var(--forest);border:1px solid var(--line);border-radius:8px;padding:20px 22px}
+    .vocab .e{font-size:32px;display:block;margin-bottom:12px}
+    .vocab h4{margin:0 0 6px;font-size:15px;color:var(--ivory)}
+    .vocab p{margin:0;font-size:13.5px;color:var(--sage)}
+    @media(max-width:600px){.vocab{grid-template-columns:1fr}.tldr{grid-template-columns:1fr}.story-emoji{font-size:46px}}
   </style>
   
 <script>
@@ -58,11 +74,11 @@
 </script>
 </head>
 <body>
-  <div class="utility"><div class="wrap"><span class="descriptor">Digital market intelligence</span><nav class="nav" aria-label="Primary navigation"><a href="/">Latest</a><a href="/tokens/" aria-current="page">Asset Library</a><a href="/methodology/">Methodology</a><a href="/about/">About</a></nav></div></div>
-  <div class="beta-strip"><div class="wrap">Beta · Asset library live · Deep briefs publishing soon</div></div>
+  <div class="utility"><div class="wrap"><span class="descriptor">Digital market intelligence</span><nav class="nav" aria-label="Primary navigation"><a href="/fortuna-signal-live/">Latest</a><a href="/fortuna-signal-live/tokens/">Asset Library</a><a href="/fortuna-signal-live/methodology/">Methodology</a><a href="/fortuna-signal-live/about/">About</a></nav></div></div>
+  <div class="beta-strip"><div class="wrap">First Edition · Original explainers · Historical examples</div></div>
   <main>
   
-  <div class="page-hero"><div class="wrap"><div class="crumbs"><a href="/">Home</a> / Asset library</div>
+  <div class="page-hero"><div class="wrap"><div class="crumbs"><a href="/fortuna-signal-live/">Home</a> / Asset library</div>
     <div class="kicker">Asset library</div><h1>Every token, researched.</h1>
     <p class="lede">Plain-language profiles drawn from official whitepapers and project documentation. No prices, no predictions — just what each project claims to be, and what the evidence supports.</p>
   </div></div>
@@ -75,882 +91,882 @@
     </div>
     <p class="count-line" id="token-count">126 of 126 tokens shown</p>
     <div class="token-grid">
-      <a class="token-card" href="/tokens/xrp.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/xrp.html" data-status="ok"
          data-search="xrp xrp">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>XRP</h3>
         <span class="ticker">XRP</span>
         <p>XRP is the native asset of the XRP Ledger, a distributed payments network designed for fast, low-cost cross-border value transfer, developed alongside Ripple Labs.</p>
       </a>
-      <a class="token-card" href="/tokens/ondo.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ondo.html" data-status="no_whitepaper_found"
          data-search="ondo ondo">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Ondo</h3>
         <span class="ticker">ONDO</span>
         <p>Ondo Finance tokenizes real-world assets such as US Treasuries, money-market instruments, and stocks to bring institutional-grade yield and securities onchain.</p>
       </a>
-      <a class="token-card" href="/tokens/xlm.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/xlm.html" data-status="ok"
          data-search="stellar lumens xlm">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Stellar Lumens</h3>
         <span class="ticker">XLM</span>
         <p>Stellar is an open-source payments network built for fast, ultra-cheap cross-currency and cross-border transfers, stewarded by the nonprofit Stellar Development Foundation.</p>
       </a>
-      <a class="token-card" href="/tokens/render.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/render.html" data-status="ok"
          data-search="render render">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Render</h3>
         <span class="ticker">RENDER</span>
         <p>The Render Network is a decentralized marketplace connecting creators who need GPU rendering and AI compute with providers of idle GPU capacity.</p>
       </a>
-      <a class="token-card" href="/tokens/link.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/link.html" data-status="ok"
          data-search="chainlink link">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Chainlink</h3>
         <span class="ticker">LINK</span>
         <p>Chainlink is the dominant decentralized oracle network connecting blockchains to offchain data, computation, and cross-chain messaging.</p>
       </a>
-      <a class="token-card" href="/tokens/hbar.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/hbar.html" data-status="ok"
          data-search="hedera hbar">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Hedera</h3>
         <span class="ticker">HBAR</span>
         <p>Hedera is a public distributed ledger using hashgraph consensus to deliver fast, low-fee transactions, smart contracts, and tokenization for enterprise and consumer use.</p>
       </a>
-      <a class="token-card" href="/tokens/akt.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/akt.html" data-status="ok"
          data-search="akash network akt">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Akash Network</h3>
         <span class="ticker">AKT</span>
         <p>Akash Network is a decentralized cloud-compute marketplace that lets providers sell unused compute capacity and lets developers deploy workloads far below hyperscaler prices.</p>
       </a>
-      <a class="token-card" href="/tokens/algo.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/algo.html" data-status="ok"
          data-search="algorand algo">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Algorand</h3>
         <span class="ticker">ALGO</span>
         <p>Algorand is a pure proof-of-stake Layer-1 blockchain designed for secure, scalable, and decentralized payments and smart contracts, founded by cryptographer Silvio Micali.</p>
       </a>
-      <a class="token-card" href="/tokens/sol.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/sol.html" data-status="ok"
          data-search="solana sol">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Solana</h3>
         <span class="ticker">SOL</span>
         <p>Solana is a high-performance Layer-1 blockchain built for sub-second finality and massive throughput across DeFi, NFTs, and payments.</p>
       </a>
-      <a class="token-card" href="/tokens/fet.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/fet.html" data-status="no_whitepaper_found"
          data-search="artificial superintelligence alliance fet">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Artificial Superintelligence Alliance</h3>
         <span class="ticker">FET</span>
         <p>The Artificial Superintelligence Alliance, formed in 2024 from Fetch.ai, SingularityNET, and Ocean Protocol, aims to build decentralized artificial superintelligence with open, community-governed AI infrastructure.</p>
       </a>
-      <a class="token-card" href="/tokens/sui.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/sui.html" data-status="ok"
          data-search="sui sui">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>SUI</h3>
         <span class="ticker">SUI</span>
         <p>Sui is an object-centric Layer-1 smart-contract platform built by Mysten Labs for high-throughput, low-latency applications.</p>
       </a>
-      <a class="token-card" href="/tokens/sei.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/sei.html" data-status="ok"
          data-search="sei sei">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Sei</h3>
         <span class="ticker">SEI</span>
         <p>Sei is a Layer-1 blockchain purpose-built for trading, now evolving into Sei Giga, a high-throughput EVM chain targeting exchange-grade performance.</p>
       </a>
-      <a class="token-card" href="/tokens/icp.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/icp.html" data-status="ok"
          data-search="internet computer icp">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Internet Computer</h3>
         <span class="ticker">ICP</span>
         <p>The Internet Computer is a blockchain network designed to host software and services fully onchain, a decentralized alternative to traditional cloud infrastructure.</p>
       </a>
-      <a class="token-card" href="/tokens/lcx.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/lcx.html" data-status="no_whitepaper_found"
          data-search="lcx lcx">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>LCX</h3>
         <span class="ticker">LCX</span>
         <p>LCX (Liechtenstein Cryptoassets Exchange) is a regulated crypto exchange and tokenization platform; LCX is its exchange utility token.</p>
       </a>
-      <a class="token-card" href="/tokens/hype.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/hype.html" data-status="no_whitepaper_found"
          data-search="hyperliquid hype">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Hyperliquid</h3>
         <span class="ticker">HYPE</span>
         <p>Hyperliquid is a high-performance Layer 1 blockchain built for a fully onchain open financial system, home to one of the largest decentralized perpetual-futures exchanges by volume.</p>
       </a>
-      <a class="token-card" href="/tokens/xtz.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/xtz.html" data-status="ok"
          data-search="tezos xtz">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Tezos</h3>
         <span class="ticker">XTZ</span>
         <p>Tezos is a self-amending proof-of-stake blockchain (2014, L.M. Goodman) designed so stakeholders can upgrade the protocol itself onchain without hard forks, and it supports Turing-complete smart contracts.</p>
       </a>
-      <a class="token-card" href="/tokens/wlfi.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/wlfi.html" data-status="ok"
          data-search="world liberty financial wlfi">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>World Liberty Financial</h3>
         <span class="ticker">WLFI</span>
         <p>World Liberty Financial is a US-based DeFi platform (branded around Donald J. Trump) whose stated mission is to democratize access to DeFi and fortify the US dollar&#x27;s global status by promoting USD-based stablecoins.</p>
       </a>
-      <a class="token-card" href="/tokens/btc.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/btc.html" data-status="ok"
          data-search="bitcoin btc">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Bitcoin</h3>
         <span class="ticker">BTC</span>
         <p>Bitcoin is the first decentralized peer-to-peer electronic cash system (Satoshi Nakamoto, October 2008), enabling online payments directly between parties without a trusted financial institution.</p>
       </a>
-      <a class="token-card" href="/tokens/red.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/red.html" data-status="ok"
          data-search="redstone red">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Redstone</h3>
         <span class="ticker">RED</span>
         <p>RedStone is a modular blockchain oracle network that delivers price and data feeds to DeFi protocols across 70+ chains, using a gas-efficient design that keeps data offchain and serves it on demand.</p>
       </a>
-      <a class="token-card" href="/tokens/edge.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/edge.html" data-status="ok"
          data-search="definitive edge">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Definitive</h3>
         <span class="ticker">EDGE</span>
         <p>Definitive is an advanced non-custodial onchain trade-execution platform (live on Solana, Base and major EVM chains) that delivers a CeFi-like trading experience on DeFi rails.</p>
       </a>
-      <a class="token-card" href="/tokens/op.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/op.html" data-status="no_whitepaper_found"
          data-search="optimism op">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Optimism</h3>
         <span class="ticker">OP</span>
         <p>Optimism is the governance token of the Optimism Collective, the ecosystem behind OP Mainnet and the Superchain: a network of interoperable Ethereum Layer 2 chains built on the shared open-source OP Stack.</p>
       </a>
-      <a class="token-card" href="/tokens/sky.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/sky.html" data-status="ok"
          data-search="sky sky">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Sky</h3>
         <span class="ticker">SKY</span>
         <p>Sky (formerly MakerDAO) is one of the oldest and largest DeFi lending protocols, issuing the USDS stablecoin (upgraded DAI) through overcollateralized vaults under its &#x27;Endgame&#x27; overhaul.</p>
       </a>
-      <a class="token-card" href="/tokens/fai.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/fai.html" data-status="ok"
          data-search="freysa fai">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Freysa</h3>
         <span class="ticker">FAI</span>
         <p>Freysa is a &#x27;sovereign AI agent&#x27; experiment that began as a gamified prompt-injection challenge (players paid escalating fees to try to convince the AI to release a prize pool) and is evolving into infrastructure for aut…</p>
       </a>
-      <a class="token-card" href="/tokens/wld.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/wld.html" data-status="ok"
          data-search="worldcoin wld">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Worldcoin</h3>
         <span class="ticker">WLD</span>
         <p>Worldcoin (now branded &#x27;World&#x27;) is a digital identity and financial network aiming to establish global proof-of-personhood, so every human can prove uniqueness online and receive a share of the network&#x27;s token.</p>
       </a>
-      <a class="token-card" href="/tokens/syrup.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/syrup.html" data-status="no_whitepaper_found"
          data-search="maple finance syrup">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Maple Finance</h3>
         <span class="ticker">SYRUP</span>
         <p>Maple Finance is an onchain asset manager for institutional credit, and Syrup is its permissionless DeFi extension letting anyone deposit stablecoins (syrupUSDC/syrupUSDT) to earn yield sourced from overcollateralized lo…</p>
       </a>
-      <a class="token-card" href="/tokens/trac.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/trac.html" data-status="ok"
          data-search="origintrail trac">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>OriginTrail</h3>
         <span class="ticker">TRAC</span>
         <p>OriginTrail is building a Decentralized Knowledge Graph (DKG): a verifiable, blockchain-anchored network for trusted data exchange, originally for supply chains and now positioned as trust infrastructure for AI.</p>
       </a>
-      <a class="token-card" href="/tokens/paxg.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/paxg.html" data-status="ok"
          data-search="pax gold paxg">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>PAX Gold</h3>
         <span class="ticker">PAXG</span>
         <p>PAX Gold is a regulated, gold-backed ERC-20 token issued by Paxos Trust Company, where each token represents ownership of one fine troy ounce of LBMA-accredited London Good Delivery gold held in custody.</p>
       </a>
-      <a class="token-card" href="/tokens/sxt.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/sxt.html" data-status="no_whitepaper_found"
          data-search="space and time sxt">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Space and Time</h3>
         <span class="ticker">SXT</span>
         <p>Space and Time is a decentralized data warehouse offering ZK-proven SQL queries: developers query indexed blockchain data with familiar SQL and receive a zero-knowledge proof (Proof of SQL) that the query and underlying …</p>
       </a>
-      <a class="token-card" href="/tokens/ath.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ath.html" data-status="ok"
          data-search="ath ath">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>ATH</h3>
         <span class="ticker">ATH</span>
         <p>Decentralized GPU cloud (DePIN) aggregating enterprise-grade GPUs for AI, gaming, rendering, and virtualized compute. The whitepaper describes a marketplace matching compute supply (Containers) with demand via Indexers a…</p>
       </a>
-      <a class="token-card" href="/tokens/sqd.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/sqd.html" data-status="ok"
          data-search="sqd sqd">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>SQD</h3>
         <span class="ticker">SQD</span>
         <p>Decentralized data lake and distributed query engine for blockchain data. Workers and Gateways provide storage, computation, and streaming of indexed chain data to applications.</p>
       </a>
-      <a class="token-card" href="/tokens/zec.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/zec.html" data-status="ok"
          data-search="zec zec">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>ZEC</h3>
         <span class="ticker">ZEC</span>
         <p>Privacy-focused cryptocurrency combining Bitcoin-style transparent payments with shielded payments secured by zk-SNARKs. Read the official protocol specification, v2026.7.0 dated 2026-09-03.</p>
       </a>
-      <a class="token-card" href="/tokens/orca.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/orca.html" data-status="no_whitepaper_found"
          data-search="orca orca">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>ORCA</h3>
         <span class="ticker">ORCA</span>
         <p>Solana-based decentralized exchange and concentrated-liquidity market maker. Official docs describe providing liquidity and earning trading fees on what it calls Solana&#x27;s most trusted DEX, with concentrated or full-range…</p>
       </a>
-      <a class="token-card" href="/tokens/ada.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ada.html" data-status="no_whitepaper_found"
          data-search="ada ada">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>ADA</h3>
         <span class="ticker">ADA</span>
         <p>Cardano is a decentralized, third-generation proof-of-stake blockchain and the native home of the ada cryptocurrency, per the official Cardano documentation.</p>
       </a>
-      <a class="token-card" href="/tokens/pump.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/pump.html" data-status="no_whitepaper_found"
          data-search="pump pump">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>PUMP</h3>
         <span class="ticker">PUMP</span>
         <p>PUMP is the brand token of Pump.fun, the Solana memecoin launchpad where, per the official site, anyone can create coins with equal access to buy and sell from the start.</p>
       </a>
-      <a class="token-card" href="/tokens/cro.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/cro.html" data-status="ok"
          data-search="cro cro">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>CRO</h3>
         <span class="ticker">CRO</span>
         <p>EVM-compatible blockchain built with the Cosmos SDK, interoperating via IBC, positioned as the chain powering the Crypto.com ecosystem.</p>
       </a>
-      <a class="token-card" href="/tokens/floki.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/floki.html" data-status="ok"
          data-search="floki floki">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>FLOKI</h3>
         <span class="ticker">FLOKI</span>
         <p>Multi-utility community token, originated as a memecoin, used across the Floki ecosystem of products.</p>
       </a>
-      <a class="token-card" href="/tokens/aztec.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/aztec.html" data-status="ok"
          data-search="aztec aztec">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>AZTEC</h3>
         <span class="ticker">AZTEC</span>
         <p>Privacy-first Layer 2 on Ethereum enabling a fully programmable smart-contract environment with an encrypted state ledger, using zk-SNARKs. Designed around the Noir universal ZK language with client-side proving so sensi…</p>
       </a>
-      <a class="token-card" href="/tokens/prompt.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/prompt.html" data-status="no_whitepaper_found"
          data-search="prompt prompt">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>PROMPT</h3>
         <span class="ticker">PROMPT</span>
         <p>Wayfinder is an AI-agent blockchain navigation protocol where Shells (AI agents) execute tasks along community-created wayfinding paths.</p>
       </a>
-      <a class="token-card" href="/tokens/hyper.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/hyper.html" data-status="ok"
          data-search="hyper hyper">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>HYPER</h3>
         <span class="ticker">HYPER</span>
         <p>Hyperlane is a permissionless interoperability protocol for cross-chain communication. HYPER is its native token, used to secure cross-chain communication via staking and to reward network participants.</p>
       </a>
-      <a class="token-card" href="/tokens/near.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/near.html" data-status="no_whitepaper_found"
          data-search="near near">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>NEAR</h3>
         <span class="ticker">NEAR</span>
         <p>NEAR is a decentralized application platform described as a community-run cloud for building decentralized applications.</p>
       </a>
-      <a class="token-card" href="/tokens/spk.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/spk.html" data-status="no_whitepaper_found"
          data-search="spk spk">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>SPK</h3>
         <span class="ticker">SPK</span>
         <p>Spark is a DeFi liquidity and yield infrastructure layer with three product lines: Savings, SparkLend money market, and the Spark Liquidity Layer that deploys stablecoin capital across DeFi, CeFi, and RWAs. It is a Star …</p>
       </a>
-      <a class="token-card" href="/tokens/iotx.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/iotx.html" data-status="ok"
          data-search="iotx iotx">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>IOTX</h3>
         <span class="ticker">IOTX</span>
         <p>IoTeX is a DePIN, RWA, and verifiable-AI Layer 1 blockchain connecting real-world devices and machine data to the chain. Read the official IoTeX Foundation MiCA whitepaper v1.0 dated 2025-10-05.</p>
       </a>
-      <a class="token-card" href="/tokens/grt.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/grt.html" data-status="ok"
          data-search="the graph grt">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>The Graph</h3>
         <span class="ticker">GRT</span>
         <p>The Graph is a decentralized protocol for indexing, caching, and querying data from blockchains and decentralized storage networks via GraphQL. It aims to let anyone access blockchain data without relying on trusted cent…</p>
       </a>
-      <a class="token-card" href="/tokens/zeta.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/zeta.html" data-status="ok"
          data-search="zetachain zeta">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Zetachain</h3>
         <span class="ticker">ZETA</span>
         <p>ZetaChain is a public proof-of-stake layer-1 blockchain enabling universal cross-chain smart contracts and asset transfers across both smart-contract and non-smart-contract chains.</p>
       </a>
-      <a class="token-card" href="/tokens/lpt.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/lpt.html" data-status="ok"
          data-search="livepeer lpt">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Livepeer</h3>
         <span class="ticker">LPT</span>
         <p>Livepeer is a decentralized, token-incentivized live video streaming and transcoding infrastructure network.</p>
       </a>
-      <a class="token-card" href="/tokens/zk.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/zk.html" data-status="ok"
          data-search="zksync zk">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>ZKsync</h3>
         <span class="ticker">ZK</span>
         <p>ZKsync is an Ethereum ZK-rollup ecosystem (the Elastic Network) of interoperable ZK Chains built on the open-source ZK Stack. It uses zero-knowledge validity proofs settled to Ethereum for scaling with L1-grade security.</p>
       </a>
-      <a class="token-card" href="/tokens/degen.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/degen.html" data-status="no_whitepaper_found"
          data-search="degen degen">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Degen</h3>
         <span class="ticker">DEGEN</span>
         <p>DEGEN is the community tipping and rewards token originating on Farcaster and the gas token of Degen Chain. Degen Chain is an Arbitrum Orbit layer-3 settling to Base.</p>
       </a>
-      <a class="token-card" href="/tokens/clanker.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/clanker.html" data-status="no_whitepaper_found"
          data-search="tokenbot clanker">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>tokenbot</h3>
         <span class="ticker">CLANKER</span>
         <p>Clanker (tokenbot) is an AI agent that automates ERC-20 token deployment and liquidity-pool initialization on Base from Farcaster commands.</p>
       </a>
-      <a class="token-card" href="/tokens/bio.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/bio.html" data-status="ok"
          data-search="bio protocol bio">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Bio Protocol</h3>
         <span class="ticker">BIO</span>
         <p>Bio Protocol is decentralized science (DeSci) infrastructure for funding, developing, and commercializing biotech research and intellectual property. It works through BioDAOs, tokenized IP, launch mechanisms, liquidity, …</p>
       </a>
-      <a class="token-card" href="/tokens/ach.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ach.html" data-status="ok"
          data-search="alchemy pay ach">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Alchemy Pay</h3>
         <span class="ticker">ACH</span>
         <p>Alchemy Pay is a crypto-fiat payment network bridging fiat and crypto payment systems for businesses, institutions, and individuals. It provides SDKs, plugins, and APIs for online and offline payment processing.</p>
       </a>
-      <a class="token-card" href="/tokens/bnkr.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/bnkr.html" data-status="no_whitepaper_found"
          data-search="bankrcoin bnkr">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>BankrCoin</h3>
         <span class="ticker">BNKR</span>
         <p>Bankr is a natural-language crypto agent and financial interface supporting wallets, trading, automation, token deployment, and agent-building functions.</p>
       </a>
-      <a class="token-card" href="/tokens/skl.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/skl.html" data-status="ok"
          data-search="skale skl">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>SKALE</h3>
         <span class="ticker">SKL</span>
         <p>SKALE is a network of independent EVM-compatible layer-1 shards (SKALE Chains) with pooled validator security and Ethereum anchoring. End users transact gas-free via sFUEL.</p>
       </a>
-      <a class="token-card" href="/tokens/fis.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/fis.html" data-status="ok"
          data-search="stafi fis">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>StaFi</h3>
         <span class="ticker">FIS</span>
         <p>StaFi is a cross-chain liquid staking protocol issuing rTokens that represent staked principal plus staking rewards. It lets users keep liquidity while their assets are staked.</p>
       </a>
-      <a class="token-card" href="/tokens/asm.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/asm.html" data-status="no_whitepaper_found"
          data-search="assemble ai asm">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Assemble AI</h3>
         <span class="ticker">ASM</span>
         <p>Assemble AI (News3/NS3) is an AI news agent aggregating crypto and macroeconomic news, providing summaries, sentiment analysis, market data, and AI-assisted insights.</p>
       </a>
-      <a class="token-card" href="/tokens/mina.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/mina.html" data-status="ok"
          data-search="mina mina">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Mina</h3>
         <span class="ticker">MINA</span>
         <p>Mina is a succinct blockchain: a lightweight payment-oriented proof-of-stake chain using recursively composed zk-SNARKs so the full chain stays constant-size (about 22KB) and verifiable in roughly 200ms on modest devices…</p>
       </a>
-      <a class="token-card" href="/tokens/aleph.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/aleph.html" data-status="ok"
          data-search="aleph cloud aleph">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Aleph Cloud</h3>
         <span class="ticker">ALEPH</span>
         <p>Aleph (Aleph Cloud) is a cross-blockchain layer-2 network for decentralized applications and their infrastructure: storage, computing, and messaging. It aims to decentralize web and cloud services.</p>
       </a>
-      <a class="token-card" href="/tokens/sapien.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/sapien.html" data-status="ok"
          data-search="sapien sapien">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>SAPIEN</h3>
         <span class="ticker">SAPIEN</span>
         <p>SAPIEN is the native Base-chain ERC-20 utility token of Sapien, a decentralized network for AI data annotation and validation.</p>
       </a>
-      <a class="token-card" href="/tokens/w.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/w.html" data-status="ok"
          data-search="wormhole w">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Wormhole</h3>
         <span class="ticker">W</span>
         <p>Wormhole is a cross-chain interoperability protocol that lets contracts and dapps send messages and move assets between blockchains.</p>
       </a>
-      <a class="token-card" href="/tokens/fx.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/fx.html" data-status="no_whitepaper_found"
          data-search="fx fx">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>FX</h3>
         <span class="ticker">FX</span>
         <p>Function X is a multi-chain architecture blockchain network (core: f(x)Core) aiming at a decentralized internet, developed by Pundi X Labs.</p>
       </a>
-      <a class="token-card" href="/tokens/aleo.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/aleo.html" data-status="no_whitepaper_found"
          data-search="aleo aleo">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>ALEO</h3>
         <span class="ticker">ALEO</span>
         <p>Aleo is a layer-1 smart-contract blockchain focused on private decentralized applications built with zero-knowledge proofs.</p>
       </a>
-      <a class="token-card" href="/tokens/gno.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/gno.html" data-status="no_whitepaper_found"
          data-search="gno gno">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>GNO</h3>
         <span class="ticker">GNO</span>
         <p>GNO is the staking and governance token of the Gnosis ecosystem, anchored by Gnosis Chain, a stable-payments EVM layer-1.</p>
       </a>
-      <a class="token-card" href="/tokens/ena.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ena.html" data-status="ok"
          data-search="ena ena">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>ENA</h3>
         <span class="ticker">ENA</span>
         <p>Ethena is a crypto-native dollar protocol issuing USDe, a synthetic dollar backed by crypto assets and corresponding short futures positions, plus the staked version sUSDe.</p>
       </a>
-      <a class="token-card" href="/tokens/flr.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/flr.html" data-status="ok"
          data-search="flr flr">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>FLR</h3>
         <span class="ticker">FLR</span>
         <p>Flare is an EVM layer-1 blockchain built to give smart contracts reliable access to external data through built-in oracle systems.</p>
       </a>
-      <a class="token-card" href="/tokens/met.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/met.html" data-status="no_whitepaper_found"
          data-search="met met">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>MET</h3>
         <span class="ticker">MET</span>
         <p>Meteora is Solana-based liquidity infrastructure offering concentrated-liquidity AMM pools, dynamic bonding curves, vaults, and launch tooling.</p>
       </a>
-      <a class="token-card" href="/tokens/nom.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/nom.html" data-status="no_whitepaper_found"
          data-search="nom nom">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>NOM</h3>
         <span class="ticker">NOM</span>
         <p>Nomina is the rebrand of Omni, a cross-rollup interoperability network for fast, secure communication between rollups.</p>
       </a>
-      <a class="token-card" href="/tokens/shib.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/shib.html" data-status="no_whitepaper_found"
          data-search="shib shib">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>SHIB</h3>
         <span class="ticker">SHIB</span>
         <p>Shiba Inu is an Ethereum-based token ecosystem with SHIB as its foundational token, originally launched as a community-driven meme token.</p>
       </a>
-      <a class="token-card" href="/tokens/eth.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/eth.html" data-status="no_whitepaper_found"
          data-search="eth eth">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>ETH</h3>
         <span class="ticker">ETH</span>
         <p>Ethereum is the leading smart-contract blockchain platform and settlement layer for DeFi, NFTs, DAOs, and tokenized assets.</p>
       </a>
-      <a class="token-card" href="/tokens/swftc.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/swftc.html" data-status="no_whitepaper_found"
          data-search="swftc swftc">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>SWFTC</h3>
         <span class="ticker">SWFTC</span>
         <p>SwftCoin is the native token of SWFT Blockchain, a cross-chain swap aggregator for swapping cryptocurrencies across chains.</p>
       </a>
-      <a class="token-card" href="/tokens/dimo.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/dimo.html" data-status="no_whitepaper_found"
          data-search="dimo dimo">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>DIMO</h3>
         <span class="ticker">DIMO</span>
         <p>DIMO is a vehicle-connectivity network that turns cars into user-controlled connected devices and API-accessible data sources.</p>
       </a>
-      <a class="token-card" href="/tokens/magic.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/magic.html" data-status="no_whitepaper_found"
          data-search="magic magic">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>MAGIC</h3>
         <span class="ticker">MAGIC</span>
         <p>MAGIC is the native token of the Treasure ecosystem, a gaming and on-chain agent economy launched in 2021 via a free and fair mint.</p>
       </a>
-      <a class="token-card" href="/tokens/prcl.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/prcl.html" data-status="ok"
          data-search="parcl prcl">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Parcl</h3>
         <span class="ticker">PRCL</span>
         <p>Parcl is a Solana-based decentralized exchange for trading perpetual futures on real-estate markets, letting traders speculate on real-estate price movements and LPs earn fees and trader PnL.</p>
       </a>
-      <a class="token-card" href="/tokens/blz.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/blz.html" data-status="ok"
          data-search="bluzelle blz">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Bluzelle</h3>
         <span class="ticker">BLZ</span>
         <p>Bluzelle is a decentralized database protocol that provides dApps with fast, scalable data storage and retrieval via a global network of node operators.</p>
       </a>
-      <a class="token-card" href="/tokens/shdw.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/shdw.html" data-status="no_whitepaper_found"
          data-search="shadow token shdw">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Shadow Token</h3>
         <span class="ticker">SHDW</span>
         <p>SHDW powers Shadow, a decentralized physical infrastructure (DePIN) network built by GenesysGo providing decentralized storage (Shadow Drive), compute, and RPC services for the Solana ecosystem.</p>
       </a>
-      <a class="token-card" href="/tokens/nct.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/nct.html" data-status="ok"
          data-search="polyswarm nct">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>PolySwarm</h3>
         <span class="ticker">NCT</span>
         <p>PolySwarm is a decentralized marketplace where security experts compete to detect malware and cyber threats, rewarding rapid and accurate threat intelligence.</p>
       </a>
-      <a class="token-card" href="/tokens/karrat.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/karrat.html" data-status="no_whitepaper_found"
          data-search="karrat karrat">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Karrat</h3>
         <span class="ticker">KARRAT</span>
         <p>KARRAT is the governance token of the KARRAT Protocol, a decentralized infrastructure for gaming, entertainment, and AI that empowers community decision-making over integrated games and products.</p>
       </a>
-      <a class="token-card" href="/tokens/aero.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/aero.html" data-status="ok"
          data-search="aerodrome finance aero">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Aerodrome Finance</h3>
         <span class="ticker">AERO</span>
         <p>Aerodrome Finance is the dominant automated market maker (AMM) on the Base blockchain, using a vote-escrowed token model to direct liquidity incentives to pools.</p>
       </a>
-      <a class="token-card" href="/tokens/pirate.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/pirate.html" data-status="ok"
          data-search="pirate nation token pirate">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Pirate Nation Token</h3>
         <span class="ticker">PIRATE</span>
         <p>PIRATE is the utility token of Pirate Nation, a fully on-chain pirate-themed RPG, used as the game&#x27;s economic currency for progression, crafting, and rewards.</p>
       </a>
-      <a class="token-card" href="/tokens/ctsi.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ctsi.html" data-status="ok"
          data-search="cartesi ctsi">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Cartesi</h3>
         <span class="ticker">CTSI</span>
         <p>Cartesi is a rollup and computation platform that brings a full Linux environment to blockchain dApps, letting developers use familiar languages and tools while settling verifiably on-chain.</p>
       </a>
-      <a class="token-card" href="/tokens/xyo.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/xyo.html" data-status="ok"
          data-search="xyo xyo">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>XYO</h3>
         <span class="ticker">XYO</span>
         <p>XYO is a decentralized physical infrastructure network (DePIN) providing trustless, cryptographically verified location data to smart contracts.</p>
       </a>
-      <a class="token-card" href="/tokens/zen.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/zen.html" data-status="ok"
          data-search="horizen zen">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Horizen</h3>
         <span class="ticker">ZEN</span>
         <p>Horizen is a zero-knowledge-enabled blockchain platform whose Zendoo protocol allows customizable, zk-SNARK-verified sidechains to interoperate with the mainchain.</p>
       </a>
-      <a class="token-card" href="/tokens/hft.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/hft.html" data-status="ok"
          data-search="hashflow hft">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Hashflow</h3>
         <span class="ticker">HFT</span>
         <p>Hashflow is a decentralized exchange using a request-for-quote model with professional market makers to deliver zero-slippage, MEV-protected trades across chains.</p>
       </a>
-      <a class="token-card" href="/tokens/mantle.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/mantle.html" data-status="no_whitepaper_found"
          data-search="mantle mantle">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Mantle</h3>
         <span class="ticker">MANTLE</span>
         <p>Mantle is an Ethereum Layer-2 network and DAO-governed ecosystem, with MNT as its native gas, staking, and governance token.</p>
       </a>
-      <a class="token-card" href="/tokens/pundix.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/pundix.html" data-status="ok"
          data-search="pundi x (new) pundix">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Pundi X (New)</h3>
         <span class="ticker">PUNDIX</span>
         <p>Pundi X is a blockchain payments company whose XPOS terminals and wallet infrastructure let merchants accept cryptocurrency in physical retail; PUNDIX is its ecosystem utility token.</p>
       </a>
-      <a class="token-card" href="/tokens/acs.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/acs.html" data-status="ok"
          data-search="access acs">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Access</h3>
         <span class="ticker">ACS</span>
         <p>Access Protocol is a Web3 content-monetization platform where readers stake ACS tokens to unlock premium content instead of paying subscriptions, giving creators recurring token-based revenue.</p>
       </a>
-      <a class="token-card" href="/tokens/toshi.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/toshi.html" data-status="no_whitepaper_found"
          data-search="toshi toshi">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Toshi</h3>
         <span class="ticker">TOSHI</span>
         <p>Toshi is a community-driven memecoin on Coinbase&#x27;s Base network, named after Coinbase co-founder Brian Armstrong&#x27;s cat Toshi (itself a nod to Satoshi Nakamoto). It has no project whitepaper; the project publishes no tech…</p>
       </a>
-      <a class="token-card" href="/tokens/ogn.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ogn.html" data-status="no_whitepaper_found"
          data-search="origin token ogn">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Origin Token</h3>
         <span class="ticker">OGN</span>
         <p>Origin Protocol is a decentralized platform for building peer-to-peer marketplaces, aiming to let buyers and sellers transact without intermediaries (positioned as open-source infrastructure for the sharing economy). Its…</p>
       </a>
-      <a class="token-card" href="/tokens/mana.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/mana.html" data-status="ok"
          data-search="decentraland mana">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Decentraland</h3>
         <span class="ticker">MANA</span>
         <p>Decentraland is a blockchain-based virtual world (metaverse) powered by Ethereum, where users create, experience, and monetize content and applications. Land is permanently owned by the community as scarce NFTs, giving o…</p>
       </a>
-      <a class="token-card" href="/tokens/atom.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/atom.html" data-status="ok"
          data-search="cosmos atom">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Cosmos</h3>
         <span class="ticker">ATOM</span>
         <p>Cosmos is a network of independent, parallel blockchains (&#x27;zones&#x27;) connected through the Cosmos Hub, designed as an &#x27;internet of blockchains&#x27; where assets move between chains without trusted third parties. The canonical …</p>
       </a>
-      <a class="token-card" href="/tokens/me.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/me.html" data-status="no_whitepaper_found"
          data-search="magic eden me">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Magic Eden</h3>
         <span class="ticker">ME</span>
         <p>Magic Eden is a multichain NFT and digital-asset marketplace (originated on Solana, expanded to Bitcoin, Ethereum, Polygon, and Base) that launched ME as its official ecosystem token in December 2024 via the ME Foundatio…</p>
       </a>
-      <a class="token-card" href="/tokens/hopr.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/hopr.html" data-status="no_whitepaper_found"
          data-search="hopr hopr">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>HOPR</h3>
         <span class="ticker">HOPR</span>
         <p>HOPR is an open, incentivized mixnet providing metadata-private, point-to-point data exchange for Web3 — &#x27;similar to Tor but actually private, decentralized and economically sustainable.&#x27; Node runners earn HOPR tokens on…</p>
       </a>
-      <a class="token-card" href="/tokens/corechain.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/corechain.html" data-status="no_whitepaper_found"
          data-search="core corechain">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Core</h3>
         <span class="ticker">CORECHAIN</span>
         <p>Core is a Bitcoin-aligned, EVM-compatible Layer 1 blockchain whose mission is to bring scalability and smart-contract functionality to Bitcoin&#x27;s security model. Its official whitepaper (v1.0.5, hosted on Core DAO&#x27;s docs …</p>
       </a>
-      <a class="token-card" href="/tokens/plu.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/plu.html" data-status="no_whitepaper_found"
          data-search="pluton plu">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Pluton</h3>
         <span class="ticker">PLU</span>
         <p>Pluton (PLU) is the rewards token of Plutus, a UK/EU fintech whose 2015 whitepaper by founder Danial Daychopan introduced the concept of tokenised loyalty rewards — and is the first recorded document to coin the term &#x27;DE…</p>
       </a>
-      <a class="token-card" href="/tokens/ctx.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ctx.html" data-status="no_whitepaper_found"
          data-search="cryptex finance ctx">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Cryptex Finance</h3>
         <span class="ticker">CTX</span>
         <p>Cryptex Finance is a US-based DeFi protocol on Ethereum building trust-minimized, on-chain financial indexes, best known for TCAP — a token that tracks the total market capitalization of the entire crypto market in real …</p>
       </a>
-      <a class="token-card" href="/tokens/prove.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/prove.html" data-status="no_whitepaper_found"
          data-search="succinct prove">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Succinct</h3>
         <span class="ticker">PROVE</span>
         <p>Succinct is a decentralized prover network — a two-sided marketplace on Ethereum where applications submit zero-knowledge proof requests and independent provers compete to fulfill them, making verifiable computation as s…</p>
       </a>
-      <a class="token-card" href="/tokens/zora.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/zora.html" data-status="no_whitepaper_found"
          data-search="zora zora">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Zora</h3>
         <span class="ticker">ZORA</span>
         <p>Zora is a decentralized, open-source protocol for publishing, discovering, and transacting media onchain, built around an onchain creator economy on Base. The ZORA token launched in April 2025 with 10% of supply airdropp…</p>
       </a>
-      <a class="token-card" href="/tokens/honey.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/honey.html" data-status="no_whitepaper_found"
          data-search="hivemapper honey">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Hivemapper</h3>
         <span class="ticker">HONEY</span>
         <p>Hivemapper is a decentralized global mapping network on Solana that crowdsources fresh street-level imagery: drivers install 4K dashcams (camera plus blockchain mining device) and earn HONEY via drive-to-earn, while anno…</p>
       </a>
-      <a class="token-card" href="/tokens/doge.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/doge.html" data-status="no_whitepaper_found"
          data-search="dogecoin doge">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Dogecoin</h3>
         <span class="ticker">DOGE</span>
         <p>Dogecoin is the original memecoin, launched December 6, 2013 by Billy Markus and Jackson Palmer as a lighthearted fork of Litecoin. It has no official whitepaper — the closest canonical document is the informal README in…</p>
       </a>
-      <a class="token-card" href="/tokens/home.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/home.html" data-status="ok"
          data-search="defi app home">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Defi App</h3>
         <span class="ticker">HOME</span>
         <p>Defi App is a unified, non-custodial DeFi &#x27;everything app&#x27; that aims to deliver centralized-exchange simplicity while staying decentralized, combining account abstraction across EVM and non-EVM chains with intelligent cr…</p>
       </a>
-      <a class="token-card" href="/tokens/trump.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/trump.html" data-status="no_whitepaper_found"
          data-search="official trump trump">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>OFFICIAL TRUMP</h3>
         <span class="ticker">TRUMP</span>
         <p>A Solana-based political memecoin launched in January 2025 and associated with Donald Trump, marketed as the &#x27;only official Trump meme.&#x27; Its own disclaimer states it is not intended as an investment opportunity or securi…</p>
       </a>
-      <a class="token-card" href="/tokens/seam.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/seam.html" data-status="no_whitepaper_found"
          data-search="seamless seam">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Seamless</h3>
         <span class="ticker">SEAM</span>
         <p>Seamless Protocol is a decentralized lending and borrowing protocol on Coinbase&#x27;s Base L2, known for Integrated Liquidity Markets (ILMs) that enable undercollateralized, purpose-specific loans (e.g., for LST or LP strate…</p>
       </a>
-      <a class="token-card" href="/tokens/index-token.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/index-token.html" data-status="no_whitepaper_found"
          data-search="index cooperative index">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Index Cooperative</h3>
         <span class="ticker">INDEX</span>
         <p>INDEX is the governance token of Index Cooperative, a DAO launched in October 2020 by Set Labs that builds structured on-chain products — tokenizing asset-management strategies as ERC-20 tokens, including index products …</p>
       </a>
-      <a class="token-card" href="/tokens/sd.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/sd.html" data-status="ok"
          data-search="stader sd">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Stader</h3>
         <span class="ticker">SD</span>
         <p>Stader is a multi-chain liquid-staking infrastructure platform building modular staking &#x27;lego blocks&#x27; — stake pools, liquid staking tokens (ETHx, MaticX, BNBx), and validator tooling — across PoS networks including Ether…</p>
       </a>
-      <a class="token-card" href="/tokens/spell.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/spell.html" data-status="no_whitepaper_found"
          data-search="spell token spell">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Spell Token</h3>
         <span class="ticker">SPELL</span>
         <p>SPELL is the reward and governance token of Abracadabra.money, a DeFi lending platform where users post interest-bearing tokens (ibTKN, e.g., yield-bearing LP tokens) as collateral to mint MIM (Magic Internet Money), a U…</p>
       </a>
-      <a class="token-card" href="/tokens/band.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/band.html" data-status="ok"
          data-search="band protocol band">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Band Protocol</h3>
         <span class="ticker">BAND</span>
         <p>Band Protocol is a chain-agnostic decentralized data oracle: BandChain, a Cosmos-SDK blockchain, aggregates real-world data (prices and other signals) and delivers it to smart contracts on any blockchain via data tunnels…</p>
       </a>
-      <a class="token-card" href="/tokens/jto.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/jto.html" data-status="no_whitepaper_found"
          data-search="jito jto">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Jito</h3>
         <span class="ticker">JTO</span>
         <p>JTO is the governance token of the Jito Network, Solana&#x27;s leading MEV-aware liquid staking protocol; Jito Labs also builds core Solana MEV infrastructure (a validator client run by a large share of Solana stake, a block …</p>
       </a>
-      <a class="token-card" href="/tokens/tia.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/tia.html" data-status="no_whitepaper_found"
          data-search="celestia tia">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Celestia</h3>
         <span class="ticker">TIA</span>
         <p>Celestia is the first modular data-availability blockchain: it orders and publishes transaction data (via &#x27;blobs&#x27;) for rollups and other chains but does not execute transactions itself, letting anyone launch a sovereign …</p>
       </a>
-      <a class="token-card" href="/tokens/newt.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/newt.html" data-status="no_whitepaper_found"
          data-search="newton newt">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Newton</h3>
         <span class="ticker">NEWT</span>
         <p>Newton Protocol (by the Magic Newton Foundation / Magic Labs) is a decentralized policy and verifiable-automation layer: builders define on-chain &#x27;policies&#x27; (compliance rules, spend limits, sanctions checks) that AI agen…</p>
       </a>
-      <a class="token-card" href="/tokens/rsc.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/rsc.html" data-status="no_whitepaper_found"
          data-search="researchcoin rsc">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>ResearchCoin</h3>
         <span class="ticker">RSC</span>
         <p>ResearchCoin (RSC) is the token of ResearchHub, an open-science platform co-founded by Coinbase CEO Brian Armstrong that rewards researchers for publishing, peer reviewing, and sharing scientific work — aiming to realign…</p>
       </a>
-      <a class="token-card" href="/tokens/jitosol.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/jitosol.html" data-status="no_whitepaper_found"
          data-search="jito staked sol jitosol">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Jito Staked SOL</h3>
         <span class="ticker">JitoSOL</span>
         <p>JitoSOL is Solana&#x27;s leading liquid staking token, issued by the Jito Network: users deposit SOL into Jito&#x27;s stake pool and receive JitoSOL, which appreciates against SOL as staking and MEV rewards accrue — while remainin…</p>
       </a>
-      <a class="token-card" href="/tokens/time.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/time.html" data-status="no_whitepaper_found"
          data-search="chrono.tech time">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Chrono.tech</h3>
         <span class="ticker">TIME</span>
         <p>TIME is the native token of the Chrono.tech ecosystem (established 2017 via crowdsale), which builds blockchain tools for HR and recruitment — notably LaborX, a freelance job platform, and TimeX — where TIME underpins pa…</p>
       </a>
-      <a class="token-card" href="/tokens/aergo.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/aergo.html" data-status="no_whitepaper_found"
          data-search="aergo aergo">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Aergo</h3>
         <span class="ticker">AERGO</span>
         <p>Aergo is an open-source hybrid blockchain platform built by South Korea&#x27;s Blocko for enterprise dApps: it combines a public DPoS network with private sidechains/repositories, plus Aergo Hub (hosting and deployment tools)…</p>
       </a>
-      <a class="token-card" href="/tokens/cookie.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/cookie.html" data-status="no_whitepaper_found"
          data-search="cookie dao cookie">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Cookie DAO</h3>
         <span class="ticker">COOKIE</span>
         <p>COOKIE is the token of Cookie DAO, a decentralized data collective focused on AI agents: it aggregates 7TB+ of live social (X) and on-chain data (via partner Cookie3) into cookie.fun — an index and dashboard of the AI-ag…</p>
       </a>
-      <a class="token-card" href="/tokens/swell.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/swell.html" data-status="ok"
          data-search="swell swell">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>SWELL</h3>
         <span class="ticker">SWELL</span>
         <p>Swell is a non-custodial Ethereum liquid staking and restaking protocol. Users stake or restake ETH and receive yield-bearing liquid tokens (swETH as an LST, rswETH as an LRT) that can be used across DeFi. (Swell publish…</p>
       </a>
-      <a class="token-card" href="/tokens/bonk.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/bonk.html" data-status="no_whitepaper_found"
          data-search="bonk bonk">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Bonk</h3>
         <span class="ticker">BONK</span>
         <p>Bonk is a Solana-based memecoin launched in December 2022 that airdropped 50% of its 100 trillion supply to the Solana community (NFT holders, traders, developers) in the wake of the FTX collapse. It aims to be the commu…</p>
       </a>
-      <a class="token-card" href="/tokens/voxel.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/voxel.html" data-status="ok"
          data-search="voxies voxel">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Voxies</h3>
         <span class="ticker">VOXEL</span>
         <p>VOXEL is the ERC-20 utility token of Voxie Tactics, a free-to-play 3D turn-based strategy RPG built on Polygon by AlwaysGeeky Games. Players earn VOXEL through gameplay in a classic tactics-style game with NFT characters…</p>
       </a>
-      <a class="token-card" href="/tokens/mnde.html" data-status="ok"
+      <a class="token-card" href="/fortuna-signal-live/tokens/mnde.html" data-status="ok"
          data-search="marinade mnde">
         <span class="status-tag status-ok">Whitepaper read</span>
         <h3>Marinade</h3>
         <span class="ticker">MNDE</span>
         <p>MNDE is the governance token of Marinade, a non-custodial Solana stake-automation and liquid-staking protocol (mSOL). Marinade delegates staked SOL across a curated set of validators to maximize rewards while supporting …</p>
       </a>
-      <a class="token-card" href="/tokens/pol.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/pol.html" data-status="no_whitepaper_found"
          data-search="polygon ecosystem token pol">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Polygon Ecosystem Token</h3>
         <span class="ticker">POL</span>
         <p>POL is the native token of the Polygon 2.0 architecture, the designated successor to MATIC (migrated 1:1). It is designed as the coordination and growth instrument for the Polygon ecosystem and its vision of a &#x27;Value Lay…</p>
       </a>
-      <a class="token-card" href="/tokens/mog.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/mog.html" data-status="no_whitepaper_found"
          data-search="mog coin mog">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Mog Coin</h3>
         <span class="ticker">MOG</span>
         <p>MOG is a decentralized, community-driven memecoin on Ethereum, launched in July 2023, built around internet meme culture with no formal issuer, foundation, or development team.</p>
       </a>
-      <a class="token-card" href="/tokens/ltc.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ltc.html" data-status="no_whitepaper_found"
          data-search="litecoin ltc">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Litecoin</h3>
         <span class="ticker">LTC</span>
         <p>Litecoin is a peer-to-peer cryptocurrency created by Charlie Lee in October 2011 as a &#x27;lite&#x27; version of Bitcoin, positioned as silver to Bitcoin&#x27;s gold for faster, low-cost everyday payments.</p>
       </a>
-      <a class="token-card" href="/tokens/tree.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/tree.html" data-status="no_whitepaper_found"
          data-search="treehouse tree">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Treehouse</h3>
         <span class="ticker">TREE</span>
         <p>TREE is the governance and data token of Treehouse, a decentralized fixed-income infrastructure protocol that produces Decentralized Offered Rates (DOR) - on-chain interest-rate benchmarks for lending rates, staking rate…</p>
       </a>
-      <a class="token-card" href="/tokens/ocean.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/ocean.html" data-status="no_whitepaper_found"
          data-search="ocean protocol ocean">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Ocean Protocol</h3>
         <span class="ticker">OCEAN</span>
         <p>Ocean Protocol is a decentralized protocol and network for AI data and services, aiming to spread the benefits of AI by unlocking data for sale while preserving privacy. It powers data marketplaces, data commons tooling,…</p>
       </a>
-      <a class="token-card" href="/tokens/kernel.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/kernel.html" data-status="no_whitepaper_found"
          data-search="kerneldao kernel">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>KernelDAO</h3>
         <span class="ticker">KERNEL</span>
         <p>KernelDAO is a restaking protocol operating across BNB Chain and Ethereum with three product lines: Kernel (core restaking infrastructure for BTC, BNB, and reward-bearing tokens), Kelp (a liquid restaking token protocol …</p>
       </a>
-      <a class="token-card" href="/tokens/lit.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/lit.html" data-status="no_whitepaper_found"
          data-search="litentry lit">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Litentry</h3>
         <span class="ticker">LIT</span>
         <p>Litentry is a decentralized identity aggregation protocol that links user identities across networks, letting fragmented on-chain and off-chain identity data flow across systems while preserving privacy and data sovereig…</p>
       </a>
-      <a class="token-card" href="/tokens/gods.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/gods.html" data-status="no_whitepaper_found"
          data-search="gods unchained gods">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Gods Unchained</h3>
         <span class="ticker">GODS</span>
         <p>GODS is the ERC-20 token of Gods Unchained, a free-to-play tactical card game by Immutable where every card is an NFT that players truly own and can trade outside the game.</p>
       </a>
-      <a class="token-card" href="/tokens/era.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/era.html" data-status="no_whitepaper_found"
          data-search="caldera era">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Caldera</h3>
         <span class="ticker">ERA</span>
         <p>ERA is the utility and governance token of Caldera, a rollup-as-a-service platform that has helped launch 100+ rollups since 2023, connected by the Metalayer interoperability protocol for shared liquidity and intent-base…</p>
       </a>
-      <a class="token-card" href="/tokens/dar.html" data-status="no_whitepaper_found"
+      <a class="token-card" href="/fortuna-signal-live/tokens/dar.html" data-status="no_whitepaper_found"
          data-search="mines of dalarnia dar">
         <span class="status-tag status-missing">No whitepaper found</span>
         <h3>Mines of Dalarnia</h3>

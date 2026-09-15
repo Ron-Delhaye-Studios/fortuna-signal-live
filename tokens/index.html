@@ -3,13 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Plain-language research profiles of 126 crypto tokens, drawn from official whitepapers and documentation.">
-  <title>Asset Library — 126 tokens researched — FORTUNA SIGNAL</title>
+  <meta name="description" content="Plain-language research profiles of 141 crypto tokens, drawn from official whitepapers, documentation, and forensic review.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2307120F'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='40' fill='%23C6A76A' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <title>Asset Library — 141 tokens researched — FORTUNA SIGNAL</title>
   <style>
     :root{--obsidian:#07120F;--emerald:#073D32;--forest:#0D241D;--gold:#C6A76A;--ivory:#F2EEE5;--sage:#A7BBB0;--mint:#80DDB2;--amber:#F0C27A;--focus:#B7DAD0;--line:#36584B;--display:Georgia,"Times New Roman",serif;--body:Arial,Helvetica,sans-serif;--data:ui-monospace,SFMono-Regular,Consolas,monospace}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--obsidian);color:var(--ivory);font:16px/1.62 var(--body)}a{color:inherit}button,a{touch-action:manipulation}:focus-visible{outline:2px solid var(--focus);outline-offset:4px}.wrap{width:min(1200px,calc(100% - 96px));margin-inline:auto}
     .utility{border-bottom:1px solid rgba(198,167,106,.35);background:#05100d}.utility .wrap{min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:20px}.descriptor{font:700 11px/1 var(--data);letter-spacing:.16em;color:var(--gold);text-transform:uppercase}.nav{display:flex;align-items:center;gap:24px}.nav a{min-height:44px;display:inline-flex;align-items:center;text-decoration:none;font-size:13px;color:var(--sage)}.nav a:hover{color:var(--ivory)}.nav a[aria-current="page"]{color:var(--gold)}
-    .beta-strip{background:var(--gold);color:var(--obsidian)}.beta-strip .wrap{min-height:46px;display:flex;align-items:center;justify-content:center;text-align:center;font:700 12px/1.4 var(--data);letter-spacing:.11em;text-transform:uppercase}
+    .edition-strip{background:var(--gold);color:var(--obsidian)}.edition-strip .wrap{min-height:46px;display:flex;align-items:center;justify-content:center;text-align:center;font:700 12px/1.4 var(--data);letter-spacing:.11em;text-transform:uppercase}
     .hero{position:relative;isolation:isolate;overflow:hidden;background:var(--emerald);border-bottom:1px solid var(--line)}.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(7,18,15,.98) 0%,rgba(7,18,15,.82) 51%,rgba(7,61,50,.35) 100%)}.hero-grid{min-height:560px;padding:86px 0 74px;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,.55fr);gap:64px;align-items:end}
     .page-hero{padding:72px 0 56px;background:var(--emerald);border-bottom:1px solid var(--line)}
     .kicker,.meta{font:700 11px/1.4 var(--data);letter-spacing:.14em;text-transform:uppercase}.kicker{color:var(--gold)}.brand-lockup{display:flex;align-items:end;gap:15px}.brand-lockup img{display:block;width:210px;height:auto}.brand-lockup span{padding-bottom:2px;font:700 11px/1 var(--data);letter-spacing:.16em;color:var(--gold)}h1,h2{font-family:var(--display);font-weight:400;letter-spacing:-.025em}h1{font-size:clamp(46px,6.5vw,86px);line-height:1.03;max-width:820px;margin:21px 0 24px}.page-hero h1{font-size:clamp(38px,5vw,64px);margin:14px 0 12px}.lede{font-size:clamp(18px,2vw,23px);line-height:1.55;max-width:710px;color:var(--ivory);margin:0 0 34px}.page-hero .lede{margin:0;font-size:18px;color:var(--sage)}
@@ -24,11 +25,11 @@
     /* Token library */
     .search-bar{display:flex;flex-wrap:wrap;gap:12px;margin:34px 0 10px}.search-bar input{flex:1;min-width:220px;min-height:48px;background:var(--forest);border:1px solid var(--line);border-radius:6px;color:var(--ivory);padding:0 16px;font-size:15px}.search-bar input::placeholder{color:var(--sage)}.filter{min-height:44px;border:1px solid var(--line);border-radius:4px;padding:0 14px;background:transparent;color:var(--sage);font:700 11px var(--data);letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.filter:hover,.filter[aria-pressed="true"]{background:var(--ivory);border-color:var(--ivory);color:var(--obsidian)}
     .count-line{font:12px var(--data);letter-spacing:.08em;text-transform:uppercase;color:var(--sage);margin:18px 0 22px}
-    .token-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.token-card{display:block;text-decoration:none;background:var(--forest);border:1px solid var(--line);border-radius:8px;padding:22px;min-height:190px}.token-card:hover{border-color:var(--gold)}.token-card h3{font:400 24px/1.2 var(--display);margin:12px 0 8px}.token-card .ticker{font:700 11px var(--data);letter-spacing:.12em;color:var(--gold)}.token-card p{font-size:14px;color:var(--sage);margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.status-tag{display:inline-flex;min-height:26px;align-items:center;padding:0 9px;border-radius:4px;font:700 10px var(--data);letter-spacing:.09em;text-transform:uppercase}.status-ok{border:1px solid var(--mint);color:var(--mint)}.status-missing{border:1px solid var(--amber);color:var(--amber)}.hidden{display:none!important}
+    .token-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.token-card{display:block;text-decoration:none;background:var(--forest);border:1px solid var(--line);border-radius:8px;padding:22px;min-height:190px}.token-card:hover{border-color:var(--gold)}.token-card h3{font:400 24px/1.2 var(--display);margin:12px 0 8px}.token-card .ticker{font:700 11px var(--data);letter-spacing:.12em;color:var(--gold)}.token-card p{font-size:14px;color:var(--sage);margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.status-tag{display:inline-flex;min-height:26px;align-items:center;padding:0 9px;border-radius:4px;font:700 10px var(--data);letter-spacing:.09em;text-transform:uppercase}.status-ok{border:1px solid var(--mint);color:var(--mint)}.status-missing{border:1px solid var(--amber);color:var(--amber)}.status-forensic{border:1px solid var(--gold);color:var(--gold)}.hidden{display:none!important}
     /* Token detail */
     .fact{border-top:1px solid var(--line);padding:26px 0}.fact h3{font:400 26px/1.2 var(--display);margin:0 0 10px;color:var(--gold)}.fact p{margin:0;color:var(--ivory);max-width:860px}.fact .honest{color:var(--amber)}.crumbs{font:11px var(--data);letter-spacing:.1em;text-transform:uppercase;color:var(--sage);margin-bottom:18px}.crumbs a{color:var(--gold);text-decoration:none}.whitepaper-link{display:inline-flex;min-height:48px;align-items:center;padding:0 20px;border:1px solid var(--gold);border-radius:6px;color:var(--gold);text-decoration:none;font-weight:700;font-size:14px}.whitepaper-link:hover{background:rgba(198,167,106,.12)}
     /* Briefs */
-    .brief-body{max-width:760px}.brief-body h2{font-size:32px;margin:44px 0 14px}.brief-body p{font-size:18px;color:var(--ivory)}.brief-body blockquote{border-left:2px solid var(--gold);margin:28px 0;padding:4px 0 4px 22px;color:var(--sage);font-style:italic}.brief-body ul{color:var(--ivory)}.brief-body li{margin-bottom:8px}.sample-banner{border:1px solid var(--amber);border-radius:8px;padding:20px 24px;margin:0 0 40px;color:var(--amber);font:700 12px/1.6 var(--data);letter-spacing:.06em;text-transform:uppercase}
+    .brief-body{max-width:760px}.brief-body h2{font-size:32px;margin:44px 0 14px}.brief-body p{font-size:18px;color:var(--ivory)}.brief-body blockquote{border-left:2px solid var(--gold);margin:28px 0;padding:4px 0 4px 22px;color:var(--sage);font-style:italic}.brief-body ul{color:var(--ivory)}.brief-body li{margin-bottom:8px}
     footer{padding:52px 0 64px}.footer-grid{display:flex;justify-content:space-between;gap:40px;align-items:end}.footer-mark{width:190px;height:auto;display:block;margin-bottom:18px}.footer-copy{max-width:640px;color:var(--sage);font-size:13px;margin:0}.signature{font:700 11px var(--data);letter-spacing:.18em;color:var(--gold);white-space:nowrap}
     @media(max-width:860px){.wrap{width:min(100% - 48px,1200px)}.hero-grid{grid-template-columns:1fr;min-height:auto;gap:54px;padding:70px 0 58px}.method{max-width:520px}.section-head,.feature-grid,.archive-grid,.about{grid-template-columns:1fr}.section-head{gap:18px}.narratives{grid-template-columns:1fr 1fr}.about{gap:40px}.token-grid{grid-template-columns:1fr 1fr}}
     @media(max-width:600px){.wrap{width:calc(100% - 48px)}.utility .wrap{display:block;padding:8px 0 6px}.descriptor{display:block;padding:7px 0}.nav{gap:4px 18px;flex-wrap:wrap}.nav a{min-height:38px;font-size:12px}.hero-grid{padding:56px 0 48px}h1{font-size:48px}.lede{font-size:18px}.method{padding:22px 0 0;border-left:0;border-top:1px solid rgba(198,167,106,.55)}.actions{display:grid}.action{width:100%}.section{padding:64px 0}.feature{padding:26px;min-height:390px}.card{padding:23px}.card-bottom{align-items:start;flex-direction:column}.narratives{grid-template-columns:1fr}.anatomy{display:block}.anatomy article,.anatomy article+article{padding:24px 0;border-left:0;border-bottom:1px solid #9eaa9f}.anatomy article:last-child{border-bottom:0}.record-row{grid-template-columns:1fr auto;gap:8px 16px}.record-row span:first-child{grid-column:1/-1}.token-grid{grid-template-columns:1fr}.footer-grid{display:block}.signature{display:block;margin-top:28px}}
@@ -58,10 +59,10 @@
     .dossier .q-label{font-weight:700;font-size:14px;color:var(--obsidian)}
     .dossier .q-hint{font-size:12.5px;color:#5b6a62;margin:2px 0 0}
     .dossier .q-note{font-size:14.5px;color:#30423d;margin:8px 0 0}
-    .dossier .conf{font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;color:#6b7a72;display:block;margin-top:8px}
+    .dossier .conf{font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;color:#4f5d56;display:block;margin-top:8px}
     .dossier .chip{display:inline-flex;align-items:center;gap:6px;min-height:30px;padding:0 11px;border-radius:4px;font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;border:1px solid;white-space:nowrap}
     .dossier .chip-verified{border-color:#1c6b4a;color:#1c6b4a}
-    .dossier .chip-partial{border-color:#8a6d1f;color:#8a6d1f}
+    .dossier .chip-partial{border-color:#6e5716;color:#6e5716}
     .dossier .chip-unverified{border-color:#6b7a72;color:#5b6a62}
     .dossier .chip-contradicted{border-color:#8f2d2d;color:#8f2d2d}
     .dossier .coverage{margin:22px 0 0;padding-top:16px;border-top:1px solid #9eaa9f;font-size:13.5px;color:#30423d}
@@ -93,7 +94,7 @@
 </head>
 <body>
   <div class="utility"><div class="wrap"><span class="descriptor">Digital market intelligence</span><nav class="nav" aria-label="Primary navigation"><a href="/fortuna-signal-live/">Latest</a><a href="/fortuna-signal-live/tokens/">Asset Library</a><a href="/fortuna-signal-live/methodology/">Methodology</a><a href="/fortuna-signal-live/about/">About</a></nav></div></div>
-  <div class="beta-strip"><div class="wrap">First Edition · Original explainers · Historical examples</div></div>
+  <div class="edition-strip"><div class="wrap">First Edition · Original explainers · Historical examples</div></div>
   <main>
   
   <div class="page-hero"><div class="wrap"><div class="crumbs"><a href="/fortuna-signal-live/">Home</a> / Asset library</div>
@@ -105,9 +106,10 @@
       <input id="token-search" type="search" placeholder="Search by name or ticker…" aria-label="Search tokens">
       <button class="filter" type="button" data-status="all" aria-pressed="true">All tokens</button>
       <button class="filter" type="button" data-status="ok" aria-pressed="false">Whitepaper read</button>
+      <button class="filter" type="button" data-status="forensic" aria-pressed="false">Forensic dossier</button>
       <button class="filter" type="button" data-status="no_whitepaper_found" aria-pressed="false">No whitepaper found</button>
     </div>
-    <p class="count-line" id="token-count">126 of 126 tokens shown</p>
+    <p class="count-line" id="token-count">141 of 141 tokens shown</p>
     <div class="token-grid">
       <a class="token-card" href="/fortuna-signal-live/tokens/xrp.html" data-status="ok"
          data-search="xrp xrp">
@@ -990,6 +992,111 @@
         <h3>Mines of Dalarnia</h3>
         <span class="ticker">DAR</span>
         <p>DAR is the native token of Mines of Dalarnia, a browser-based action-adventure mining game by Chromia Studios and Workinman Interactive with a blockchain real-estate market, now evolving into the broader DAR Open Network…</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/xaut.html" data-status="forensic"
+         data-search="tether gold xaut">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>Tether Gold</h3>
+        <span class="ticker">XAUT</span>
+        <p>Issuer legal terms describe one XAUT as one fine troy oz and undivided gold rights in an identifiable London Good Delivery bar.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/xaum.html" data-status="forensic"
+         data-search="xaum xaum">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>XAUm</h3>
+        <span class="ticker">XAUm</span>
+        <p>One XAUm represents one troy oz of 99.99 pct LBMA gold, fully allocated rather than pooled, with a token-to-bar lookup - per issuer launch materials.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/xagm.html" data-status="forensic"
+         data-search="xagm xagm">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>XAGm</h3>
+        <span class="ticker">XAGm</span>
+        <p>Allocated silver under the Matrixdock structure (ozPerToken 0.999021918 in the July 2026 press-release account); XAGm-specific governing terms were not obtained.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/kau.html" data-status="forensic"
+         data-search="kinesis gold (kau) kau">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>Kinesis gold (KAU)</h3>
+        <span class="ticker">KAU</span>
+        <p>Terms describe one KAU as 1 gram of 9999 fine allocated gold; a segregated option exists through Exchange-Physical-for-Digital.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/kag.html" data-status="forensic"
+         data-search="kinesis silver (kag) kag">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>Kinesis silver (KAG)</h3>
+        <span class="ticker">KAG</span>
+        <p>Terms describe one KAG as 1 ounce of 999 fine allocated silver.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/tgold.html" data-status="forensic"
+         data-search="tgold (aurus) tgold">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>tGOLD (Aurus)</h3>
+        <span class="ticker">tGOLD</span>
+        <p>tGOLD = 1g 99.99 pct LBMA gold; tSILVER = 1g 99.9 pct silver; tPLATINUM = 1g 99.95 pct LPPM platinum - per issuer materials.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/atomyze.html" data-status="forensic"
+         data-search="atomyze atomyze">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>Atomyze</h3>
+        <span class="ticker">ATOMYZE</span>
+        <p>One token equals one gram of Pt, Pd, Ru or Ir (a five-metal basket was later issued); cash-settled in rubles, not title to deliverable bullion.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/xu3o8.html" data-status="forensic"
+         data-search="xu3o8 xu3o8">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>xU3O8</h3>
+        <span class="ticker">xU3O8</span>
+        <p>Fractional ownership of physical U3O8 yellowcake; tokens minted after registration and purchased with USDC under AML/sanctions screening.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/wtic.html" data-status="forensic"
+         data-search="wtic wtic">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>WTIC</h3>
+        <span class="ticker">WTIC</span>
+        <p>No exact token contract identified; the design (one WTIC = one barrel of WTI crude via a Volumetric Energy Receipt) is described only in secondary reporting, and governing terms were not obtained.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/w150.html" data-status="forensic"
+         data-search="w150 w150">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>W150</h3>
+        <span class="ticker">W150</span>
+        <p>An access/voucher right, not ownership of water: each token is designed to issue one DROP voucher per year for 150 years from 1 January 2027 - future promised delivery, not demonstrated operation.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/h2on.html" data-status="forensic"
+         data-search="h2on h2on">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>H2ON</h3>
+        <span class="ticker">H2ON</span>
+        <p>A financing/payment utility for water infrastructure; the whitepaper expressly offers &#x27;no promise of any benefit by simply buying and holding&#x27; H2ON - not a claim on water or water rights.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/prelaunch.html" data-status="forensic"
+         data-search="prelaunch prelaunch">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>PRELAUNCH</h3>
+        <span class="ticker">PRELAUNCH</span>
+        <p>Four distinct announced instruments (Coppercoin, LITRO, OPICO, AQUA-INDEX); no launched governing instrument or exact contract found for any - discovery cluster, no asset-level verdict.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/memes.html" data-status="forensic"
+         data-search="memes memes">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>MEMES</h3>
+        <span class="ticker">MEMES</span>
+        <p>Multiple unrelated Solana projects; no authenticated issuer identity established for any ticker; one token listed as GOLD is described as backed by real gold assets with no supporting documents.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/ptr.html" data-status="forensic"
+         data-search="petro (ptr) ptr">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>Petro (PTR)</h3>
+        <span class="ticker">PTR</span>
+        <p>Marketed as backed by oil, gas, gold and diamonds; no reserve pledge was ever independently verified, and Venezuela&#x27;s opposition congress said pledging oil reserves was illegal.</p>
+      </a>
+      <a class="token-card" href="/fortuna-signal-live/tokens/teshua.html" data-status="forensic"
+         data-search="teshuacoin (teshua) teshua">
+        <span class="status-tag status-forensic">Forensic dossier</span>
+        <h3>TeshuaCoin (TESHUA)</h3>
+        <span class="ticker">TESHUA</span>
+        <p>The SEC alleged in Litigation Release 24787 (April 2020) that the &#x27;alkaline water-backed&#x27; token was valueless and not actually backed by Teshuater - a filed complaint is an allegation, not a final judicial finding.</p>
       </a></div>
   </div></section>
   </main>

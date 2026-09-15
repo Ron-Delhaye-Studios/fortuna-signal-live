@@ -49,6 +49,24 @@
     .vocab h4{margin:0 0 6px;font-size:15px;color:var(--ivory)}
     .vocab p{margin:0;font-size:13.5px;color:var(--sage)}
     @media(max-width:600px){.vocab{grid-template-columns:1fr}.tldr{grid-template-columns:1fr}.story-emoji{font-size:46px}}
+    /* Evidence dossier (FORA-01) — ivory panel, modular partial on every token page */
+    .dossier{background:var(--ivory);color:var(--obsidian);border-radius:10px;padding:32px 34px;margin:44px 0 8px}
+    .dossier h3{font:400 30px/1.2 var(--display);margin:0 0 6px;color:var(--obsidian)}
+    .dossier .claim-type{font:700 11px var(--data);letter-spacing:.1em;text-transform:uppercase;color:#755b29;margin-bottom:14px}
+    .dossier .qrow{display:grid;grid-template-columns:36px 1fr auto;gap:14px;align-items:start;padding:16px 0;border-top:1px solid #9eaa9f}
+    .dossier .q-emoji{font-size:24px;line-height:1.25}
+    .dossier .q-label{font-weight:700;font-size:14px;color:var(--obsidian)}
+    .dossier .q-hint{font-size:12.5px;color:#5b6a62;margin:2px 0 0}
+    .dossier .q-note{font-size:14.5px;color:#30423d;margin:8px 0 0}
+    .dossier .conf{font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;color:#6b7a72;display:block;margin-top:8px}
+    .dossier .chip{display:inline-flex;align-items:center;gap:6px;min-height:30px;padding:0 11px;border-radius:4px;font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;border:1px solid;white-space:nowrap}
+    .dossier .chip-verified{border-color:#1c6b4a;color:#1c6b4a}
+    .dossier .chip-partial{border-color:#8a6d1f;color:#8a6d1f}
+    .dossier .chip-unverified{border-color:#6b7a72;color:#5b6a62}
+    .dossier .chip-contradicted{border-color:#8f2d2d;color:#8f2d2d}
+    .dossier .coverage{margin:22px 0 0;padding-top:16px;border-top:1px solid #9eaa9f;font-size:13.5px;color:#30423d}
+    .dossier .method-link{font-weight:700;color:#755b29}
+    @media(max-width:600px){.dossier{padding:24px 22px}.dossier .qrow{grid-template-columns:32px 1fr}.dossier .q-status{grid-column:2;margin-top:8px}}
   </style>
   
 </head>
@@ -71,6 +89,7 @@
     <div class="fact"><h3>Primary source</h3><p class="honest"><strong>No whitepaper found.</strong> The summary below is drawn from the project’s official documentation, site, or repository instead — the substitution is disclosed, not hidden.</p></div>
     <div class="fact"><h3>Research status</h3>
       <p>Classification: <strong>No whitepaper found</strong> · Researched 2026-09-15 · Source material: official project documents only.</p></div>
+    <div class="dossier" id="dossier"><h3>🔍 Evidence dossier</h3><div class="claim-type">Claim type · Meme / narrative token</div><div class="qrow"><span class="q-emoji" aria-hidden="true">🎟️</span><div><div class="q-label">What does the holder own?</div><p class="q-hint">Title, redemption claim, fractional ownership, reserve exposure — or just narrative.</p><p class="q-note">Community memecoin on Base — primarily trading and community signaling; planned MEOW DAO governance not yet launched (per available project docs; no whitepaper was found).</p><span class="conf">low confidence</span></div><div class="q-status"><span class="chip chip-unverified"><span aria-hidden="true">❔</span> Unverified</span></div></div><div class="qrow"><span class="q-emoji" aria-hidden="true">🏦</span><div><div class="q-label">Who holds the underlying?</div><p class="q-hint">Needs an identifiable custodian or entity — not a wallet address or a label.</p><p class="q-note">Not yet researched — no independent evidence gathered.</p><span class="conf">low confidence</span></div><div class="q-status"><span class="chip chip-unverified"><span aria-hidden="true">❔</span> Unverified</span></div></div><div class="qrow"><span class="q-emoji" aria-hidden="true">📦</span><div><div class="q-label">How are reserves checked?</div><p class="q-hint">Custodian records → inventory → third-party audit → supply reconciliation.</p><p class="q-note">Not yet researched — no independent evidence gathered.</p><span class="conf">low confidence</span></div><div class="q-status"><span class="chip chip-unverified"><span aria-hidden="true">❔</span> Unverified</span></div></div><div class="qrow"><span class="q-emoji" aria-hidden="true">🔑</span><div><div class="q-label">How does redemption work?</div><p class="q-hint">Eligibility, minimums, fees, KYC, settlement — and what happens to the token.</p><p class="q-note">Not yet researched — no independent evidence gathered.</p><span class="conf">low confidence</span></div><div class="q-status"><span class="chip chip-unverified"><span aria-hidden="true">❔</span> Unverified</span></div></div><div class="qrow"><span class="q-emoji" aria-hidden="true">⚖️</span><div><div class="q-label">Who is liable if redemption fails?</div><p class="q-hint">A legally accountable entity and jurisdiction — not a DAO label.</p><p class="q-note">Not yet researched — no independent evidence gathered.</p><span class="conf">low confidence</span></div><div class="q-status"><span class="chip chip-unverified"><span aria-hidden="true">❔</span> Unverified</span></div></div><p class="coverage">❔ <strong>UNVERIFIED means not yet researched — not disproven.</strong> Coverage expands as FORTUNA verifies. Method: <a class="method-link" href="/fortuna-signal-live/methodology/">FORA-01 Asset Claim Verification Protocol</a>.</p></div>
     <p style="margin-top:36px"><a class="card-link" href="/fortuna-signal-live/tokens/">← Back to the asset library</a></p>
   </div></section>
   </main>

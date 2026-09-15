@@ -86,6 +86,19 @@
     /* Utility line — plain-language purpose, top of every token page */
     .page-hero .utility-line{margin:16px 0 0;font-size:17px;line-height:1.6;color:var(--ivory);max-width:720px}
     .page-hero .u-key{display:inline-block;margin-right:10px;font:700 10px var(--data);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);border-radius:4px;padding:5px 9px;vertical-align:2px}
+    /* Token logo chips — staged SVGs ship with the site; monogram fallback for the rest */
+    .logo-chip{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#131e1a;flex:none;overflow:hidden}
+    .logo-chip img{width:68%;height:68%;object-fit:contain;display:block}
+    .logo-chip.logo-light{background:#efe9d8}
+    .logo-chip.logo-lg{width:64px;height:64px}
+    .logo-chip svg{display:block}
+    /* Library cards: logo sits top-right, clear of the tagline */
+    .token-card{position:relative}
+    .token-card>.logo-chip{position:absolute;top:18px;right:18px}
+    /* Token page hero: logo beside the title */
+    .hero-title{display:flex;align-items:center;gap:18px}
+    .hero-title h1{margin:14px 0 12px}
+    @media(max-width:600px){.hero-title{gap:12px}.logo-chip.logo-lg{width:48px;height:48px}}
     .dossier .coverage{margin:22px 0 0;padding-top:16px;border-top:1px solid #9eaa9f;font-size:13.5px;color:#30423d}
     .dossier .method-link{font-weight:700;color:#755b29}
     @media(max-width:600px){.dossier{padding:24px 22px}.dossier .qrow{grid-template-columns:32px 1fr}.dossier .q-status{grid-column:2;margin-top:8px}}
@@ -134,6 +147,7 @@
     <div class="token-grid">
       <a class="token-card" href="/fortuna-signal-live/tokens/xrp.html" data-status="ok"
          data-search="xrp xrp">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/xrp.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>XRP</h3>
         <span class="ticker">XRP</span>
@@ -141,6 +155,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ondo.html" data-status="no_whitepaper_found"
          data-search="ondo ondo">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">O</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Ondo</h3>
         <span class="ticker">ONDO</span>
@@ -148,6 +163,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/xlm.html" data-status="ok"
          data-search="stellar lumens xlm">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/xlm.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Stellar Lumens</h3>
         <span class="ticker">XLM</span>
@@ -155,6 +171,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/render.html" data-status="ok"
          data-search="render render">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">R</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Render</h3>
         <span class="ticker">RENDER</span>
@@ -162,6 +179,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/link.html" data-status="ok"
          data-search="chainlink link">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/link.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Chainlink</h3>
         <span class="ticker">LINK</span>
@@ -169,6 +187,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/hbar.html" data-status="ok"
          data-search="hedera hbar">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/hbar.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Hedera</h3>
         <span class="ticker">HBAR</span>
@@ -176,6 +195,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/akt.html" data-status="ok"
          data-search="akash network akt">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/akt.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Akash Network</h3>
         <span class="ticker">AKT</span>
@@ -183,6 +203,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/algo.html" data-status="ok"
          data-search="algorand algo">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/algo.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Algorand</h3>
         <span class="ticker">ALGO</span>
@@ -190,6 +211,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/sol.html" data-status="ok"
          data-search="solana sol">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/sol.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Solana</h3>
         <span class="ticker">SOL</span>
@@ -197,6 +219,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/fet.html" data-status="no_whitepaper_found"
          data-search="artificial superintelligence alliance fet">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/fet.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Artificial Superintelligence Alliance</h3>
         <span class="ticker">FET</span>
@@ -204,6 +227,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/sui.html" data-status="ok"
          data-search="sui sui">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/sui.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>SUI</h3>
         <span class="ticker">SUI</span>
@@ -211,6 +235,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/sei.html" data-status="ok"
          data-search="sei sei">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/sei.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Sei</h3>
         <span class="ticker">SEI</span>
@@ -218,6 +243,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/icp.html" data-status="ok"
          data-search="internet computer icp">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/icp.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Internet Computer</h3>
         <span class="ticker">ICP</span>
@@ -225,6 +251,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/lcx.html" data-status="no_whitepaper_found"
          data-search="lcx lcx">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/lcx.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>LCX</h3>
         <span class="ticker">LCX</span>
@@ -232,6 +259,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/usdt.html" data-status="ok"
          data-search="tether usd usdt">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/usdt.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Tether USD</h3>
         <span class="ticker">USDT</span>
@@ -239,6 +267,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/usdc.html" data-status="ok"
          data-search="usd coin usdc">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/usdc.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>USD Coin</h3>
         <span class="ticker">USDC</span>
@@ -246,6 +275,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/dai.html" data-status="no_whitepaper_found"
          data-search="dai dai">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/dai.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Dai</h3>
         <span class="ticker">DAI</span>
@@ -253,6 +283,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/wbtc.html" data-status="no_whitepaper_found"
          data-search="wrapped bitcoin wbtc">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/wbtc.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Wrapped Bitcoin</h3>
         <span class="ticker">WBTC</span>
@@ -260,6 +291,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/steth.html" data-status="no_whitepaper_found"
          data-search="lido staked ether steth">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/steth.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Lido Staked Ether</h3>
         <span class="ticker">stETH</span>
@@ -267,6 +299,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/hype.html" data-status="no_whitepaper_found"
          data-search="hyperliquid hype">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">H</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Hyperliquid</h3>
         <span class="ticker">HYPE</span>
@@ -274,6 +307,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/xtz.html" data-status="ok"
          data-search="tezos xtz">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/xtz.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Tezos</h3>
         <span class="ticker">XTZ</span>
@@ -281,6 +315,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/wlfi.html" data-status="ok"
          data-search="world liberty financial wlfi">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">W</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>World Liberty Financial</h3>
         <span class="ticker">WLFI</span>
@@ -288,6 +323,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/btc.html" data-status="ok"
          data-search="bitcoin btc">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/btc.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Bitcoin</h3>
         <span class="ticker">BTC</span>
@@ -295,6 +331,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/red.html" data-status="ok"
          data-search="redstone red">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">R</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Redstone</h3>
         <span class="ticker">RED</span>
@@ -302,6 +339,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/edge.html" data-status="ok"
          data-search="definitive edge">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">E</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Definitive</h3>
         <span class="ticker">EDGE</span>
@@ -309,6 +347,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/op.html" data-status="no_whitepaper_found"
          data-search="optimism op">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/op.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Optimism</h3>
         <span class="ticker">OP</span>
@@ -316,6 +355,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/sky.html" data-status="ok"
          data-search="sky sky">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">S</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Sky</h3>
         <span class="ticker">SKY</span>
@@ -323,6 +363,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/fai.html" data-status="ok"
          data-search="freysa fai">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">F</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Freysa</h3>
         <span class="ticker">FAI</span>
@@ -330,6 +371,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/wld.html" data-status="ok"
          data-search="worldcoin wld">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/wld.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Worldcoin</h3>
         <span class="ticker">WLD</span>
@@ -337,6 +379,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/syrup.html" data-status="no_whitepaper_found"
          data-search="maple finance syrup">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">S</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Maple Finance</h3>
         <span class="ticker">SYRUP</span>
@@ -344,6 +387,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/trac.html" data-status="ok"
          data-search="origintrail trac">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/trac.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>OriginTrail</h3>
         <span class="ticker">TRAC</span>
@@ -351,6 +395,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/paxg.html" data-status="ok"
          data-search="pax gold paxg">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/paxg.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>PAX Gold</h3>
         <span class="ticker">PAXG</span>
@@ -358,6 +403,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/sxt.html" data-status="no_whitepaper_found"
          data-search="space and time sxt">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">S</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Space and Time</h3>
         <span class="ticker">SXT</span>
@@ -365,6 +411,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ath.html" data-status="ok"
          data-search="ath ath">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">A</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>ATH</h3>
         <span class="ticker">ATH</span>
@@ -372,6 +419,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/sqd.html" data-status="ok"
          data-search="sqd sqd">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">S</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>SQD</h3>
         <span class="ticker">SQD</span>
@@ -379,6 +427,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/zec.html" data-status="ok"
          data-search="zec zec">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/zec.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>ZEC</h3>
         <span class="ticker">ZEC</span>
@@ -386,6 +435,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/orca.html" data-status="no_whitepaper_found"
          data-search="orca orca">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">O</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>ORCA</h3>
         <span class="ticker">ORCA</span>
@@ -393,6 +443,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ada.html" data-status="no_whitepaper_found"
          data-search="ada ada">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/ada.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>ADA</h3>
         <span class="ticker">ADA</span>
@@ -400,6 +451,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/pump.html" data-status="no_whitepaper_found"
          data-search="pump pump">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">P</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>PUMP</h3>
         <span class="ticker">PUMP</span>
@@ -407,6 +459,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/cro.html" data-status="ok"
          data-search="cro cro">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/cro.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>CRO</h3>
         <span class="ticker">CRO</span>
@@ -414,6 +467,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/floki.html" data-status="ok"
          data-search="floki floki">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">F</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>FLOKI</h3>
         <span class="ticker">FLOKI</span>
@@ -421,6 +475,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/aztec.html" data-status="ok"
          data-search="aztec aztec">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/aztec.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>AZTEC</h3>
         <span class="ticker">AZTEC</span>
@@ -428,6 +483,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/prompt.html" data-status="no_whitepaper_found"
          data-search="prompt prompt">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">P</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>PROMPT</h3>
         <span class="ticker">PROMPT</span>
@@ -435,6 +491,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/hyper.html" data-status="ok"
          data-search="hyper hyper">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">H</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>HYPER</h3>
         <span class="ticker">HYPER</span>
@@ -442,6 +499,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/near.html" data-status="no_whitepaper_found"
          data-search="near near">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/near.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>NEAR</h3>
         <span class="ticker">NEAR</span>
@@ -449,6 +507,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/spk.html" data-status="no_whitepaper_found"
          data-search="spk spk">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/spk.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>SPK</h3>
         <span class="ticker">SPK</span>
@@ -456,6 +515,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/iotx.html" data-status="ok"
          data-search="iotx iotx">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/iotx.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>IOTX</h3>
         <span class="ticker">IOTX</span>
@@ -463,6 +523,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/grt.html" data-status="ok"
          data-search="the graph grt">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/grt.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>The Graph</h3>
         <span class="ticker">GRT</span>
@@ -470,6 +531,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/zeta.html" data-status="ok"
          data-search="zetachain zeta">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/zeta.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Zetachain</h3>
         <span class="ticker">ZETA</span>
@@ -477,6 +539,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/lpt.html" data-status="ok"
          data-search="livepeer lpt">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/lpt.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Livepeer</h3>
         <span class="ticker">LPT</span>
@@ -484,6 +547,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/zk.html" data-status="ok"
          data-search="zksync zk">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">Z</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>ZKsync</h3>
         <span class="ticker">ZK</span>
@@ -491,6 +555,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/degen.html" data-status="no_whitepaper_found"
          data-search="degen degen">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/degen.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Degen</h3>
         <span class="ticker">DEGEN</span>
@@ -498,6 +563,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/clanker.html" data-status="no_whitepaper_found"
          data-search="tokenbot clanker">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">C</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>tokenbot</h3>
         <span class="ticker">CLANKER</span>
@@ -505,6 +571,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/bio.html" data-status="ok"
          data-search="bio protocol bio">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">B</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Bio Protocol</h3>
         <span class="ticker">BIO</span>
@@ -512,6 +579,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ach.html" data-status="ok"
          data-search="alchemy pay ach">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/ach.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Alchemy Pay</h3>
         <span class="ticker">ACH</span>
@@ -519,6 +587,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/bnkr.html" data-status="no_whitepaper_found"
          data-search="bankrcoin bnkr">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">B</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>BankrCoin</h3>
         <span class="ticker">BNKR</span>
@@ -526,6 +595,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/skl.html" data-status="ok"
          data-search="skale skl">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/skl.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>SKALE</h3>
         <span class="ticker">SKL</span>
@@ -533,6 +603,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/fis.html" data-status="ok"
          data-search="stafi fis">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/fis.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>StaFi</h3>
         <span class="ticker">FIS</span>
@@ -540,6 +611,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/asm.html" data-status="no_whitepaper_found"
          data-search="assemble ai asm">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">A</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Assemble AI</h3>
         <span class="ticker">ASM</span>
@@ -547,6 +619,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/mina.html" data-status="ok"
          data-search="mina mina">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/mina.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Mina</h3>
         <span class="ticker">MINA</span>
@@ -554,6 +627,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/aleph.html" data-status="ok"
          data-search="aleph cloud aleph">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/aleph.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Aleph Cloud</h3>
         <span class="ticker">ALEPH</span>
@@ -561,6 +635,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/sapien.html" data-status="ok"
          data-search="sapien sapien">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">S</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>SAPIEN</h3>
         <span class="ticker">SAPIEN</span>
@@ -568,6 +643,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/w.html" data-status="ok"
          data-search="wormhole w">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">W</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Wormhole</h3>
         <span class="ticker">W</span>
@@ -575,6 +651,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/fx.html" data-status="no_whitepaper_found"
          data-search="fx fx">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/fx.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>FX</h3>
         <span class="ticker">FX</span>
@@ -582,6 +659,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/aleo.html" data-status="no_whitepaper_found"
          data-search="aleo aleo">
+        <span class="logo-chip logo-light" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/aleo.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>ALEO</h3>
         <span class="ticker">ALEO</span>
@@ -589,6 +667,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/gno.html" data-status="no_whitepaper_found"
          data-search="gno gno">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/gno.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>GNO</h3>
         <span class="ticker">GNO</span>
@@ -596,6 +675,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ena.html" data-status="ok"
          data-search="ena ena">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">E</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>ENA</h3>
         <span class="ticker">ENA</span>
@@ -603,6 +683,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/flr.html" data-status="ok"
          data-search="flr flr">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/flr.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>FLR</h3>
         <span class="ticker">FLR</span>
@@ -610,6 +691,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/met.html" data-status="no_whitepaper_found"
          data-search="met met">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">M</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>MET</h3>
         <span class="ticker">MET</span>
@@ -617,6 +699,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/nom.html" data-status="no_whitepaper_found"
          data-search="nom nom">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/nom.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>NOM</h3>
         <span class="ticker">NOM</span>
@@ -624,6 +707,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/shib.html" data-status="no_whitepaper_found"
          data-search="shib shib">
+        <span class="logo-chip logo-light" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/shib.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>SHIB</h3>
         <span class="ticker">SHIB</span>
@@ -631,6 +715,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/eth.html" data-status="no_whitepaper_found"
          data-search="eth eth">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/eth.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>ETH</h3>
         <span class="ticker">ETH</span>
@@ -638,6 +723,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/swftc.html" data-status="no_whitepaper_found"
          data-search="swftc swftc">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/swftc.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>SWFTC</h3>
         <span class="ticker">SWFTC</span>
@@ -645,6 +731,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/dimo.html" data-status="no_whitepaper_found"
          data-search="dimo dimo">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/dimo.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>DIMO</h3>
         <span class="ticker">DIMO</span>
@@ -652,6 +739,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/magic.html" data-status="no_whitepaper_found"
          data-search="magic magic">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/magic.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>MAGIC</h3>
         <span class="ticker">MAGIC</span>
@@ -659,6 +747,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/prcl.html" data-status="ok"
          data-search="parcl prcl">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">P</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Parcl</h3>
         <span class="ticker">PRCL</span>
@@ -666,6 +755,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/blz.html" data-status="ok"
          data-search="bluzelle blz">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/blz.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Bluzelle</h3>
         <span class="ticker">BLZ</span>
@@ -673,6 +763,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/shdw.html" data-status="no_whitepaper_found"
          data-search="shadow token shdw">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/shdw.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Shadow Token</h3>
         <span class="ticker">SHDW</span>
@@ -680,6 +771,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/nct.html" data-status="ok"
          data-search="polyswarm nct">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/nct.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>PolySwarm</h3>
         <span class="ticker">NCT</span>
@@ -687,6 +779,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/karrat.html" data-status="no_whitepaper_found"
          data-search="karrat karrat">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">K</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Karrat</h3>
         <span class="ticker">KARRAT</span>
@@ -694,6 +787,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/aero.html" data-status="ok"
          data-search="aerodrome finance aero">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">A</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Aerodrome Finance</h3>
         <span class="ticker">AERO</span>
@@ -701,6 +795,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/pirate.html" data-status="ok"
          data-search="pirate nation token pirate">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">P</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Pirate Nation Token</h3>
         <span class="ticker">PIRATE</span>
@@ -708,6 +803,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ctsi.html" data-status="ok"
          data-search="cartesi ctsi">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/ctsi.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Cartesi</h3>
         <span class="ticker">CTSI</span>
@@ -715,6 +811,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/xyo.html" data-status="ok"
          data-search="xyo xyo">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/xyo.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>XYO</h3>
         <span class="ticker">XYO</span>
@@ -722,6 +819,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/zen.html" data-status="ok"
          data-search="horizen zen">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/zen.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Horizen</h3>
         <span class="ticker">ZEN</span>
@@ -729,6 +827,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/hft.html" data-status="ok"
          data-search="hashflow hft">
+        <span class="logo-chip logo-light" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/hft.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Hashflow</h3>
         <span class="ticker">HFT</span>
@@ -736,6 +835,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/mnt.html" data-status="no_whitepaper_found"
          data-search="mantle mnt">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/mnt.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Mantle</h3>
         <span class="ticker">MNT</span>
@@ -743,6 +843,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/pundix.html" data-status="ok"
          data-search="pundi x (new) pundix">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/pundix.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Pundi X (New)</h3>
         <span class="ticker">PUNDIX</span>
@@ -750,6 +851,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/acs.html" data-status="ok"
          data-search="access acs">
+        <span class="logo-chip logo-light" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/acs.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Access</h3>
         <span class="ticker">ACS</span>
@@ -757,6 +859,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/toshi.html" data-status="no_whitepaper_found"
          data-search="toshi toshi">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/toshi.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Toshi</h3>
         <span class="ticker">TOSHI</span>
@@ -764,6 +867,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ogn.html" data-status="no_whitepaper_found"
          data-search="origin token ogn">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/ogn.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Origin Token</h3>
         <span class="ticker">OGN</span>
@@ -771,6 +875,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/mana.html" data-status="ok"
          data-search="decentraland mana">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/mana.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Decentraland</h3>
         <span class="ticker">MANA</span>
@@ -778,6 +883,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/atom.html" data-status="ok"
          data-search="cosmos atom">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/atom.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Cosmos</h3>
         <span class="ticker">ATOM</span>
@@ -785,6 +891,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/me.html" data-status="no_whitepaper_found"
          data-search="magic eden me">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">M</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Magic Eden</h3>
         <span class="ticker">ME</span>
@@ -792,6 +899,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/hopr.html" data-status="no_whitepaper_found"
          data-search="hopr hopr">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/hopr.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>HOPR</h3>
         <span class="ticker">HOPR</span>
@@ -799,6 +907,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/corechain.html" data-status="no_whitepaper_found"
          data-search="core corechain">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">C</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Core</h3>
         <span class="ticker">CORECHAIN</span>
@@ -806,6 +915,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/plu.html" data-status="no_whitepaper_found"
          data-search="pluton plu">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/plu.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Pluton</h3>
         <span class="ticker">PLU</span>
@@ -813,6 +923,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ctx.html" data-status="no_whitepaper_found"
          data-search="cryptex finance ctx">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/ctx.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Cryptex Finance</h3>
         <span class="ticker">CTX</span>
@@ -820,6 +931,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/prove.html" data-status="no_whitepaper_found"
          data-search="succinct prove">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/prove.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Succinct</h3>
         <span class="ticker">PROVE</span>
@@ -827,6 +939,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/zora.html" data-status="no_whitepaper_found"
          data-search="zora zora">
+        <span class="logo-chip logo-light" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/zora.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Zora</h3>
         <span class="ticker">ZORA</span>
@@ -834,6 +947,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/honey.html" data-status="no_whitepaper_found"
          data-search="hivemapper honey">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/honey.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Hivemapper</h3>
         <span class="ticker">HONEY</span>
@@ -841,6 +955,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/doge.html" data-status="no_whitepaper_found"
          data-search="dogecoin doge">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/doge.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Dogecoin</h3>
         <span class="ticker">DOGE</span>
@@ -848,6 +963,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/home.html" data-status="ok"
          data-search="defi app home">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">H</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Defi App</h3>
         <span class="ticker">HOME</span>
@@ -855,6 +971,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/trump.html" data-status="no_whitepaper_found"
          data-search="official trump trump">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">T</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>OFFICIAL TRUMP</h3>
         <span class="ticker">TRUMP</span>
@@ -862,6 +979,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/seam.html" data-status="no_whitepaper_found"
          data-search="seamless seam">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">S</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Seamless</h3>
         <span class="ticker">SEAM</span>
@@ -869,6 +987,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/index-token.html" data-status="no_whitepaper_found"
          data-search="index cooperative index">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">I</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Index Cooperative</h3>
         <span class="ticker">INDEX</span>
@@ -876,6 +995,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/sd.html" data-status="ok"
          data-search="stader sd">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">S</text></svg></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Stader</h3>
         <span class="ticker">SD</span>
@@ -883,6 +1003,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/spell.html" data-status="no_whitepaper_found"
          data-search="spell token spell">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/spell.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Spell Token</h3>
         <span class="ticker">SPELL</span>
@@ -890,6 +1011,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/band.html" data-status="ok"
          data-search="band protocol band">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/band.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Band Protocol</h3>
         <span class="ticker">BAND</span>
@@ -897,6 +1019,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/jto.html" data-status="no_whitepaper_found"
          data-search="jito jto">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">J</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Jito</h3>
         <span class="ticker">JTO</span>
@@ -904,6 +1027,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/tia.html" data-status="no_whitepaper_found"
          data-search="celestia tia">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/tia.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Celestia</h3>
         <span class="ticker">TIA</span>
@@ -911,6 +1035,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/newt.html" data-status="no_whitepaper_found"
          data-search="newton newt">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">N</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Newton</h3>
         <span class="ticker">NEWT</span>
@@ -918,6 +1043,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/rsc.html" data-status="no_whitepaper_found"
          data-search="researchcoin rsc">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/rsc.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>ResearchCoin</h3>
         <span class="ticker">RSC</span>
@@ -925,6 +1051,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/jitosol.html" data-status="no_whitepaper_found"
          data-search="jito staked sol jitosol">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">J</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Jito Staked SOL</h3>
         <span class="ticker">JitoSOL</span>
@@ -932,6 +1059,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/time.html" data-status="no_whitepaper_found"
          data-search="chrono.tech time">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/time.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Chrono.tech</h3>
         <span class="ticker">TIME</span>
@@ -939,6 +1067,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/aergo.html" data-status="no_whitepaper_found"
          data-search="aergo aergo">
+        <span class="logo-chip logo-light" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/aergo.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Aergo</h3>
         <span class="ticker">AERGO</span>
@@ -946,6 +1075,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/cookie.html" data-status="no_whitepaper_found"
          data-search="cookie dao cookie">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">C</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Cookie DAO</h3>
         <span class="ticker">COOKIE</span>
@@ -953,6 +1083,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/swell.html" data-status="ok"
          data-search="swell swell">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/swell.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>SWELL</h3>
         <span class="ticker">SWELL</span>
@@ -960,6 +1091,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/bonk.html" data-status="no_whitepaper_found"
          data-search="bonk bonk">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">B</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Bonk</h3>
         <span class="ticker">BONK</span>
@@ -967,6 +1099,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/voxel.html" data-status="ok"
          data-search="voxies voxel">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/voxel.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Voxies</h3>
         <span class="ticker">VOXEL</span>
@@ -974,6 +1107,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/mnde.html" data-status="ok"
          data-search="marinade mnde">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/mnde.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-ok">Whitepaper read</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Marinade</h3>
         <span class="ticker">MNDE</span>
@@ -981,6 +1115,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/pol.html" data-status="no_whitepaper_found"
          data-search="polygon ecosystem token pol">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/pol.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Polygon Ecosystem Token</h3>
         <span class="ticker">POL</span>
@@ -988,6 +1123,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/mog.html" data-status="no_whitepaper_found"
          data-search="mog coin mog">
+        <span class="logo-chip logo-light" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/mog.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Mog Coin</h3>
         <span class="ticker">MOG</span>
@@ -995,6 +1131,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ltc.html" data-status="no_whitepaper_found"
          data-search="litecoin ltc">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/ltc.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-native">Native</span></span>
         <h3>Litecoin</h3>
         <span class="ticker">LTC</span>
@@ -1002,6 +1139,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/tree.html" data-status="no_whitepaper_found"
          data-search="treehouse tree">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">T</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Treehouse</h3>
         <span class="ticker">TREE</span>
@@ -1009,6 +1147,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ocean.html" data-status="no_whitepaper_found"
          data-search="ocean protocol ocean">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/ocean.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Ocean Protocol</h3>
         <span class="ticker">OCEAN</span>
@@ -1016,6 +1155,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/kernel.html" data-status="no_whitepaper_found"
          data-search="kerneldao kernel">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">K</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>KernelDAO</h3>
         <span class="ticker">KERNEL</span>
@@ -1023,6 +1163,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/lit.html" data-status="no_whitepaper_found"
          data-search="litentry lit">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/lit.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Litentry</h3>
         <span class="ticker">LIT</span>
@@ -1030,6 +1171,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/gods.html" data-status="no_whitepaper_found"
          data-search="gods unchained gods">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/gods.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Gods Unchained</h3>
         <span class="ticker">GODS</span>
@@ -1037,6 +1179,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/era.html" data-status="no_whitepaper_found"
          data-search="caldera era">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">E</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-a">Class A</span></span>
         <h3>Caldera</h3>
         <span class="ticker">ERA</span>
@@ -1044,6 +1187,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/dar.html" data-status="no_whitepaper_found"
          data-search="mines of dalarnia dar">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">D</text></svg></span>
         <span class="tagline"><span class="status-tag status-missing">No whitepaper found</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>Mines of Dalarnia</h3>
         <span class="ticker">DAR</span>
@@ -1051,6 +1195,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/xaut.html" data-status="forensic"
          data-search="tether gold xaut">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/xaut.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Tether Gold</h3>
         <span class="ticker">XAUT</span>
@@ -1058,6 +1203,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/xaum.html" data-status="forensic"
          data-search="xaum xaum">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">X</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>XAUm</h3>
         <span class="ticker">XAUm</span>
@@ -1065,6 +1211,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/xagm.html" data-status="forensic"
          data-search="xagm xagm">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">X</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>XAGm</h3>
         <span class="ticker">XAGm</span>
@@ -1072,6 +1219,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/kau.html" data-status="forensic"
          data-search="kinesis gold (kau) kau">
+        <span class="logo-chip" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/kau.svg" alt="" loading="lazy"></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Kinesis gold (KAU)</h3>
         <span class="ticker">KAU</span>
@@ -1079,6 +1227,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/kag.html" data-status="forensic"
          data-search="kinesis silver (kag) kag">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">K</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Kinesis silver (KAG)</h3>
         <span class="ticker">KAG</span>
@@ -1086,6 +1235,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/tgold.html" data-status="forensic"
          data-search="tgold (aurus) tgold">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">T</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>tGOLD (Aurus)</h3>
         <span class="ticker">tGOLD</span>
@@ -1093,6 +1243,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/atomyze.html" data-status="forensic"
          data-search="atomyze atomyze">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">A</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>Atomyze</h3>
         <span class="ticker">ATOMYZE</span>
@@ -1100,6 +1251,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/xu3o8.html" data-status="forensic"
          data-search="xu3o8 xu3o8">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">X</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>xU3O8</h3>
         <span class="ticker">xU3O8</span>
@@ -1107,6 +1259,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/wtic.html" data-status="forensic"
          data-search="wtic wtic">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">W</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>WTIC</h3>
         <span class="ticker">WTIC</span>
@@ -1114,6 +1267,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/w150.html" data-status="forensic"
          data-search="w150 w150">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">W</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-b">Class B</span></span>
         <h3>W150</h3>
         <span class="ticker">W150</span>
@@ -1121,6 +1275,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/h2on.html" data-status="forensic"
          data-search="h2on h2on">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">H</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>H2ON</h3>
         <span class="ticker">H2ON</span>
@@ -1128,6 +1283,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/prelaunch.html" data-status="forensic"
          data-search="prelaunch prelaunch">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">P</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>PRELAUNCH</h3>
         <span class="ticker">PRELAUNCH</span>
@@ -1135,6 +1291,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/memes.html" data-status="forensic"
          data-search="memes memes">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">M</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-c">Class C</span></span>
         <h3>MEMES</h3>
         <span class="ticker">MEMES</span>
@@ -1142,6 +1299,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/ptr.html" data-status="forensic"
          data-search="petro (ptr) ptr">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">P</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-d">Class D</span></span>
         <h3>Petro (PTR)</h3>
         <span class="ticker">PTR</span>
@@ -1149,6 +1307,7 @@
       </a>
       <a class="token-card" href="/fortuna-signal-live/tokens/teshua.html" data-status="forensic"
          data-search="teshuacoin (teshua) teshua">
+        <span class="logo-chip" aria-hidden="true"><svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="24" fill="#1d2b25"/><text x="24" y="31.5" text-anchor="middle" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#C6A76A">T</text></svg></span>
         <span class="tagline"><span class="status-tag status-forensic">Forensic dossier</span><span class="chip class-chip class-d">Class D</span></span>
         <h3>TeshuaCoin (TESHUA)</h3>
         <span class="ticker">TESHUA</span>

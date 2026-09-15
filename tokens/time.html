@@ -86,6 +86,19 @@
     /* Utility line — plain-language purpose, top of every token page */
     .page-hero .utility-line{margin:16px 0 0;font-size:17px;line-height:1.6;color:var(--ivory);max-width:720px}
     .page-hero .u-key{display:inline-block;margin-right:10px;font:700 10px var(--data);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);border-radius:4px;padding:5px 9px;vertical-align:2px}
+    /* Token logo chips — staged SVGs ship with the site; monogram fallback for the rest */
+    .logo-chip{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#131e1a;flex:none;overflow:hidden}
+    .logo-chip img{width:68%;height:68%;object-fit:contain;display:block}
+    .logo-chip.logo-light{background:#efe9d8}
+    .logo-chip.logo-lg{width:64px;height:64px}
+    .logo-chip svg{display:block}
+    /* Library cards: logo sits top-right, clear of the tagline */
+    .token-card{position:relative}
+    .token-card>.logo-chip{position:absolute;top:18px;right:18px}
+    /* Token page hero: logo beside the title */
+    .hero-title{display:flex;align-items:center;gap:18px}
+    .hero-title h1{margin:14px 0 12px}
+    @media(max-width:600px){.hero-title{gap:12px}.logo-chip.logo-lg{width:48px;height:48px}}
     .dossier .coverage{margin:22px 0 0;padding-top:16px;border-top:1px solid #9eaa9f;font-size:13.5px;color:#30423d}
     .dossier .method-link{font-weight:700;color:#755b29}
     @media(max-width:600px){.dossier{padding:24px 22px}.dossier .qrow{grid-template-columns:32px 1fr}.dossier .q-status{grid-column:2;margin-top:8px}}
@@ -100,7 +113,7 @@
   <div class="page-hero"><div class="wrap">
     <div class="crumbs"><a href="/fortuna-signal-live/">Home</a> / <a href="/fortuna-signal-live/tokens/">Asset library</a> / TIME</div>
     <div class="tagline" style="margin-bottom:14px"><span class="status-tag status-missing">No whitepaper found</span></div>
-    <h1>Chrono.tech</h1>
+    <div class="hero-title"><span class="logo-chip logo-lg" aria-hidden="true"><img src="/fortuna-signal-live/assets/logos/time.svg" alt="" loading="lazy"></span><h1>Chrono.tech</h1></div>
     <p class="lede">TIME · Chrono.tech</p>
     <p class="utility-line"><span class="u-key">Utility</span>Utility token for Chrono.tech — pays for services on the network.</p>
   </div></div>

@@ -1,0 +1,257 @@
+{
+  "assets": [
+    {
+      "cg_id": "cardano",
+      "ticker": "ADA"
+    },
+    {
+      "cg_id": "algorand",
+      "ticker": "ALGO"
+    },
+    {
+      "cg_id": "aethir",
+      "ticker": "ATH"
+    },
+    {
+      "cg_id": "cosmos",
+      "ticker": "ATOM"
+    },
+    {
+      "cg_id": "band-protocol",
+      "ticker": "BAND"
+    },
+    {
+      "cg_id": "bonk",
+      "ticker": "BONK"
+    },
+    {
+      "cg_id": "bitcoin",
+      "ticker": "BTC"
+    },
+    {
+      "cg_id": "crypto-com-chain",
+      "ticker": "CRO"
+    },
+    {
+      "cg_id": "cartesi",
+      "ticker": "CTSI"
+    },
+    {
+      "cg_id": "dai",
+      "ticker": "DAI"
+    },
+    {
+      "cg_id": "dogecoin",
+      "ticker": "DOGE"
+    },
+    {
+      "cg_id": "ethena",
+      "ticker": "ENA"
+    },
+    {
+      "cg_id": "ethereum",
+      "ticker": "ETH"
+    },
+    {
+      "cg_id": "floki",
+      "ticker": "FLOKI"
+    },
+    {
+      "cg_id": "flare-networks",
+      "ticker": "FLR"
+    },
+    {
+      "cg_id": "gnosis",
+      "ticker": "GNO"
+    },
+    {
+      "cg_id": "the-graph",
+      "ticker": "GRT"
+    },
+    {
+      "cg_id": "hedera-hashgraph",
+      "ticker": "HBAR"
+    },
+    {
+      "cg_id": "hyperliquid",
+      "ticker": "HYPE"
+    },
+    {
+      "cg_id": "internet-computer",
+      "ticker": "ICP"
+    },
+    {
+      "cg_id": "iotex",
+      "ticker": "IOTX"
+    },
+    {
+      "cg_id": "jito-governance-token",
+      "ticker": "JTO"
+    },
+    {
+      "cg_id": "jito-staked-sol",
+      "ticker": "JitoSOL"
+    },
+    {
+      "cg_id": "chainlink",
+      "ticker": "LINK"
+    },
+    {
+      "cg_id": "livepeer",
+      "ticker": "LPT"
+    },
+    {
+      "cg_id": "litecoin",
+      "ticker": "LTC"
+    },
+    {
+      "cg_id": "magic",
+      "ticker": "MAGIC"
+    },
+    {
+      "cg_id": "decentraland",
+      "ticker": "MANA"
+    },
+    {
+      "cg_id": "mina-protocol",
+      "ticker": "MINA"
+    },
+    {
+      "cg_id": "mog-coin",
+      "ticker": "MOG"
+    },
+    {
+      "cg_id": "near",
+      "ticker": "NEAR"
+    },
+    {
+      "cg_id": "origin-protocol",
+      "ticker": "OGN"
+    },
+    {
+      "cg_id": "ondo-finance",
+      "ticker": "ONDO"
+    },
+    {
+      "cg_id": "optimism",
+      "ticker": "OP"
+    },
+    {
+      "cg_id": "orca",
+      "ticker": "ORCA"
+    },
+    {
+      "cg_id": "pax-gold",
+      "ticker": "PAXG"
+    },
+    {
+      "cg_id": "polygon-ecosystem-token",
+      "ticker": "POL"
+    },
+    {
+      "cg_id": "pump-fun",
+      "ticker": "PUMP"
+    },
+    {
+      "cg_id": "render-token",
+      "ticker": "RENDER"
+    },
+    {
+      "cg_id": "sei-network",
+      "ticker": "SEI"
+    },
+    {
+      "cg_id": "shiba-inu",
+      "ticker": "SHIB"
+    },
+    {
+      "cg_id": "skale",
+      "ticker": "SKL"
+    },
+    {
+      "cg_id": "sky",
+      "ticker": "SKY"
+    },
+    {
+      "cg_id": "solana",
+      "ticker": "SOL"
+    },
+    {
+      "cg_id": "spell-token",
+      "ticker": "SPELL"
+    },
+    {
+      "cg_id": "sui",
+      "ticker": "SUI"
+    },
+    {
+      "cg_id": "celestia",
+      "ticker": "TIA"
+    },
+    {
+      "cg_id": "toshi",
+      "ticker": "TOSHI"
+    },
+    {
+      "cg_id": "official-trump",
+      "ticker": "TRUMP"
+    },
+    {
+      "cg_id": "usd-coin",
+      "ticker": "USDC"
+    },
+    {
+      "cg_id": "tether",
+      "ticker": "USDT"
+    },
+    {
+      "cg_id": "wormhole",
+      "ticker": "W"
+    },
+    {
+      "cg_id": "wrapped-bitcoin",
+      "ticker": "WBTC"
+    },
+    {
+      "cg_id": "worldcoin",
+      "ticker": "WLD"
+    },
+    {
+      "cg_id": "tether-gold",
+      "ticker": "XAUT"
+    },
+    {
+      "cg_id": "stellar",
+      "ticker": "XLM"
+    },
+    {
+      "cg_id": "ripple",
+      "ticker": "XRP"
+    },
+    {
+      "cg_id": "tezos",
+      "ticker": "XTZ"
+    },
+    {
+      "cg_id": "zcash",
+      "ticker": "ZEC"
+    },
+    {
+      "cg_id": "zeta",
+      "ticker": "ZETA"
+    },
+    {
+      "cg_id": "zksync",
+      "ticker": "ZK"
+    },
+    {
+      "cg_id": "zora",
+      "ticker": "ZORA"
+    },
+    {
+      "cg_id": "staked-ether",
+      "ticker": "stETH"
+    }
+  ],
+  "note": "Curated CoinGecko ID map. Read by scripts/daily_refresh.py."
+}

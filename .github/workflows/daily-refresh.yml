@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------------------
+# FORTUNA SIGNAL — daily market-data refresh
+#
+# HARD RULE: "automate evidence, not judgment."
+# This workflow touches ONLY the evidence layer:
+#   assets/data/market-snapshot.json  (prices, 24h change, fetch timestamps)
+#   assets/data/freshness.json        (stale-data flags)
+# It MUST NOT modify briefs, verdicts, rankings, classifications, dossier
+# copy, or any human judgment. Anything judgment-shaped stays human-gated.
+# ---------------------------------------------------------------------------
+name: Daily market-data refresh
+
+on:
+  schedule:
+    # 07:00 America/Denver every day (13:00 UTC; 14:00 UTC during DST gaps
+    # are acceptable — freshness is measured in the data, not the clock).
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}  # manual run from the Actions tab, same guardrails
+
+permissions:
+  contents: write  # same-repo commit of the two evidence JSON files only
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the live site repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python (stdlib only — no dependencies)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh market evidence
+        run: python3 scripts/daily_refresh.py --data-dir assets/data
+
+      - name: Commit evidence-layer changes (if any)
+        run: |
+          git config user.name "fortuna-signal-bot"
+          git config user.email "fortuna-signal-bot@users.noreply.github.com"
+          git add assets/data/market-snapshot.json assets/data/freshness.json
+          if git diff --cached --quiet; then
+            echo "no evidence changes — nothing to commit"
+          else
+            git commit -m "Daily market-data refresh (automated evidence layer; no judgment changes)"
+            git push
+          fi

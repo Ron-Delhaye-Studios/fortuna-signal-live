@@ -1,1 +1,4 @@
-{"pin_sha256":null,"set_note":"PIN not set yet — LUNA runs cmgr/scripts/set_dashboard_pin.py at delivery; only the SHA-256 hash is ever stored here."}
+{
+ "pin_sha256": "149de882d191aeecfdaa850632b64495339619dc7f8454564f32e3edc1190faa",
+ "set_note": "hash only \u2014 plaintext PIN is never stored"
+}

@@ -45,5 +45,5 @@ jobs:
           git config user.name "luna-dashboard"
           git config user.email "luna-dashboard@users.noreply.github.com"
           git add dashboard/d-98e967c4d610c3b5/snapshot.json
-          git diff --cached --quiet || git commit -m "dashboard: CI site-layer refresh"
+          git diff --cached --quiet || git commit -m "dashboard: CI site-layer refresh [skip ci]"
           git push

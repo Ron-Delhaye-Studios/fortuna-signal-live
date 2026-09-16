@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>FORTUNA SIGNAL · Quantum Dashboard</title>
+<meta name="theme-color" content="#0a0e1a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Quantum">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<style>
+:root{
+  --bg:#0a0e1a; --bg2:#0e1424; --card:#131b30; --card2:#182138;
+  --ink:#eaf0ff; --dim:#93a0c4; --faint:#5b678c;
+  --cyan:#39d0d8; --green:#7cfc9a; --amber:#ffbf5e; --red:#ff5d6e;
+  --line:rgba(147,160,196,.16); --radius:18px;
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:16px;line-height:1.45;min-height:100vh}
+#gate{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.gate-card{background:var(--card);border:1px solid var(--line);border-radius:24px;
+  padding:32px 28px;max-width:380px;width:100%;text-align:center}
+.gate-card h1{font-size:22px;margin:0 0 6px}
+.gate-card p{color:var(--dim);font-size:14px;margin:0 0 20px}
+.gate-card input{width:100%;font-size:20px;padding:14px 16px;border-radius:14px;
+  border:1px solid var(--line);background:var(--bg2);color:var(--ink);
+  text-align:center;letter-spacing:.12em;margin-bottom:14px}
+.gate-card button{width:100%;min-height:52px;font-size:17px;font-weight:700;
+  border:0;border-radius:14px;background:linear-gradient(135deg,#2b6ff2,#39d0d8);
+  color:#04121a;cursor:pointer}
+.gate-err{color:var(--red);font-size:13px;min-height:20px;margin-top:10px}
+#app{display:none}
+/* quantum hero */
+#hero{position:relative;height:300px;overflow:hidden;background:radial-gradient(120% 100% at 50% 0%,#101a38 0%,#0a0e1a 70%)}
+#hero canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+#hero .hero-inner{position:absolute;inset:0;display:flex;flex-direction:column;
+  justify-content:flex-end;padding:20px;pointer-events:none}
+#hero .hero-kicker{font-size:11px;letter-spacing:.22em;color:var(--dim);text-transform:uppercase}
+#hero h1{font-size:30px;margin:4px 0 2px;font-weight:800;letter-spacing:-.01em}
+#hero .hero-sub{color:var(--dim);font-size:13px;max-width:520px}
+#heroFallback{position:absolute;inset:0;
+  background:radial-gradient(90% 90% at 50% 20%,rgba(57,208,216,.25),transparent 60%),
+             radial-gradient(70% 70% at 80% 90%,rgba(43,111,242,.25),transparent 60%)}
+/* layout */
+.wrap{max-width:1060px;margin:0 auto;padding:0 16px 64px}
+.sec{margin-top:26px}
+.sec-head{display:flex;align-items:baseline;gap:10px;margin:0 0 12px}
+.sec-head h2{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);margin:0}
+.sec-head .asof{font-size:11px;color:var(--faint);margin-left:auto}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:720px){.grid{grid-template-columns:1fr 1fr}.grid .wide{grid-column:1/-1}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px;min-width:0}
+.card h3{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0 0 10px}
+.bignum{font-size:44px;font-weight:800;letter-spacing:-.02em;line-height:1}
+.bignum small{font-size:16px;color:var(--dim);font-weight:600}
+.sub{color:var(--dim);font-size:13px;margin-top:6px}
+.badge{display:inline-block;font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px;
+  letter-spacing:.06em}
+.b-active{background:rgba(124,252,154,.14);color:var(--green);border:1px solid rgba(124,252,154,.35)}
+.b-paused{background:rgba(255,191,94,.14);color:var(--amber);border:1px solid rgba(255,191,94,.35)}
+.b-killed{background:rgba(255,93,110,.16);color:var(--red);border:1px solid rgba(255,93,110,.4)}
+.b-neutral{background:rgba(147,160,196,.12);color:var(--dim);border:1px solid var(--line)}
+/* kill gauge */
+.gauge{height:14px;border-radius:999px;background:#0a0f1f;border:1px solid var(--line);
+  position:relative;margin:14px 0 6px;overflow:hidden}
+.gauge .fill{position:absolute;inset:0;border-radius:999px;
+  background:linear-gradient(90deg,var(--red),var(--amber) 45%,var(--cyan));}
+.gauge .marker{position:absolute;top:-3px;bottom:-3px;width:3px;background:#fff;border-radius:2px}
+.gauge-labels{display:flex;justify-content:space-between;font-size:11px;color:var(--faint)}
+/* verdict chips */
+.chip{display:inline-block;font-size:12px;font-weight:700;padding:4px 10px;border-radius:8px;margin:2px 4px 2px 0}
+.v-pass{background:rgba(124,252,154,.14);color:var(--green)}
+.v-fail{background:rgba(255,93,110,.14);color:var(--red)}
+.v-inconclusive{background:rgba(255,191,94,.14);color:var(--amber)}
+.v-pending{background:rgba(147,160,196,.14);color:var(--dim)}
+.v-prior_reported{background:rgba(57,208,216,.14);color:var(--cyan)}
+.exp-row{display:flex;align-items:center;gap:8px;padding:10px 0;border-top:1px solid var(--line);font-size:14px}
+.exp-row:first-of-type{border-top:0}
+.exp-row .eid{color:var(--dim);font-size:12px;font-family:ui-monospace,Menlo,monospace}
+/* insights */
+.insight{border-left:3px solid var(--cyan);background:var(--card2)}
+.insight.k-alert{border-left-color:var(--red)}
+.insight.k-delta{border-left-color:var(--amber)}
+.insight.k-status{border-left-color:var(--faint)}
+.insight h4{margin:0 0 6px;font-size:15px}
+.insight p{margin:0 0 8px;font-size:14px;color:var(--dim)}
+.insight .basis{font-size:11px;color:var(--faint)}
+/* svg graphs */
+.graph{width:100%;height:auto;display:block;background:#0b1122;border-radius:12px;
+  border:1px solid var(--line)}
+.empty{color:var(--faint);font-size:13px;padding:18px;text-align:center;
+  border:1px dashed var(--line);border-radius:12px}
+/* suites */
+.suite{display:flex;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line);font-size:14px}
+.suite:first-of-type{border-top:0}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.dot.ok{background:var(--green);box-shadow:0 0 8px rgba(124,252,154,.7)}
+.dot.bad{background:var(--red);box-shadow:0 0 8px rgba(255,93,110,.7)}
+.suite .cnt{margin-left:auto;color:var(--dim);font-size:12px;font-family:ui-monospace,Menlo,monospace}
+footer{color:var(--faint);font-size:12px;text-align:center;padding:28px 16px 40px}
+footer button{background:none;border:1px solid var(--line);color:var(--dim);border-radius:999px;
+  padding:10px 22px;font-size:13px;min-height:44px;cursor:pointer}
+.updated{font-size:11px;color:var(--faint);text-align:center;margin-top:18px}
+button{cursor:pointer}
+</style>
+</head>
+<body>
+<div id="gate">
+  <div class="gate-card">
+    <h1>⚛ Quantum Dashboard</h1>
+    <p>FORTUNA SIGNAL operations · PIN-gated</p>
+    <div id="gateForm">
+      <input id="pinInput" type="password" inputmode="text" autocomplete="off"
+             autocapitalize="none" spellcheck="false" placeholder="PIN" aria-label="PIN">
+      <button id="pinBtn">Unlock</button>
+      <div class="gate-err" id="gateErr"></div>
+    </div>
+  </div>
+</div>
+
+<div id="app">
+  <div id="hero">
+    <div id="heroFallback" hidden></div>
+    <canvas id="qc" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="hero-kicker">Fortuna Signal · Operations</div>
+      <h1>Quantum Dashboard</h1>
+      <div class="hero-sub" id="heroSub">Particle energy maps to bankroll health — the closer to the kill switch, the hotter the field.</div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="updated" id="updatedLine">loading…</div>
+
+    <section class="sec" id="secPilot">
+      <div class="sec-head"><h2>◈ Pilot</h2><span class="asof" id="asofPilot"></span></div>
+      <div class="grid">
+        <div class="card">
+          <h3>Bankroll</h3>
+          <div class="bignum" id="bankroll">—</div>
+          <div class="sub" id="bankrollSub"></div>
+          <div class="gauge" aria-hidden="true"><div class="fill" id="gaugeFill"></div><div class="marker" id="gaugeMarker"></div></div>
+          <div class="gauge-labels"><span>$70 kill</span><span>$100 start</span></div>
+          <div class="sub" style="margin-top:10px"><span id="pilotState"></span></div>
+        </div>
+        <div class="card">
+          <h3>Discipline score</h3>
+          <div class="bignum" id="discScore">—</div>
+          <div class="sub" id="discSub"></div>
+        </div>
+        <div class="card wide">
+          <h3>Equity curve</h3>
+          <div id="equityGraph"></div>
+        </div>
+        <div class="card wide">
+          <h3>Drawdown / underwater</h3>
+          <div id="ddGraph"></div>
+        </div>
+        <div class="card">
+          <h3>Positions</h3>
+          <div id="positions">—</div>
+        </div>
+        <div class="card">
+          <h3>Slippage by venue</h3>
+          <div id="slipGraph"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="secInsights">
+      <div class="sec-head"><h2>✦ Daily insights</h2></div>
+      <div class="grid" id="insights"></div>
+    </section>
+
+    <section class="sec" id="secExp">
+      <div class="sec-head"><h2>◇ Experiments</h2><span class="asof" id="asofExp"></span></div>
+      <div class="grid"><div class="card wide" id="expList"></div></div>
+    </section>
+
+    <section class="sec" id="secSys">
+      <div class="sec-head"><h2>⬢ Systems</h2><span class="asof" id="asofSys"></span></div>
+      <div class="grid">
+        <div class="card"><h3>Test suites</h3><div id="suites"></div></div>
+        <div class="card"><h3>Heuristics</h3><div id="heur"></div></div>
+      </div>
+    </section>
+
+    <section class="sec" id="secSite">
+      <div class="sec-head"><h2>◎ Site</h2><span class="asof" id="asofSite"></span></div>
+      <div class="grid"><div class="card wide" id="siteCard"></div></div>
+    </section>
+
+    <footer>
+      <div>LIVE PILOT — TUITION FUNDS — EXPECTED VALUE UNKNOWN — NOT INVESTMENT ADVICE</div>
+      <div style="margin-top:14px"><button id="lockBtn">Lock dashboard</button></div>
+    </footer>
+  </div>
+</div>
+<script>
+"use strict";
+/* ============ PIN gate (SHA-256, hash-only comparison) ============ */
+const $ = id => document.getElementById(id);
+async function sha256hex(str){
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
+  return [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,"0")).join("");
+}
+function seqEqual(a,b){
+  if(a.length!==b.length) return false;
+  let d=0; for(let i=0;i<a.length;i++) d|=(a.charCodeAt(i)^b.charCodeAt(i));
+  return d===0;
+}
+async function tryUnlock(){
+  const err=$("gateErr"); err.textContent="";
+  const pin=$("pinInput").value;
+  if(!pin){err.textContent="Enter the PIN.";return;}
+  let cfg;
+  try{ cfg=await (await fetch("config.json",{cache:"no-store"})).json(); }
+  catch(e){ err.textContent="Config unreachable."; return; }
+  if(!cfg.pin_sha256){ err.textContent="PIN not configured yet — ask LUNA to set it."; return; }
+  const h=await sha256hex(pin);
+  if(seqEqual(h,cfg.pin_sha256)){
+    try{sessionStorage.setItem("qd_unlocked","1");}catch(e){}
+    boot();
+  } else { err.textContent="Wrong PIN."; $("pinInput").value=""; }
+}
+$("pinBtn").addEventListener("click",tryUnlock);
+$("pinInput").addEventListener("keydown",e=>{if(e.key==="Enter")tryUnlock();});
+$("lockBtn").addEventListener("click",()=>{try{sessionStorage.removeItem("qd_unlocked");}catch(e){} location.reload();});
+try{ if(sessionStorage.getItem("qd_unlocked")==="1"){ boot(); } }catch(e){}
+
+/* ============ data ============ */
+let S=null;
+async function boot(){
+  $("gate").style.display="none"; $("app").style.display="block";
+  try{
+    S=await (await fetch("snapshot.json",{cache:"no-store"})).json();
+  }catch(e){
+    document.querySelector(".wrap").innerHTML='<div class="card" style="margin-top:24px">snapshot.json unreachable.</div>';
+    return;
+  }
+  renderAll();
+  initQuantum();
+}
+const fmt$=n=>"$"+Number(n).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function renderAll(){
+  const m=S.meta, p=S.pilot;
+  $("updatedLine").textContent="Snapshot: "+m.generated_at.replace("T"," ").slice(0,19)+" UTC · v"+m.snapshot_version;
+  $("asofPilot").textContent=p.as_of.slice(0,16).replace("T"," ")+" UTC";
+  $("asofExp").textContent=S.experiments.as_of.slice(0,16).replace("T"," ")+" UTC";
+  $("asofSys").textContent=S.systems.as_of.slice(0,16).replace("T"," ")+" UTC";
+  $("asofSite").textContent=S.site.as_of.slice(0,16).replace("T"," ")+" UTC";
+
+  /* pilot */
+  $("bankroll").innerHTML=fmt$(p.bankroll).replace(".00","")+'<small> / $100</small>';
+  const pct=Math.max(0,Math.min(100,p.kill_distance_pct));
+  $("gaugeFill").style.width=pct+"%";
+  $("gaugeMarker").style.left=pct+"%";
+  $("bankrollSub").textContent=p.live
+    ? fmt$(p.kill_distance)+" above the $70 kill switch · "+p.kill_distance_pct+"% buffer"
+    : "Not started — phantom $100 shown. Awaiting parameter approval + wallet funding.";
+  const st=p.state||"ACTIVE";
+  const cls=st==="KILLED"?"b-killed":st==="PAUSED"?"b-paused":st==="ACTIVE"?"b-active":"b-neutral";
+  $("pilotState").innerHTML='<span class="badge '+cls+'">'+esc(st)+'</span> '+
+    (p.live?'<span class="sub">fees '+fmt$(p.fees_paid||0)+' · realized '+fmt$(p.realized_pnl||0)+' · tax reserve '+fmt$(p.tax_reserve||0)+'</span>'
+          :'<span class="sub">no live ledger yet</span>');
+
+  const d=p.discipline||{};
+  if(d.scored&&d.pilot_score!=null){
+    $("discScore").textContent=Math.round(d.pilot_score*100)+"%";
+    $("discSub").textContent=d.n_scored+" of "+d.n_total+" trades scored · thesis→approval→reconcile→lesson";
+  } else {
+    $("discScore").textContent="—";
+    $("discSub").textContent="Activates with the first closed trade.";
+  }
+
+  /* positions */
+  const pos=p.positions||[];
+  $("positions").innerHTML = pos.length
+    ? pos.map(x=>'<div class="exp-row"><b>'+esc(x.asset)+'</b><span class="eid">'+esc(x.units)+' @ '+fmt$(x.avg_price||0)+'</span></div>').join("")
+    : '<div class="empty">No open positions.</div>';
+
+  /* graphs */
+  drawEquity(); drawDrawdown(); drawSlippage();
+
+  /* insights */
+  $("insights").innerHTML=(S.insights||[]).map(c=>
+    '<div class="card insight k-'+esc(c.kind)+'"><h4>'+esc(c.title)+'</h4><p>'+esc(c.body)+
+    '</p><div class="basis">based on: '+esc(c.basis)+'</div></div>').join("");
+
+  /* experiments */
+  const t=S.experiments.totals||{};
+  $("expList").innerHTML=
+    '<div class="sub" style="margin-bottom:8px">'+(t.pass||0)+' passed · '+(t.fail||0)+' failed · '+
+    (t.inconclusive||0)+' inconclusive · '+(t.prior_reported||0)+' prior reported — <b>zero passed: no validated edge</b></div>'+
+    (S.experiments.scoreboard||[]).map(s=>
+      '<div class="exp-row"><span class="chip v-'+esc(s.verdict)+'">'+esc(s.verdict)+'</span>'+
+      '<span>'+esc(s.name||s.experiment_id)+'</span>'+
+      (s.prior_result?'<span class="eid">prior</span>':"")+'</div>').join("");
+
+  /* systems */
+  const sy=S.systems;
+  $("suites").innerHTML = sy.skipped ? '<div class="empty">Suites skipped this refresh.</div>'
+    : (sy.suites||[]).map(s=>
+      '<div class="suite"><span class="dot '+(s.ok?"ok":"bad")+'"></span><span>'+esc(s.name)+
+      '</span><span class="cnt">'+s.passed+'/'+s.total+' · '+s.seconds+'s</span></div>').join("");
+  const hz=S.heuristics;
+  $("heur").innerHTML=(hz.items&&hz.items.length
+      ? hz.items.map(h=>'<div class="exp-row"><b>'+esc(h.name)+'</b><span class="chip v-'+(h.status==="active"?"pass":h.status==="advisory"?"inconclusive":"pending")+'">'+esc(h.status)+'</span><span class="eid">v'+esc(h.version)+'</span></div>').join("")
+      : '<div class="empty">Registry ready — heuristics register as they ship.</div>')
+    +'<div class="sub" style="margin-top:8px">Heuristics tune within bounds; they never override hard safety rules.</div>';
+
+  /* site */
+  const st2=S.site;
+  $("siteCard").innerHTML='<div class="exp-row"><span class="dot '+(st2.status==="live"?"ok":"bad")+'"></span>'+
+    '<b>'+esc(st2.status.toUpperCase())+'</b><span class="eid">'+esc(st2.url)+'</span></div>'+
+    '<div class="exp-row"><span>Dossiers</span><span class="eid">'+st2.dossiers+' verified</span></div>'+
+    '<div class="exp-row"><span>Analytics</span><span class="eid">'+esc(st2.analytics)+
+    (st2.analytics==="pending"?' — Cloudflare beacon token still to be added (see ANALYTICS_SETUP.md)':"")+'</span></div>';
+
+  $("heroSub").textContent = p.live
+    ? "Particle energy maps to bankroll health — the closer to the kill switch, the hotter the field."
+    : "Pilot not started — the field idles in a calm state until the first live ledger exists.";
+}
+
+/* ============ SVG graphs (hand-rolled, no deps) ============ */
+function svgEl(w,h,inner){
+  return '<svg class="graph" viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="xMidYMid meet">'+inner+'</svg>';
+}
+function drawEquity(){
+  const pts=S.equity_curve||[];
+  const el=$("equityGraph");
+  if(pts.length<2){ el.innerHTML='<div class="empty">The equity curve begins with the first refresh after launch — one honest point at a time.</div>'; return; }
+  const W=640,H=220,PL=46,PR=12,PT=14,PB=26;
+  const vals=pts.map(p=>p.bankroll);
+  const lo=Math.min(70,...vals)-2, hi=Math.max(100,...vals)+2;
+  const X=i=>PL+(W-PL-PR)*(i/(pts.length-1));
+  const Y=v=>PT+(H-PT-PB)*(1-(v-lo)/(hi-lo));
+  const yKill=Y(70), yStart=Y(100);
+  let d="M"+pts.map((p,i)=>X(i).toFixed(1)+","+Y(p.bankroll).toFixed(1)).join(" L");
+  const area=d+(" L"+X(pts.length-1).toFixed(1)+","+Y(lo).toFixed(1)+" L"+X(0).toFixed(1)+","+Y(lo).toFixed(1)+" Z");
+  el.innerHTML=svgEl(W,H,
+    '<defs><linearGradient id="eqg" x1="0" y1="0" x2="0" y2="1">'+
+    '<stop offset="0" stop-color="#39d0d8" stop-opacity=".45"/><stop offset="1" stop-color="#39d0d8" stop-opacity="0"/></linearGradient></defs>'+
+    '<line x1="'+PL+'" y1="'+yKill+'" x2="'+(W-PR)+'" y2="'+yKill+'" stroke="#ff5d6e" stroke-width="1.5" stroke-dasharray="7 5"/>'+
+    '<text x="'+(W-PR)+'" y="'+(yKill-6)+'" fill="#ff5d6e" font-size="11" text-anchor="end">kill $70</text>'+
+    '<line x1="'+PL+'" y1="'+yStart+'" x2="'+(W-PR)+'" y2="'+yStart+'" stroke="#5b678c" stroke-width="1" stroke-dasharray="3 4"/>'+
+    '<text x="'+(W-PR)+'" y="'+(yStart-6)+'" fill="#5b678c" font-size="11" text-anchor="end">start $100</text>'+
+    '<path d="'+area+'" fill="url(#eqg)"/>'+
+    '<path d="'+d+'" fill="none" stroke="#39d0d8" stroke-width="2.5" stroke-linejoin="round"/>'+
+    pts.map((p,i)=>'<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(p.bankroll).toFixed(1)+'" r="3.5" fill="#0a0e1a" stroke="#39d0d8" stroke-width="2"><title>'+esc(p.ts.slice(0,16))+' · $'+p.bankroll+'</title></circle>').join(""));
+}
+function drawDrawdown(){
+  const pts=S.equity_curve||[];
+  const el=$("ddGraph");
+  if(pts.length<2){ el.innerHTML='<div class="empty">Underwater chart activates with the equity curve.</div>'; return; }
+  const W=640,H=170,PL=46,PR=12,PT=14,PB=26;
+  let peak=-1e18; const dd=pts.map(p=>{peak=Math.max(peak,p.bankroll);return (peak-p.bankroll)/peak*100;});
+  const mx=Math.max(5,...dd);
+  const X=i=>PL+(W-PL-PR)*(i/(pts.length-1));
+  const Y=v=>PT+(H-PT-PB)*(1-v/mx);
+  const bars=dd.map((v,i)=>{
+    const bw=(W-PL-PR)/pts.length;
+    return '<rect x="'+(X(i)-bw/2).toFixed(1)+'" y="'+Y(v).toFixed(1)+'" width="'+Math.max(1.5,bw-1.5).toFixed(1)+
+      '" height="'+(Y(0)-Y(v)).toFixed(1)+'" fill="'+(v>0?"#ff5d6e":"#1c2742")+'" opacity="'+(v>0?0.85:0.5)+'"><title>'+v.toFixed(2)+'% underwater</title></rect>';
+  }).join("");
+  el.innerHTML=svgEl(W,H,
+    '<line x1="'+PL+'" y1="'+Y(0)+'" x2="'+(W-PR)+'" y2="'+Y(0)+'" stroke="#5b678c" stroke-width="1"/>'+
+    '<text x="'+(W-PR)+'" y="'+(Y(0)-6)+'" fill="#5b678c" font-size="11" text-anchor="end">peak · 0%</text>'+bars+
+    '<text x="'+PL+'" y="'+(H-8)+'" fill="#5b678c" font-size="11">max drawdown '+mx.toFixed(1)+'%</text>');
+}
+function drawSlippage(){
+  // Per-venue slippage bars — populated from ledger fill events when live.
+  const el=$("slipGraph");
+  el.innerHTML='<div class="empty">No fills yet — per-venue slippage bars appear here after the first live trades.</div>';
+}
+</script>
+<script>
+/* ============ quantum particle field (data-reactive, not decorative) ============
+   Maps:  particle energy/color  <-  bankroll health (distance to kill switch)
+          calm drift             <-  PAUSED / KILLED / not-started
+   Degrades to a static gradient when WebGL or the CDN is unavailable.        */
+function initQuantum(){
+  const canvas=$("qc"), hero=$("hero");
+  const showFallback=()=>{ canvas.style.display="none"; $("heroFallback").hidden=false; };
+  if(!window.WebGLRenderingContext){ showFallback(); return; }
+
+  const p=S?pilotHealth():{h:.55,calm:true};
+  function pilotHealth(){
+    const pl=S.pilot;
+    if(!pl.live) return {h:.55, calm:true, label:"idle"};
+    const h=Math.max(0,Math.min(1,pl.kill_distance_pct/100));
+    const calm=(pl.state!=="ACTIVE");
+    return {h, calm, label:pl.state};
+  }
+
+  const script=document.createElement("script");
+  script.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js";
+  script.onload=()=>{ try{ startField(p); }catch(e){ showFallback(); } };
+  script.onerror=showFallback;
+  document.head.appendChild(script);
+
+  function startField(h){
+    const renderer=new THREE.WebGLRenderer({canvas,alpha:true,antialias:false});
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
+    const scene=new THREE.Scene();
+    const cam=new THREE.PerspectiveCamera(60,1,.1,100); cam.position.z=7;
+
+    const N=(Math.min(window.innerWidth,1060)<720)?320:650;
+    const pos=new Float32Array(N*3), seed=new Float32Array(N);
+    for(let i=0;i<N;i++){
+      const r=2.2+Math.random()*2.6, th=Math.random()*Math.PI*2, ph=Math.acos(2*Math.random()-1);
+      pos[i*3]=r*Math.sin(ph)*Math.cos(th); pos[i*3+1]=r*Math.sin(ph)*Math.sin(th)*0.6; pos[i*3+2]=r*Math.cos(ph);
+      seed[i]=Math.random()*100;
+    }
+    const geo=new THREE.BufferGeometry();
+    geo.setAttribute("position",new THREE.BufferAttribute(pos,3));
+
+    // color ramp: red -> amber -> cyan -> green by health
+    const stops=[[1,.36,.43],[1,.75,.37],[.22,.82,.85],[.49,.99,.60]];
+    function ramp(t){
+      t=Math.max(0,Math.min(1,t)); const seg=Math.min(2,Math.floor(t*3)), f=t*3-seg;
+      const a=stops[seg],b=stops[seg+1];
+      return [a[0]+(b[0]-a[0])*f, a[1]+(b[1]-a[1])*f, a[2]+(b[2]-a[2])*f];
+    }
+    let col=h.calm?[.45,.62,.85]:ramp(h.h);
+    const mat=new THREE.PointsMaterial({size:.055,color:new THREE.Color(...col),
+      transparent:true,opacity:.9,blending:THREE.AdditiveBlending,depthWrite:false});
+    const pts=new THREE.Points(geo,mat); scene.add(pts);
+    // faint core glow
+    const core=new THREE.Mesh(new THREE.SphereGeometry(.5,24,24),
+      new THREE.MeshBasicMaterial({color:new THREE.Color(col[0]*.5,col[1]*.5,col[2]*.5),transparent:true,opacity:.35}));
+    scene.add(core);
+
+    function resize(){
+      const w=hero.clientWidth,hh=hero.clientHeight;
+      renderer.setSize(w,hh,false); cam.aspect=w/hh; cam.updateProjectionMatrix();
+    }
+    resize(); window.addEventListener("resize",resize);
+
+    const energy=h.calm?0.12:(0.25+ (1-h.h)*1.5);   // hotter near the kill switch
+    const spin=h.calm?0.0006:0.0012+ (1-h.h)*0.004;
+    let running=true, t0=performance.now();
+    document.addEventListener("visibilitychange",()=>{running=!document.hidden; if(running) requestAnimationFrame(tick);});
+    function tick(now){
+      if(!running) return;
+      const t=(now-t0)/1000, arr=geo.attributes.position.array;
+      for(let i=0;i<N;i++){
+        const s=seed[i];
+        arr[i*3]  += Math.sin(t*energy+s)*0.0035*energy;
+        arr[i*3+1]+= Math.cos(t*energy*0.8+s*1.7)*0.0035*energy;
+        arr[i*3+2]+= Math.sin(t*energy*0.6+s*2.3)*0.002*energy;
+      }
+      geo.attributes.position.needsUpdate=true;
+      pts.rotation.y+=spin; pts.rotation.x=Math.sin(t*0.1)*0.15;
+      const pulse=1+Math.sin(t*(h.calm?0.6:1.5+h.h*2))*0.06;
+      core.scale.set(pulse,pulse,pulse);
+      renderer.render(scene,cam);
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+}
+</script>
+</body>
+</html>

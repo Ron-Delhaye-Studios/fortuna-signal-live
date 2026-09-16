@@ -1,0 +1,197 @@
+{
+ "meta": {
+  "snapshot_version": "1.0",
+  "generated_at": "2026-09-16T22:53:36+00:00",
+  "generated_by": "dashboard-refresh.yml (CI site layer)",
+  "kill_floor_usd": 70.0,
+  "start_bankroll_usd": 100.0
+ },
+ "pilot": {
+  "live": false,
+  "as_of": "2026-09-16T22:52:56+00:00",
+  "status": "not_started",
+  "note": "No live ledger yet \u2014 the $100 pilot awaits MASTER INDY's parameter approval and his own wallet funding. Showing phantom defaults.",
+  "bankroll": 100.0,
+  "state": "ACTIVE",
+  "kill_floor": 70.0,
+  "start_bankroll": 100.0,
+  "kill_distance": 30.0,
+  "kill_distance_pct": 100.0,
+  "discipline": {
+   "scored": false,
+   "as_of": "2026-09-16T22:52:56+00:00"
+  }
+ },
+ "equity_curve": [
+  {
+   "ts": "2026-09-16T22:52:56+00:00",
+   "bankroll": 100.0,
+   "state": "ACTIVE"
+  }
+ ],
+ "experiments": {
+  "as_of": "2026-09-16T22:52:56+00:00",
+  "scoreboard": [
+   {
+    "experiment_id": "exp-pilot1-20260916",
+    "name": "Pilot 1 kill-test: experimental M1xV1 vs CAGR vs zero-return",
+    "verdict": "prior_reported",
+    "prior_result": true
+   },
+   {
+    "experiment_id": "exp-001-monthly-momentum-gate",
+    "name": "EXP-001: monthly 30d momentum gate vs buy-and-hold vs cash (LINK)",
+    "verdict": "fail",
+    "prior_result": false
+   },
+   {
+    "experiment_id": "exp-fawe-pilot-20260729",
+    "name": "F-AWE ONDO-vs-LINK initial pilot (2026-07-29)",
+    "verdict": "inconclusive",
+    "prior_result": true
+   },
+   {
+    "experiment_id": "exp-infra-smoke-test-buy-and-hold-baseline-p-20260916",
+    "name": "INFRA smoke test \u2014 buy-and-hold baseline plumbing",
+    "verdict": "inconclusive",
+    "prior_result": false
+   }
+  ],
+  "totals": {
+   "pass": 0,
+   "fail": 1,
+   "inconclusive": 2,
+   "pending": 0,
+   "prior_reported": 1
+  },
+  "n_passed": 0,
+  "hypotheses": {
+   "open": 10,
+   "refuted": 1
+  }
+ },
+ "heuristics": {
+  "as_of": "2026-09-16T22:52:56+00:00",
+  "items": [],
+  "registry": "ready",
+  "n_proposals_pending": 0
+ },
+ "systems": {
+  "as_of": "2026-09-16T22:52:56+00:00",
+  "suites": [
+   {
+    "name": "live-pilot ledger",
+    "file": "test_ledger.py",
+    "passed": 10,
+    "total": 10,
+    "ok": true,
+    "seconds": 0.1
+   },
+   {
+    "name": "live-pilot invariants",
+    "file": "test_invariants.py",
+    "passed": 22,
+    "total": 22,
+    "ok": true,
+    "seconds": 2.6
+   },
+   {
+    "name": "live-pilot heuristics",
+    "file": "test_heuristics.py",
+    "passed": 0,
+    "total": 0,
+    "ok": true,
+    "seconds": 0.1,
+    "note": "no count parsed; used exit code"
+   },
+   {
+    "name": "paper-trading harness",
+    "file": "test_harness.py",
+    "passed": 0,
+    "total": 0,
+    "ok": true,
+    "seconds": 0.2,
+    "note": "no count parsed; used exit code"
+   },
+   {
+    "name": "experiment point-in-time",
+    "file": "test_point_in_time.py",
+    "passed": 0,
+    "total": 0,
+    "ok": true,
+    "seconds": 0.1,
+    "note": "no count parsed; used exit code"
+   },
+   {
+    "name": "experiment approval gate",
+    "file": "test_approval_gate.py",
+    "passed": 13,
+    "total": 13,
+    "ok": true,
+    "seconds": 0.3
+   },
+   {
+    "name": "experiment heuristics",
+    "file": "test_heuristics_exp.py",
+    "passed": 0,
+    "total": 0,
+    "ok": true,
+    "seconds": 0.1,
+    "note": "no count parsed; used exit code"
+   },
+   {
+    "name": "heuristics registry",
+    "file": "test_registry.py",
+    "passed": 0,
+    "total": 0,
+    "ok": true,
+    "seconds": 0.1,
+    "note": "no count parsed; used exit code"
+   }
+  ],
+  "suites_green": 8,
+  "suites_total": 8,
+  "all_green": true
+ },
+ "site": {
+  "reachable": true,
+  "http_status": 200,
+  "as_of": "2026-09-16T22:53:36+00:00",
+  "url": "https://whitewizard888.github.io/fortuna-signal-live/",
+  "status": "live",
+  "dossiers": 146,
+  "analytics": "pending"
+ },
+ "insights": [
+  {
+   "kind": "status",
+   "title": "Pilot awaiting launch",
+   "body": "The $100 learning pilot has not started: parameter approval and MASTER INDY's own wallet funding are still pending. Nothing has been traded; nothing has been lost.",
+   "basis": "no ledger-live.json on 2026-09-16"
+  },
+  {
+   "kind": "status",
+   "title": "Discipline score: no trades yet",
+   "body": "The score activates with the first closed trade. Every trade will be graded on process adherence automatically.",
+   "basis": "empty trade book on 2026-09-16"
+  },
+  {
+   "kind": "metric",
+   "title": "Experiment scoreboard",
+   "body": "0 passed \u00b7 1 failed \u00b7 2 inconclusive \u00b7 1 prior reported. Zero passed: no validated edge exists \u2014 stated plainly, as always.",
+   "basis": "pretrade_learning.db experiments table"
+  },
+  {
+   "kind": "metric",
+   "title": "All test suites green",
+   "body": "8/8 suites green. Ledger hash-chain: verified.",
+   "basis": "test suite run at export time"
+  },
+  {
+   "kind": "status",
+   "title": "Dashboard refreshed",
+   "body": "Snapshot regenerated from live sources. Graphs and insights below reflect this refresh only \u2014 nothing is projected or simulated.",
+   "basis": "export at 2026-09-16T22:52:56+00:00"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+# Dashboard refresh — quantum dashboard's CI automation.
+#
+# SEPARATE from the site-content workflow (daily-refresh.yml, owned by another
+# workstream). This workflow ONLY refreshes the dashboard's `site` layer
+# (reachability + analytics status) via dashboard/export_snapshot.py.
+# Trading data (pilot, experiments, heuristics, systems, equity, insights) is
+# written exclusively by the local exporter on the ops machine and pushed;
+# this workflow never touches those sections.
+name: dashboard-refresh
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily, 06:17 UTC (00:17 MDT)
+  push:
+    branches: [main]
+    paths: ["dashboard/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh dashboard site layer
+        run: python3 dashboard/export_snapshot.py
+      - name: Validate snapshot schema
+        run: |
+          python3 - <<'EOF'
+          import json
+          s = json.load(open("dashboard/d-98e967c4d610c3b5/snapshot.json"))
+          need = {"meta","pilot","equity_curve","experiments","heuristics","systems","site","insights"}
+          missing = need - set(s)
+          assert not missing, f"missing sections: {missing}"
+          assert all("basis" in c for c in s["insights"]), "insight cards need a basis"
+          print("snapshot schema OK:", sorted(s))
+          EOF
+      - name: Commit if changed
+        run: |
+          git config user.name "luna-dashboard"
+          git config user.email "luna-dashboard@users.noreply.github.com"
+          git add dashboard/d-98e967c4d610c3b5/snapshot.json
+          git diff --cached --quiet || git commit -m "dashboard: CI site-layer refresh"
+          git push

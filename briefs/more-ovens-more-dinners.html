@@ -39,7 +39,7 @@
     footer{padding:52px 0 64px}.footer-grid{display:flex;justify-content:space-between;gap:40px;align-items:end}.footer-mark{width:190px;height:auto;display:block;margin-bottom:18px}.footer-copy{max-width:640px;color:var(--sage);font-size:13px;margin:0}.signature{font:700 11px var(--data);letter-spacing:.18em;color:var(--gold);white-space:nowrap}
     @media(max-width:860px){.wrap{width:min(100% - 48px,1200px)}.hero-grid{grid-template-columns:1fr;min-height:auto;gap:54px;padding:70px 0 58px}.method{max-width:520px}.section-head,.feature-grid,.archive-grid,.about{grid-template-columns:1fr}.section-head{gap:18px}.narratives{grid-template-columns:1fr 1fr}.about{gap:40px}.token-grid{grid-template-columns:1fr 1fr}}
     @media(max-width:600px){.wrap{width:calc(100% - 48px)}.utility .wrap{display:block;padding:8px 0 6px}.descriptor{display:block;padding:7px 0}.nav{gap:4px 18px;flex-wrap:wrap}.nav a{min-height:38px;font-size:12px}.hero-grid{padding:56px 0 48px}h1{font-size:48px}.lede{font-size:18px}.method{padding:22px 0 0;border-left:0;border-top:1px solid rgba(198,167,106,.55)}.actions{display:grid}.action{width:100%}.section{padding:64px 0}.feature{padding:26px;min-height:390px}.card{padding:23px}.card-bottom{align-items:start;flex-direction:column}.narratives{grid-template-columns:1fr}.anatomy{display:block}.anatomy article,.anatomy article+article{padding:24px 0;border-left:0;border-bottom:1px solid #9eaa9f}.anatomy article:last-child{border-bottom:0}.record-row{grid-template-columns:1fr auto;gap:8px 16px}.record-row span:first-child{grid-column:1/-1}.token-grid{grid-template-columns:1fr}.footer-grid{display:block}.signature{display:block;margin-top:28px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.quantum-field{display:none}.hero h1{background:none;color:var(--ivory);-webkit-text-fill-color:var(--ivory)}html.qjs .rv{opacity:1!important;transform:none!important}}
     /* Emoji-anchored reading: consistent visual vocabulary, scannable rhythm */
     .story-emoji{font-size:58px;line-height:1;display:block;margin-bottom:20px}
     .story{min-height:380px;display:flex;flex-direction:column;justify-content:space-between}
@@ -108,6 +108,41 @@
     .dossier .coverage{margin:22px 0 0;padding-top:16px;border-top:1px solid #9eaa9f;font-size:13.5px;color:#30423d}
     .dossier .method-link{font-weight:700;color:#755b29}
     @media(max-width:600px){.dossier{padding:24px 22px}.dossier .qrow{grid-template-columns:32px 1fr}.dossier .q-status{grid-column:2;margin-top:8px}}
+    /* ===== Quantum layer — dashboard-inspired animation + color (2026-09-16) ===== */
+    :root{--cyan:#39d0d8;--violet:#9a7bff;--rose:#ff7aa8}
+    @keyframes q-aurora{from{transform:translate3d(-2.5%,1.5%,0) scale(1)}to{transform:translate3d(2.5%,-1.5%,0) scale(1.07)}}
+    @keyframes q-shimmer{to{background-position:230% center}}
+    @keyframes q-pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.75)}}
+    .hero::before,.page-hero::before{content:"";position:absolute;inset:-18%;z-index:-2;pointer-events:none;opacity:.55;
+      background:radial-gradient(42% 55% at 22% 30%,rgba(57,208,216,.13),transparent 65%),
+                 radial-gradient(38% 52% at 78% 68%,rgba(154,123,255,.12),transparent 65%),
+                 radial-gradient(30% 42% at 56% 12%,rgba(198,167,106,.10),transparent 60%);
+      animation:q-aurora 38s ease-in-out infinite alternate}
+    .page-hero{position:relative;overflow:hidden;isolation:isolate}
+    .quantum-field{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+    .edition-strip .wrap::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--cyan);margin-right:12px;box-shadow:0 0 12px var(--cyan);animation:q-pulse-dot 2.8s ease-in-out infinite}
+    @supports ((background-clip:text) or (-webkit-background-clip:text)){
+      .hero h1{background:linear-gradient(100deg,var(--gold) 15%,var(--cyan) 40%,var(--violet) 60%,var(--gold) 85%);background-size:230% auto;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:q-shimmer 30s linear infinite}
+    }
+    .card{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+    .card:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(0,0,0,.45)}
+    .token-grid .token-card{--accent:var(--gold);--accent-glow:rgba(198,167,106,.16);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+    .token-grid .token-card:nth-child(4n+2){--accent:var(--cyan);--accent-glow:rgba(57,208,216,.16)}
+    .token-grid .token-card:nth-child(4n+3){--accent:var(--violet);--accent-glow:rgba(154,123,255,.16)}
+    .token-grid .token-card:nth-child(4n){--accent:var(--mint);--accent-glow:rgba(128,221,178,.16)}
+    .token-card .ticker{color:var(--accent)}
+    .token-card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 16px 36px rgba(0,0,0,.5),0 0 28px var(--accent-glow)}
+    .status-tag{box-shadow:0 0 10px rgba(0,0,0,.25)}
+    .status-ok{box-shadow:0 0 12px rgba(128,221,178,.15)}
+    .status-missing{box-shadow:0 0 12px rgba(240,194,122,.15)}
+    .status-forensic{box-shadow:0 0 12px rgba(198,167,106,.18)}
+    .token-card .class-a{box-shadow:0 0 12px rgba(128,221,178,.14)}
+    .token-card .class-b{box-shadow:0 0 12px rgba(240,194,122,.14)}
+    .token-card .class-c{box-shadow:0 0 12px rgba(167,187,176,.14)}
+    .token-card .class-d{box-shadow:0 0 12px rgba(224,138,138,.16)}
+    .token-card .class-native{box-shadow:0 0 12px rgba(198,167,106,.16)}
+    html.qjs .rv{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+    html.qjs .rv.in{opacity:1;transform:none}
   </style>
   
 </head>
@@ -140,6 +175,8 @@
 <blockquote><p>🔎 <strong>Reporting scope:</strong> a historical technology announcement and an original research framework. No current software review, independent benchmark, or token ranking is claimed.</p></blockquote></div></div></section>
   </main>
   <footer><div class="wrap footer-grid"><div><img class="footer-mark" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDkgODUiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iRk9SVFVOQSI+PGcgZmlsbD0iI0YyRUVFNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOCA2Nikgc2NhbGUoMSAtMSkiPjxwYXRoIGQ9Ik0zLjg2MSwwLjAwMCBMMy44NjEsMy42MjAgTDEwLjM1OCwzLjYyMCBMMTAuMzU4LDQ3LjM3MCBMMy44NjEsNDcuMzcwIEwzLjg2MSw1MS4wMzQgTDQ1LjYzMSw1MS4wMzQgTDQ1LjYzMSwzOS42ODEgTDQxLjQzMSwzOS42ODEgTDQxLjQzMSw0Ni44MjMgTDE3LjI5Miw0Ni44MjMgTDE3LjI5MiwyOS43MzkgTDM0LjcyNywyOS43MzkgTDM0LjcyNywzNi4xMjcgTDM4LjkyNywzNi4xMjcgTDM4LjkyNywxOS4xNzMgTDM0LjcyNywxOS4xNzMgTDM0LjcyNywyNS41NzIgTDE3LjI5MiwyNS41NzIgTDE3LjI5MiwzLjYyMCBMMjUuNDYyLDMuNjIwIEwyNS40NjIsMC4wMDAgTDMuODYxLDAuMDAwIFoiLz48cGF0aCBkPSJNODMuNDgxLDIuNjY5IFE5MS44NTksMi42NjksOTYuMTI1LDguNDIyIFExMDAuNDAyLDE0LjE4NiwxMDAuNDAyLDI1LjQ2MiBRMTAwLjQwMiwzNi43ODMsOTYuMTI1LDQyLjUzNiBROTEuODU5LDQ4LjMwMCw4My40ODEsNDguMzAwIFE3NS4wNzAsNDguMzAwLDcwLjc5NCw0Mi41MzYgUTY2LjUyOCwzNi43ODMsNjYuNTI4LDI1LjQ2MiBRNjYuNTI4LDE0LjE4Niw3MC43OTQsOC40MjIgUTc1LjA3MCwyLjY2OSw4My40ODEsMi42NjkgWiBNODMuNDgxLC0wLjk5NSBRNzguMjg2LC0wLjk5NSw3My45MjIsMC43MTEgUTY5LjU2OSwyLjQyOCw2Ni4yNTUsNS43NDIgUTYyLjQyNyw5LjU3MCw2MC41NTYsMTQuNDI3IFE1OC42OTcsMTkuMjgzLDU4LjY5NywyNS40NjIgUTU4LjY5NywzMS42NTMsNjAuNTU2LDM2LjUyMCBRNjIuNDI3LDQxLjM4Nyw2Ni4yNTUsNDUuMjE2IFE2OS42MDIsNDguNTczLDczLjkxMSw1MC4yNTggUTc4LjIyMCw1MS45NTMsODMuNDgxLDUxLjk1MyBROTQuNTk0LDUxLjk1MywxMDEuNDMwLDQ0LjY2OSBRMTA4LjI2NiwzNy4zOTUsMTA4LjI2NiwyNS40NjIgUTEwOC4yNjYsMTkuMzQ4LDEwNi4zODQsMTQuNDM3IFExMDQuNTAzLDkuNTM3LDEwMC42NzUsNS43NDIgUTk3LjMyOCwyLjM5NSw5My4wMTksMC43MDAgUTg4LjcwOSwtMC45OTUsODMuNDgxLC0wLjk5NSBaIi8+PHBhdGggZD0iTTE1MC44NzMsMjUuMzMxIFExNTMuMjU4LDI0LjY3NSwxNTQuOTg2LDIzLjEyMiBRMTU2LjcxNCwyMS41NjksMTU4LjA4MSwxOC43NjkgTDE2NS40OTcsMy42MjAgTDE3MS43MjAsMy42MjAgTDE3MS43MjAsMC4wMDAgTDE1OS42ODksMC4wMDAgTDE1MS43MjcsMTYuMjMxIFExNDkuNDMwLDIwLjk1NiwxNDcuNTE2LDIyLjMzNCBRMTQ1LjYwMiwyMy43MjMsMTQyLjI1NSwyMy43MjMgTDEzNC42MzEsMjMuNzIzIEwxMzQuNjMxLDMuNjIwIEwxNDEuODUwLDMuNjIwIEwxNDEuODUwLDAuMDAwIEwxMjEuMjAwLDAuMDAwIEwxMjEuMjAwLDMuNjIwIEwxMjcuNjk3LDMuNjIwIEwxMjcuNjk3LDQ3LjM3MCBMMTIxLjIwMCw0Ny4zNzAgTDEyMS4yMDAsNTEuMDM0IEwxNDcuMDc4LDUxLjAzNCBRMTU0LjUyNyw1MS4wMzQsMTU4LjU3Myw0Ny40ODAgUTE2Mi42MzEsNDMuOTI1LDE2Mi42MzEsMzcuMzk1IFExNjIuNjMxLDMyLjEzNCwxNTkuNjY3LDI5LjEwNSBRMTU2LjcxNCwyNi4wNzUsMTUwLjg3MywyNS4zMzEgWiBNMTM0LjYzMSwyNy4zNzcgTDE0NC43MTYsMjcuMzc3IFExNDkuODc4LDI3LjM3NywxNTIuMzM5LDI5LjgxNiBRMTU0LjgwMCwzMi4yNjYsMTU0LjgwMCwzNy4zOTUgUTE1NC44MDAsNDIuNTI1LDE1Mi4zMzksNDQuOTQyIFExNDkuODc4LDQ3LjM3MCwxNDQuNzE2LDQ3LjM3MCBMMTM0LjYzMSw0Ny4zNzAgTDEzNC42MzEsMjcuMzc3IFoiLz48cGF0aCBkPSJNMTk0LjIyNSwwLjAwMCBMMTk0LjIyNSwzLjYyMCBMMjAwLjc1NSwzLjYyMCBMMjAwLjc1NSw0Ni45NjYgTDE4NS43NDgsNDYuOTY2IEwxODUuNzQ4LDM5LjAwMyBMMTgxLjU0OCwzOS4wMDMgTDE4MS41NDgsNTEuMDM0IEwyMjYuODYyLDUxLjAzNCBMMjI2Ljg2MiwzOS4wMDMgTDIyMi42NjIsMzkuMDAzIEwyMjIuNjYyLDQ2Ljk2NiBMMjA3LjY1Niw0Ni45NjYgTDIwNy42NTYsMy42MjAgTDIxNC4xODYsMy42MjAgTDIxNC4xODYsMC4wMDAgTDE5NC4yMjUsMC4wMDAgWiIvPjxwYXRoIGQ9Ik0yNDguOTg0LDQ3LjM3MCBMMjQyLjQ1NSw0Ny4zNzAgTDI0Mi40NTUsNTEuMDM0IEwyNjIuNDE2LDUxLjAzNCBMMjYyLjQxNiw0Ny4zNzAgTDI1NS44ODYsNDcuMzcwIEwyNTUuODg2LDIwLjk4OSBRMjU1Ljg4NiwxMS4yMTEsMjU5LjA4MCw3LjM1MCBRMjYyLjI4NCwzLjQ4OSwyNzAuMTA1LDMuNDg5IFEyNzcuOTM2LDMuNDg5LDI4MS4xMzAsNy4zNTAgUTI4NC4zMjMsMTEuMjExLDI4NC4zMjMsMjAuOTg5IEwyODQuMzIzLDQ3LjM3MCBMMjc3Ljc5NCw0Ny4zNzAgTDI3Ny43OTQsNTEuMDM0IEwyOTUuMDIwLDUxLjAzNCBMMjk1LjAyMCw0Ny4zNzAgTDI4OC41MzQsNDcuMzcwIEwyODguNTM0LDIwLjMwMCBRMjg4LjUzNCw4LjY1MiwyODQuMDUwLDMuODI4IFEyNzkuNTc3LC0wLjk5NSwyNjguODQ3LC0wLjk5NSBRMjU4LjEwNiwtMC45OTUsMjUzLjU0NSwzLjg2MSBRMjQ4Ljk4NCw4LjcxNywyNDguOTg0LDIwLjMwMCBMMjQ4Ljk4NCw0Ny4zNzAgWiIvPjxwYXRoIGQ9Ik0zMDguMTYyLDAuMDAwIEwzMDguMTYyLDMuNjIwIEwzMTUuMDMxLDMuNjIwIEwzMTUuMDMxLDQ3LjM3MCBMMzA4LjE2Miw0Ny4zNzAgTDMwOC4xNjIsNTEuMDM0IEwzMjEuMjQ0LDUxLjAzNCBMMzUxLjgzNiwxMC43NjIgTDM1MS44MzYsNDcuMzcwIEwzNDUuMDAwLDQ3LjM3MCBMMzQ1LjAwMCw1MS4wMzQgTDM2Mi45MTYsNTEuMDM0IEwzNjIuOTE2LDQ3LjM3MCBMMzU2LjA0Nyw0Ny4zNzAgTDM1Ni4wNDcsLTAuOTk1IEwzNTEuOTEyLC0wLjk5NSBMMzE5LjIzMSw0Mi4wMTEgTDMxOS4yMzEsMy42MjAgTDMyNi4xMDAsMy42MjAgTDMyNi4xMDAsMC4wMDAgTDMwOC4xNjIsMC4wMDAgWiIvPjxwYXRoIGQ9Ik0zODYuNTAzLDE4LjQ5NSBMNDA1LjIzOSwxOC40OTUgTDM5NS44NzcsNDIuNzU1IEwzODYuNTAzLDE4LjQ5NSBaIE0zNzIuMDc3LDAuMDAwIEwzNzIuMDc3LDMuNjIwIEwzNzYuNTYxLDMuNjIwIEwzOTQuNzM5LDUxLjAzNCBMNDAwLjQ4MSw1MS4wMzQgTDQxOC43MDMsMy42MjAgTDQyMy43MjMsMy42MjAgTDQyMy43MjMsMC4wMDAgTDQwNS4xNzMsMC4wMDAgTDQwNS4xNzMsMy42MjAgTDQxMC44MzksMy42MjAgTDQwNi41NzMsMTQuODMxIEwzODUuMTAzLDE0LjgzMSBMMzgwLjgzNywzLjYyMCBMMzg2LjQzOCwzLjYyMCBMMzg2LjQzOCwwLjAwMCBMMzcyLjA3NywwLjAwMCBaIi8+PC9nPjwvc3ZnPg==" alt="FORTUNA"><p class="footer-copy">AI-assisted research and commentary. Sources, relevant disclosures, and revisions accompany each publication. Research published here is public information; nothing on this site reflects any individual's holdings.</p></div><span class="signature">AD ASTRA.</span></div></footer>
+  <!-- quantum.js path must match SITE_ROOT in build.py -->
+  <script src="/fortuna-signal-live/assets/js/quantum.js" defer></script>
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "95ea0b5611c24902b56df9ce7b0f6291"}'></script>
 </body>
 </html>

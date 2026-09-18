@@ -1,0 +1,175 @@
+# FORTUNA SIGNAL
+
+> AI-assisted research publication. Plain-language token dossiers verified under FORA-01 (five questions, four verdicts). Free educational content — not investment advice.
+
+## Start here
+- [Methodology — FORA-01](https://whitewizard888.github.io/fortuna-signal-live/methodology/index.html): the five verification questions and verdict vocabulary.
+- [Asset library](https://whitewizard888.github.io/fortuna-signal-live/tokens/index.html): every token, researched.
+
+## Machine-readable dossier corpus
+
+One Markdown summary per token: definition, what the holder owns, verification verdict, utility, key risks, primary source.
+
+- [XRP (XRP)](https://whitewizard888.github.io/fortuna-signal-live/tokens/xrp.md): Class NATIVE — Built for payments — fast settlement on the XRP Ledger.
+- [Ondo (ONDO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ondo.md): Class A — Governance token for Ondo Finance — holders vote on protocol decisions.
+- [Stellar Lumens (XLM)](https://whitewizard888.github.io/fortuna-signal-live/tokens/xlm.md): Class NATIVE — Built for payments — cheap cross-border transfers on the Stellar network.
+- [Render (RENDER)](https://whitewizard888.github.io/fortuna-signal-live/tokens/render.md): Class B — Pays GPU providers for rendering work on the Render network.
+- [Chainlink (LINK)](https://whitewizard888.github.io/fortuna-signal-live/tokens/link.md): Class A — Pays Chainlink node operators for delivering real-world data to blockchains.
+- [Hedera (HBAR)](https://whitewizard888.github.io/fortuna-signal-live/tokens/hbar.md): Class NATIVE — Fuel for the Hedera network — pays for transactions and network services.
+- [Akash Network (AKT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/akt.md): Class NATIVE — Native fuel of the Akash network — pays for decentralized cloud computing.
+- [Algorand (ALGO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/algo.md): Class NATIVE — Fuel for the Algorand network — pays for fast, final transactions.
+- [Solana (SOL)](https://whitewizard888.github.io/fortuna-signal-live/tokens/sol.md): Class NATIVE — Fuel for the Solana network — pays for fast, low-cost transactions.
+- [Artificial Superintelligence Alliance (FET)](https://whitewizard888.github.io/fortuna-signal-live/tokens/fet.md): Class A — Pays for AI services on the Artificial Superintelligence Alliance network.
+- [SUI (SUI)](https://whitewizard888.github.io/fortuna-signal-live/tokens/sui.md): Class NATIVE — Fuel for the Sui network — pays for fast object-based transactions.
+- [Sei (SEI)](https://whitewizard888.github.io/fortuna-signal-live/tokens/sei.md): Class NATIVE — Fuel for the Sei network — built for high-speed trading applications.
+- [Internet Computer (ICP)](https://whitewizard888.github.io/fortuna-signal-live/tokens/icp.md): Class NATIVE — Fuel for the Internet Computer — pays for computation that runs on-chain.
+- [LCX (LCX)](https://whitewizard888.github.io/fortuna-signal-live/tokens/lcx.md): Class A — Exchange utility token — fee discounts and perks on LCX.
+- [Tether USD (USDT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/usdt.md): Class B — Dollar-pegged stablecoin for payments, trading, and settlement.
+- [USD Coin (USDC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/usdc.md): Class A — Dollar-pegged stablecoin issued by Circle — for payments and settlement.
+- [Dai (DAI)](https://whitewizard888.github.io/fortuna-signal-live/tokens/dai.md): Class C — Decentralized dollar-pegged stablecoin, backed by on-chain collateral.
+- [Wrapped Bitcoin (WBTC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/wbtc.md): Class B — Bitcoin made usable on Ethereum — a 1:1 claim on BTC held in custody.
+- [Lido Staked Ether (stETH)](https://whitewizard888.github.io/fortuna-signal-live/tokens/steth.md): Class C — Receipt for ETH kept staked — earns staking rewards while staying transferable.
+- [Hyperliquid (HYPE)](https://whitewizard888.github.io/fortuna-signal-live/tokens/hype.md): Class NATIVE — Native fuel of the Hyperliquid network — pays for transactions and computation.
+- [Tezos (XTZ)](https://whitewizard888.github.io/fortuna-signal-live/tokens/xtz.md): Class NATIVE — Fuel for the Tezos network — pays for transactions and on-chain governance.
+- [World Liberty Financial (WLFI)](https://whitewizard888.github.io/fortuna-signal-live/tokens/wlfi.md): Class B — Governance token for World Liberty Financial — holders vote on protocol decisions.
+- [Bitcoin (BTC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/btc.md): Class NATIVE — Peer-to-peer digital money — a bearer asset for saving and settlement, with no issuer.
+- [Redstone (RED)](https://whitewizard888.github.io/fortuna-signal-live/tokens/red.md): Class A — Pays for data services on the RedStone network.
+- [Definitive (EDGE)](https://whitewizard888.github.io/fortuna-signal-live/tokens/edge.md): Class C — Utility token for the Definitive DeFi execution platform.
+- [Optimism (OP)](https://whitewizard888.github.io/fortuna-signal-live/tokens/op.md): Class A — Governance token for Optimism — holders vote on protocol decisions.
+- [Sky (SKY)](https://whitewizard888.github.io/fortuna-signal-live/tokens/sky.md): Class A — Governance token for Sky — holders vote on protocol decisions.
+- [Freysa (FAI)](https://whitewizard888.github.io/fortuna-signal-live/tokens/fai.md): Class C — Token of the Freysa AI agent game.
+- [Worldcoin (WLD)](https://whitewizard888.github.io/fortuna-signal-live/tokens/wld.md): Class C — Currency and governance token for the World identity network.
+- [Maple Finance (SYRUP)](https://whitewizard888.github.io/fortuna-signal-live/tokens/syrup.md): Class A — Governance token for Maple Finance — holders vote on protocol decisions.
+- [OriginTrail (TRAC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/trac.md): Class A — Pays for data services on the OriginTrail network.
+- [PAX Gold (PAXG)](https://whitewizard888.github.io/fortuna-signal-live/tokens/paxg.md): Class B — Digital ownership of physical gold — each token a claim on vaulted bullion.
+- [Space and Time (SXT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/sxt.md): Class A — Pays for data services on the Space and Time network.
+- [ATH (ATH)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ath.md): Class B — Pays for GPU cloud computing on the Aethir network.
+- [SQD (SQD)](https://whitewizard888.github.io/fortuna-signal-live/tokens/sqd.md): Class A — Pays for data services on the Subsquid network.
+- [ZEC (ZEC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/zec.md): Class NATIVE — Privacy-focused digital money — shields transaction details on its network.
+- [ORCA (ORCA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/orca.md): Class B — Governance token for Orca — holders vote on protocol decisions.
+- [ADA (ADA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ada.md): Class NATIVE — Fuel for the Cardano network — pays for transactions and secures the chain.
+- [PUMP (PUMP)](https://whitewizard888.github.io/fortuna-signal-live/tokens/pump.md): Class A — Meme-coin launchpad token — used across the Pump.fun platform.
+- [CRO (CRO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/cro.md): Class NATIVE — Fuel for the Cronos network — pays for transactions across the Cronos ecosystem.
+- [FLOKI (FLOKI)](https://whitewizard888.github.io/fortuna-signal-live/tokens/floki.md): Class C — Meme coin — community currency for the Floki ecosystem.
+- [AZTEC (AZTEC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/aztec.md): Class A — Pays fees on the Aztec scaling network; used in governance.
+- [PROMPT (PROMPT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/prompt.md): Class C — Governance token for Wayfinder — holders vote on protocol decisions.
+- [HYPER (HYPER)](https://whitewizard888.github.io/fortuna-signal-live/tokens/hyper.md): Class B — Pays transaction fees on Hyperlane; used for network operations.
+- [NEAR (NEAR)](https://whitewizard888.github.io/fortuna-signal-live/tokens/near.md): Class NATIVE — Fuel for the NEAR network — pays for transactions and app computation.
+- [SPK (SPK)](https://whitewizard888.github.io/fortuna-signal-live/tokens/spk.md): Class B — Governance token for Spark — holders vote on protocol decisions.
+- [IOTX (IOTX)](https://whitewizard888.github.io/fortuna-signal-live/tokens/iotx.md): Class NATIVE — Native fuel of the IoTeX network — pays for transactions and computation.
+- [The Graph (GRT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/grt.md): Class C — Pays for data indexing on The Graph network.
+- [Zetachain (ZETA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/zeta.md): Class NATIVE — Native fuel of the ZetaChain network — pays for transactions and computation.
+- [Livepeer (LPT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/lpt.md): Class B — Staked by video-transcoding node operators on the Livepeer network.
+- [ZKsync (ZK)](https://whitewizard888.github.io/fortuna-signal-live/tokens/zk.md): Class B — Governance token for ZKsync — holders vote on protocol decisions.
+- [Degen (DEGEN)](https://whitewizard888.github.io/fortuna-signal-live/tokens/degen.md): Class C — Community gas token for the Degen ecosystem on Base.
+- [tokenbot (CLANKER)](https://whitewizard888.github.io/fortuna-signal-live/tokens/clanker.md): Class C — Meme coin — value comes from community attention, not utility or backing.
+- [Bio Protocol (BIO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/bio.md): Class C — Governance token for Bio Protocol — holders vote on protocol decisions.
+- [Alchemy Pay (ACH)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ach.md): Class A — Payments token for the Alchemy Pay fiat-crypto gateway.
+- [BankrCoin (BNKR)](https://whitewizard888.github.io/fortuna-signal-live/tokens/bnkr.md): Class C — Ecosystem token for the Bankr AI trading agent.
+- [SKALE (SKL)](https://whitewizard888.github.io/fortuna-signal-live/tokens/skl.md): Class A — Pays fees on the SKALE scaling network; used in governance.
+- [StaFi (FIS)](https://whitewizard888.github.io/fortuna-signal-live/tokens/fis.md): Class A — Governance and rewards token for the StaFi protocol.
+- [Assemble AI (ASM)](https://whitewizard888.github.io/fortuna-signal-live/tokens/asm.md): Class C — Pays transaction fees on Assemble AI; used for network operations.
+- [Mina (MINA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/mina.md): Class NATIVE — Native fuel of the Mina network — pays for transactions and computation.
+- [Aleph Cloud (ALEPH)](https://whitewizard888.github.io/fortuna-signal-live/tokens/aleph.md): Class C — Pays for decentralized cloud resources on Aleph.im.
+- [SAPIEN (SAPIEN)](https://whitewizard888.github.io/fortuna-signal-live/tokens/sapien.md): Class B — Pays for data services on the Sapien network.
+- [Wormhole (W)](https://whitewizard888.github.io/fortuna-signal-live/tokens/w.md): Class B — Governance token for Wormhole — holders vote on protocol decisions.
+- [FX (FX)](https://whitewizard888.github.io/fortuna-signal-live/tokens/fx.md): Class NATIVE — Native fuel of the Function X network — pays for transactions and computation.
+- [ALEO (ALEO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/aleo.md): Class NATIVE — Native fuel of the Aleo network — pays for transactions and computation.
+- [GNO (GNO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/gno.md): Class A — Governance token for Gnosis — holders vote on protocol decisions.
+- [ENA (ENA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ena.md): Class A — Governance token for Ethena — holders vote on protocol decisions.
+- [FLR (FLR)](https://whitewizard888.github.io/fortuna-signal-live/tokens/flr.md): Class NATIVE — Native fuel of the Flare network — pays for transactions and computation.
+- [MET (MET)](https://whitewizard888.github.io/fortuna-signal-live/tokens/met.md): Class B — Governance token for Meteora — holders vote on protocol decisions.
+- [NOM (NOM)](https://whitewizard888.github.io/fortuna-signal-live/tokens/nom.md): Class C — Governance token for Nomina — holders vote on protocol decisions.
+- [SHIB (SHIB)](https://whitewizard888.github.io/fortuna-signal-live/tokens/shib.md): Class C — Meme coin — the Shiba Inu ecosystem's community currency.
+- [ETH (ETH)](https://whitewizard888.github.io/fortuna-signal-live/tokens/eth.md): Class NATIVE — Fuel for the Ethereum network — pays for computation and secures the chain.
+- [SWFTC (SWFTC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/swftc.md): Class C — Exchange utility token — fee discounts and perks on SWFT Blockchain.
+- [DIMO (DIMO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/dimo.md): Class B — Rewards drivers for sharing vehicle data on the DIMO network.
+- [MAGIC (MAGIC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/magic.md): Class C — In-game currency and marketplace token for Treasure.
+- [Parcl (PRCL)](https://whitewizard888.github.io/fortuna-signal-live/tokens/prcl.md): Class B — Governance token for Parcl — holders vote on protocol decisions.
+- [Bluzelle (BLZ)](https://whitewizard888.github.io/fortuna-signal-live/tokens/blz.md): Class C — Pays for decentralized database services on Bluzelle.
+- [Shadow Token (SHDW)](https://whitewizard888.github.io/fortuna-signal-live/tokens/shdw.md): Class C — Pays for decentralized storage on the Shadow network.
+- [PolySwarm (NCT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/nct.md): Class B — Staked for threat detection on the PolySwarm security marketplace.
+- [Karrat (KARRAT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/karrat.md): Class C — Governance token for the Karrat gaming ecosystem.
+- [Aerodrome Finance (AERO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/aero.md): Class B — Governance and rewards token for the Aerodrome Finance protocol.
+- [Pirate Nation Token (PIRATE)](https://whitewizard888.github.io/fortuna-signal-live/tokens/pirate.md): Class C — In-game currency for the Pirate Nation game.
+- [Cartesi (CTSI)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ctsi.md): Class A — Pays fees on the Cartesi scaling network; used in governance.
+- [XYO (XYO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/xyo.md): Class A — Pays for data services on the XYO network.
+- [Horizen (ZEN)](https://whitewizard888.github.io/fortuna-signal-live/tokens/zen.md): Class NATIVE — Native fuel of the Horizen network — pays for transactions and computation.
+- [Hashflow (HFT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/hft.md): Class A — Governance and rewards token for the Hashflow protocol.
+- [Mantle (MNT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/mnt.md): Class C — Pays fees on the Mantle scaling network; used in governance.
+- [Pundi X (New) (PUNDIX)](https://whitewizard888.github.io/fortuna-signal-live/tokens/pundix.md): Class B — Payments token for the Pundi X point-of-sale network.
+- [Access (ACS)](https://whitewizard888.github.io/fortuna-signal-live/tokens/acs.md): Class C — Staked for access to premium content on the Access Protocol.
+- [Toshi (TOSHI)](https://whitewizard888.github.io/fortuna-signal-live/tokens/toshi.md): Class A — Meme coin — value comes from community attention, not utility or backing.
+- [Origin Token (OGN)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ogn.md): Class A — Governance token for Origin Protocol — holders vote on protocol decisions.
+- [Decentraland (MANA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/mana.md): Class C — In-game currency and marketplace token for Decentraland.
+- [Cosmos (ATOM)](https://whitewizard888.github.io/fortuna-signal-live/tokens/atom.md): Class NATIVE — Secures the Cosmos Hub through staking; the ecosystem's coordination token.
+- [Magic Eden (ME)](https://whitewizard888.github.io/fortuna-signal-live/tokens/me.md): Class C — Rewards token for the Magic Eden NFT marketplace.
+- [HOPR (HOPR)](https://whitewizard888.github.io/fortuna-signal-live/tokens/hopr.md): Class A — Pays for private data relay on the HOPR mixnet; staked by node operators.
+- [Core (CORECHAIN)](https://whitewizard888.github.io/fortuna-signal-live/tokens/corechain.md): Class NATIVE — Native fuel of the Core network — pays for transactions and computation.
+- [Pluton (PLU)](https://whitewizard888.github.io/fortuna-signal-live/tokens/plu.md): Class B — Loyalty and rewards token for the Plutus finance app.
+- [Cryptex Finance (CTX)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ctx.md): Class A — Governance token for Cryptex Finance — holders vote on protocol decisions.
+- [Succinct (PROVE)](https://whitewizard888.github.io/fortuna-signal-live/tokens/prove.md): Class C — Pays zero-knowledge proof generators on the Succinct network.
+- [Zora (ZORA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/zora.md): Class C — Ecosystem token for the Zora creator network.
+- [Hivemapper (HONEY)](https://whitewizard888.github.io/fortuna-signal-live/tokens/honey.md): Class A — Utility token for Hivemapper — pays for services on the network.
+- [Dogecoin (DOGE)](https://whitewizard888.github.io/fortuna-signal-live/tokens/doge.md): Class NATIVE — Meme-born digital money — used for tipping and everyday payments by its community.
+- [Defi App (HOME)](https://whitewizard888.github.io/fortuna-signal-live/tokens/home.md): Class A — Governance and rewards token for the Defi App protocol.
+- [OFFICIAL TRUMP (TRUMP)](https://whitewizard888.github.io/fortuna-signal-live/tokens/trump.md): Class A — Meme coin — trades on political narrative, not utility.
+- [Seamless (SEAM)](https://whitewizard888.github.io/fortuna-signal-live/tokens/seam.md): Class C — Governance token for Seamless Protocol — holders vote on protocol decisions.
+- [Index Cooperative (INDEX)](https://whitewizard888.github.io/fortuna-signal-live/tokens/index-token.md): Class C — Governance token for Index Cooperative — holders vote on protocol decisions.
+- [Stader (SD)](https://whitewizard888.github.io/fortuna-signal-live/tokens/sd.md): Class A — Governance token for Stader — holders vote on protocol decisions.
+- [Spell Token (SPELL)](https://whitewizard888.github.io/fortuna-signal-live/tokens/spell.md): Class B — Governance and rewards token for the Abracadabra.money protocol.
+- [Band Protocol (BAND)](https://whitewizard888.github.io/fortuna-signal-live/tokens/band.md): Class C — Pays for data services on the Band Protocol network.
+- [Jito (JTO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/jto.md): Class A — Governance token for Jito Network — holders vote on protocol decisions.
+- [Celestia (TIA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/tia.md): Class NATIVE — Fuel for the Celestia network — pays for data availability.
+- [Newton (NEWT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/newt.md): Class C — Pays transaction fees on Newton Protocol; used for network operations.
+- [ResearchCoin (RSC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/rsc.md): Class C — Rewards researchers for sharing work on ResearchHub.
+- [Jito Staked SOL (JitoSOL)](https://whitewizard888.github.io/fortuna-signal-live/tokens/jitosol.md): Class B — Receipt for SOL kept staked — earns staking rewards while staying transferable.
+- [Chrono.tech (TIME)](https://whitewizard888.github.io/fortuna-signal-live/tokens/time.md): Class C — Utility token for Chrono.tech — pays for services on the network.
+- [Aergo (AERGO)](https://whitewizard888.github.io/fortuna-signal-live/tokens/aergo.md): Class NATIVE — Native fuel of the Aergo network — pays for transactions and computation.
+- [Cookie DAO (COOKIE)](https://whitewizard888.github.io/fortuna-signal-live/tokens/cookie.md): Class B — Pays for data services on the Cookie DAO network.
+- [SWELL (SWELL)](https://whitewizard888.github.io/fortuna-signal-live/tokens/swell.md): Class B — Governance token for Swell Network — holders vote on protocol decisions.
+- [Bonk (BONK)](https://whitewizard888.github.io/fortuna-signal-live/tokens/bonk.md): Class C — Meme coin — community currency across the Solana ecosystem.
+- [Voxies (VOXEL)](https://whitewizard888.github.io/fortuna-signal-live/tokens/voxel.md): Class C — In-game currency and marketplace token for Voxies.
+- [Marinade (MNDE)](https://whitewizard888.github.io/fortuna-signal-live/tokens/mnde.md): Class A — Governance token for Marinade — holders vote on protocol decisions.
+- [Polygon Ecosystem Token (POL)](https://whitewizard888.github.io/fortuna-signal-live/tokens/pol.md): Class A — Fuel for the Polygon network — pays for transactions.
+- [Mog Coin (MOG)](https://whitewizard888.github.io/fortuna-signal-live/tokens/mog.md): Class A — Meme coin — trades on internet culture, not utility.
+- [Litecoin (LTC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ltc.md): Class NATIVE — Peer-to-peer digital money — faster, lighter-weight sibling of bitcoin.
+- [Treehouse (TREE)](https://whitewizard888.github.io/fortuna-signal-live/tokens/tree.md): Class B — Governance and rewards token for the Treehouse protocol.
+- [Ocean Protocol (OCEAN)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ocean.md): Class A — Pays for data services on the Ocean Protocol network.
+- [KernelDAO (KERNEL)](https://whitewizard888.github.io/fortuna-signal-live/tokens/kernel.md): Class C — Governance token for KernelDAO — holders vote on protocol decisions.
+- [Litentry (LIT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/lit.md): Class A — Pays for identity services on the Litentry network.
+- [Gods Unchained (GODS)](https://whitewizard888.github.io/fortuna-signal-live/tokens/gods.md): Class C — In-game currency and marketplace token for Gods Unchained.
+- [Caldera (ERA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/era.md): Class A — Governance token for Caldera — holders vote on protocol decisions.
+- [Mines of Dalarnia (DAR)](https://whitewizard888.github.io/fortuna-signal-live/tokens/dar.md): Class C — In-game currency and marketplace token for Mines of Dalarnia.
+- [Tether Gold (XAUT)](https://whitewizard888.github.io/fortuna-signal-live/tokens/xaut.md): Class B — Digital ownership of physical gold — each token a claim on vaulted bullion.
+- [XAUm (XAUm)](https://whitewizard888.github.io/fortuna-signal-live/tokens/xaum.md): Class B — Direct ownership title to allocated gold held in custody.
+- [XAGm (XAGm)](https://whitewizard888.github.io/fortuna-signal-live/tokens/xagm.md): Class B — Direct ownership title to allocated silver held in custody.
+- [Kinesis gold (KAU) (KAU)](https://whitewizard888.github.io/fortuna-signal-live/tokens/kau.md): Class B — Direct ownership title to allocated gold held in custody.
+- [Kinesis silver (KAG) (KAG)](https://whitewizard888.github.io/fortuna-signal-live/tokens/kag.md): Class B — Direct ownership title to allocated silver held in custody.
+- [tGOLD (Aurus) (tGOLD)](https://whitewizard888.github.io/fortuna-signal-live/tokens/tgold.md): Class B — Direct ownership title to allocated gold held in custody.
+- [Atomyze (ATOMYZE)](https://whitewizard888.github.io/fortuna-signal-live/tokens/atomyze.md): Class B — Tracks the commodity's price in cash — no physical delivery.
+- [xU3O8 (xU3O8)](https://whitewizard888.github.io/fortuna-signal-live/tokens/xu3o8.md): Class B — Fractional beneficial interest in the underlying asset pool.
+- [WTIC (WTIC)](https://whitewizard888.github.io/fortuna-signal-live/tokens/wtic.md): Class B — Redeemable claim on the underlying commodity, per the issuer's terms.
+- [W150 (W150)](https://whitewizard888.github.io/fortuna-signal-live/tokens/w150.md): Class B — Voucher right — redeemable for access or product per the issuer's terms.
+- [H2ON (H2ON)](https://whitewizard888.github.io/fortuna-signal-live/tokens/h2on.md): Class C — Utility token with documented uses; it makes no commodity backing claim.
+- [PRELAUNCH (PRELAUNCH)](https://whitewizard888.github.io/fortuna-signal-live/tokens/prelaunch.md): Class C — Purpose unclear from available documentation.
+- [MEMES (MEMES)](https://whitewizard888.github.io/fortuna-signal-live/tokens/memes.md): Class C — Thematic token — narrative exposure, with no documented utility.
+- [Petro (PTR) (PTR)](https://whitewizard888.github.io/fortuna-signal-live/tokens/ptr.md): Class D — Tracks the commodity's price in cash — no physical delivery.
+- [TeshuaCoin (TESHUA) (TESHUA)](https://whitewizard888.github.io/fortuna-signal-live/tokens/teshua.md): Class D — Claimed backing by water products — disputed by the SEC; see the dossier.
+
+## Briefs
+
+- [A new kitchen behind a familiar dining room](https://whitewizard888.github.io/fortuna-signal-live/briefs/familiar-payment-new-settlement.html) (2026-09-15)
+- [The five questions behind every dossier](https://whitewizard888.github.io/fortuna-signal-live/briefs/five-questions.html) (2026-09-15)
+- [How to read a FORTUNA SIGNAL dossier](https://whitewizard888.github.io/fortuna-signal-live/briefs/how-to-read-a-dossier.html) (2026-09-16)
+- [We went looking for 126 whitepapers. 64 tokens didn't have one.](https://whitewizard888.github.io/fortuna-signal-live/briefs/missing-whitepapers.html) (2026-09-15)
+- [More ovens do not guarantee more dinners](https://whitewizard888.github.io/fortuna-signal-live/briefs/more-ovens-more-dinners.html) (2026-09-15)
+- [When the studio shuts down — what happened to Pirate Nation](https://whitewizard888.github.io/fortuna-signal-live/briefs/pirate-nation-shutdown.html) (2026-09-15)
+- [Redemption is the test](https://whitewizard888.github.io/fortuna-signal-live/briefs/redemption-is-the-test.html) (2026-09-16)
+- [The ticket and the treasure](https://whitewizard888.github.io/fortuna-signal-live/briefs/the-ticket-and-the-treasure.html) (2026-09-15)
+- [What "unverified" means here](https://whitewizard888.github.io/fortuna-signal-live/briefs/what-unverified-means.html) (2026-09-16)
+
+## Feeds
+
+- [RSS — briefs](https://whitewizard888.github.io/fortuna-signal-live/rss.xml)
+- [RSS — dossiers](https://whitewizard888.github.io/fortuna-signal-live/rss-dossiers.xml)

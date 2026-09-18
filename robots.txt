@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://whitewizard888.github.io/fortuna-signal-live/sitemap.xml

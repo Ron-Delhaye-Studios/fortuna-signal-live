@@ -13,7 +13,10 @@
   if (reduceMotion) return; /* CSS static fallbacks take over */
 
   /* ---------- reveal on scroll ---------- */
-  var revealSel = ".card, .narrative, .section, .record-row, .fact, " +
+  /* HARD RULE: reveal units are small elements (cards, rows, facts). Never
+     .section — a container taller than ~8x the viewport can never satisfy the
+     intersection threshold, so its whole subtree stays invisible forever. */
+  var revealSel = ".card, .narrative, .record-row, .fact, " +
     ".tldr, .vocab article, .anatomy article, .dossier, .concept";
   var targets = document.querySelectorAll(revealSel);
   if (targets.length && "IntersectionObserver" in window) {
@@ -32,6 +35,13 @@
       });
     }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
     Array.prototype.forEach.call(targets, function (el) { io.observe(el); });
+    /* Safety net: no element may stay invisible. If the observer never fires
+       for a target (tall ancestor, quirk, race), force it visible after 3s. */
+    window.setTimeout(function () {
+      Array.prototype.forEach.call(
+        document.querySelectorAll(".rv:not(.in)"),
+        function (el) { el.classList.add("in"); });
+    }, 3000);
   }
 
   /* ---------- quantum starfield ---------- */

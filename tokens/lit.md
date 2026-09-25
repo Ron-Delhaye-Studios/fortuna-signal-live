@@ -1,6 +1,6 @@
 # Litentry (LIT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/lit.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/lit.html
 
 ## Definition
 Litentry is a decentralized identity aggregation protocol that links user identities across networks, letting fragmented on-chain and off-chain identity data flow across systems while preserving privacy and data sovereignty. (Note: the LIT ticker is shared with Lighter, a newer perps DEX; this entry covers Litentry, the identity protocol.)

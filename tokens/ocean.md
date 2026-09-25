@@ -1,6 +1,6 @@
 # Ocean Protocol (OCEAN) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ocean.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ocean.html
 
 ## Definition
 Ocean Protocol is a decentralized protocol and network for AI data and services, aiming to spread the benefits of AI by unlocking data for sale while preserving privacy. It powers data marketplaces, data commons tooling, and AI/data-science consumption.

@@ -1,6 +1,6 @@
 # Algorand (ALGO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/algo.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/algo.html
 
 ## Definition
 Algorand is a pure proof-of-stake Layer-1 blockchain designed for secure, scalable, and decentralized payments and smart contracts, founded by cryptographer Silvio Micali.

@@ -1,6 +1,6 @@
 # Aleph Cloud (ALEPH) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/aleph.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/aleph.html
 
 ## Definition
 Aleph (Aleph Cloud) is a cross-blockchain layer-2 network for decentralized applications and their infrastructure: storage, computing, and messaging. It aims to decentralize web and cloud services.

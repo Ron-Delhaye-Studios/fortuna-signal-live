@@ -1,6 +1,6 @@
 # Space and Time (SXT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/sxt.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/sxt.html
 
 ## Definition
 Space and Time is a decentralized data warehouse offering ZK-proven SQL queries: developers query indexed blockchain data with familiar SQL and receive a zero-knowledge proof (Proof of SQL) that the query and underlying data are accurate and untampered.

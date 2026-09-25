@@ -1,6 +1,6 @@
 # Alchemy Pay (ACH) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ach.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ach.html
 
 ## Definition
 Alchemy Pay is a crypto-fiat payment network bridging fiat and crypto payment systems for businesses, institutions, and individuals. It provides SDKs, plugins, and APIs for online and offline payment processing.

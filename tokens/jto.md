@@ -1,6 +1,6 @@
 # Jito (JTO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/jto.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/jto.html
 
 ## Definition
 JTO is the governance token of the Jito Network, Solana's leading MEV-aware liquid staking protocol; Jito Labs also builds core Solana MEV infrastructure (a validator client run by a large share of Solana stake, a block engine, and a relayer).

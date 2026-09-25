@@ -1,6 +1,6 @@
 # Stader (SD) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/sd.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/sd.html
 
 ## Definition
 Stader is a multi-chain liquid-staking infrastructure platform building modular staking 'lego blocks' — stake pools, liquid staking tokens (ETHx, MaticX, BNBx), and validator tooling — across PoS networks including Ethereum, BNB Chain, and Polygon.

@@ -1,6 +1,6 @@
 # Celestia (TIA) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/tia.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/tia.html
 
 ## Definition
 Celestia is the first modular data-availability blockchain: it orders and publishes transaction data (via 'blobs') for rollups and other chains but does not execute transactions itself, letting anyone launch a sovereign blockchain on top of its DA layer.

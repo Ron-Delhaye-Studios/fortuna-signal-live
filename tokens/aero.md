@@ -1,6 +1,6 @@
 # Aerodrome Finance (AERO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/aero.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/aero.html
 
 ## Definition
 Aerodrome Finance is the dominant automated market maker (AMM) on the Base blockchain, using a vote-escrowed token model to direct liquidity incentives to pools.

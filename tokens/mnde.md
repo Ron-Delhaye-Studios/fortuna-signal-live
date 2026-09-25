@@ -1,6 +1,6 @@
 # Marinade (MNDE) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/mnde.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/mnde.html
 
 ## Definition
 MNDE is the governance token of Marinade, a non-custodial Solana stake-automation and liquid-staking protocol (mSOL). Marinade delegates staked SOL across a curated set of validators to maximize rewards while supporting Solana decentralization. (No standalone whitepaper exists; the official docs are canonical.)

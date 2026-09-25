@@ -1,6 +1,6 @@
 # Ondo (ONDO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ondo.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ondo.html
 
 ## Definition
 Ondo Finance tokenizes real-world assets such as US Treasuries, money-market instruments, and stocks to bring institutional-grade yield and securities onchain.

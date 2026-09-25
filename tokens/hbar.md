@@ -1,6 +1,6 @@
 # Hedera (HBAR) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/hbar.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/hbar.html
 
 ## Definition
 Hedera is a public distributed ledger using hashgraph consensus to deliver fast, low-fee transactions, smart contracts, and tokenization for enterprise and consumer use.

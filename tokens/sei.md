@@ -1,6 +1,6 @@
 # Sei (SEI) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/sei.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/sei.html
 
 ## Definition
 Sei is a Layer-1 blockchain purpose-built for trading, now evolving into Sei Giga, a high-throughput EVM chain targeting exchange-grade performance.

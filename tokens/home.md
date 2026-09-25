@@ -1,6 +1,6 @@
 # Defi App (HOME) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/home.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/home.html
 
 ## Definition
 Defi App is a unified, non-custodial DeFi 'everything app' that aims to deliver centralized-exchange simplicity while staying decentralized, combining account abstraction across EVM and non-EVM chains with intelligent cross-chain routing for swaps, lending, and third-party dApps. Its official MiCAR whitepaper (June 2025) was published by Big Bang Studio, a Cayman Islands foundation company stewarding the protocol.

@@ -1,6 +1,6 @@
 # Bitcoin (BTC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/btc.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/btc.html
 
 ## Definition
 Bitcoin is the first decentralized peer-to-peer electronic cash system (Satoshi Nakamoto, October 2008), enabling online payments directly between parties without a trusted financial institution.

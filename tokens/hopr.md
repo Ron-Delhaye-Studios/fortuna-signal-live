@@ -1,6 +1,6 @@
 # HOPR (HOPR) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/hopr.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/hopr.html
 
 ## Definition
 HOPR is an open, incentivized mixnet providing metadata-private, point-to-point data exchange for Web3 — 'similar to Tor but actually private, decentralized and economically sustainable.' Node runners earn HOPR tokens on Gnosis Chain and Ethereum mainnet; it has no blockchain of its own.

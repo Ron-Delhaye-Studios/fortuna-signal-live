@@ -1,6 +1,6 @@
 # Aergo (AERGO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/aergo.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/aergo.html
 
 ## Definition
 Aergo is an open-source hybrid blockchain platform built by South Korea's Blocko for enterprise dApps: it combines a public DPoS network with private sidechains/repositories, plus Aergo Hub (hosting and deployment tools) and a marketplace for computing assets.

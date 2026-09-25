@@ -1,6 +1,6 @@
 # ADA (ADA) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ada.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ada.html
 
 ## Definition
 Cardano is a decentralized, third-generation proof-of-stake blockchain and the native home of the ada cryptocurrency, per the official Cardano documentation.

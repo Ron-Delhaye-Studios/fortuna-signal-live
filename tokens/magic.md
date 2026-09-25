@@ -1,6 +1,6 @@
 # MAGIC (MAGIC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/magic.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/magic.html
 
 ## Definition
 MAGIC is the native token of the Treasure ecosystem, a gaming and on-chain agent economy launched in 2021 via a free and fair mint.

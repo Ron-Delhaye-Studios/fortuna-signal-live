@@ -1,6 +1,6 @@
 # LCX (LCX) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/lcx.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/lcx.html
 
 ## Definition
 LCX (Liechtenstein Cryptoassets Exchange) is a regulated crypto exchange and tokenization platform; LCX is its exchange utility token.

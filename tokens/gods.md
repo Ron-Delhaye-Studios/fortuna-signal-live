@@ -1,6 +1,6 @@
 # Gods Unchained (GODS) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/gods.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/gods.html
 
 ## Definition
 GODS is the ERC-20 token of Gods Unchained, a free-to-play tactical card game by Immutable where every card is an NFT that players truly own and can trade outside the game.

@@ -1,6 +1,6 @@
 # Freysa (FAI) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/fai.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/fai.html
 
 ## Definition
 Freysa is a 'sovereign AI agent' experiment that began as a gamified prompt-injection challenge (players paid escalating fees to try to convince the AI to release a prize pool) and is evolving into infrastructure for autonomous, verifiable AI agents.

@@ -1,6 +1,6 @@
 # BankrCoin (BNKR) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/bnkr.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/bnkr.html
 
 ## Definition
 Bankr is a natural-language crypto agent and financial interface supporting wallets, trading, automation, token deployment, and agent-building functions.

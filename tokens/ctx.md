@@ -1,6 +1,6 @@
 # Cryptex Finance (CTX) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ctx.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ctx.html
 
 ## Definition
 Cryptex Finance is a US-based DeFi protocol on Ethereum building trust-minimized, on-chain financial indexes, best known for TCAP — a token that tracks the total market capitalization of the entire crypto market in real time. Its official white paper is published at cryptex.finance.

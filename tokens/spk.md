@@ -1,6 +1,6 @@
 # SPK (SPK) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/spk.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/spk.html
 
 ## Definition
 Spark is a DeFi liquidity and yield infrastructure layer with three product lines: Savings, SparkLend money market, and the Spark Liquidity Layer that deploys stablecoin capital across DeFi, CeFi, and RWAs. It is a Star of the Sky ecosystem.

@@ -1,6 +1,6 @@
 # Solana (SOL) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/sol.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/sol.html
 
 ## Definition
 Solana is a high-performance Layer-1 blockchain built for sub-second finality and massive throughput across DeFi, NFTs, and payments.

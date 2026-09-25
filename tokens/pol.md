@@ -1,6 +1,6 @@
 # Polygon Ecosystem Token (POL) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/pol.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/pol.html
 
 ## Definition
 POL is the native token of the Polygon 2.0 architecture, the designated successor to MATIC (migrated 1:1). It is designed as the coordination and growth instrument for the Polygon ecosystem and its vision of a 'Value Layer of the Internet.'

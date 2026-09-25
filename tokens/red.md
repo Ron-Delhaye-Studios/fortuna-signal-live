@@ -1,6 +1,6 @@
 # Redstone (RED) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/red.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/red.html
 
 ## Definition
 RedStone is a modular blockchain oracle network that delivers price and data feeds to DeFi protocols across 70+ chains, using a gas-efficient design that keeps data offchain and serves it on demand.

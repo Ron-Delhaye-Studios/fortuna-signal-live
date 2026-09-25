@@ -1,6 +1,6 @@
 # Livepeer (LPT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/lpt.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/lpt.html
 
 ## Definition
 Livepeer is a decentralized, token-incentivized live video streaming and transcoding infrastructure network.

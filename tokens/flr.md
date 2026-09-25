@@ -1,6 +1,6 @@
 # FLR (FLR) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/flr.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/flr.html
 
 ## Definition
 Flare is an EVM layer-1 blockchain built to give smart contracts reliable access to external data through built-in oracle systems.

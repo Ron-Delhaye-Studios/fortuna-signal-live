@@ -1,6 +1,6 @@
 # Assemble AI (ASM) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/asm.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/asm.html
 
 ## Definition
 Assemble AI (News3/NS3) is an AI news agent aggregating crypto and macroeconomic news, providing summaries, sentiment analysis, market data, and AI-assisted insights.

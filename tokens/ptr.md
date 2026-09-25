@@ -1,6 +1,6 @@
 # Petro (PTR) (PTR) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ptr.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ptr.html
 
 ## Definition
 Marketed as backed by oil, gas, gold and diamonds; no reserve pledge was ever independently verified, and Venezuela's opposition congress said pledging oil reserves was illegal.

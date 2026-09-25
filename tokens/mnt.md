@@ -1,6 +1,6 @@
 # Mantle (MNT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/mnt.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/mnt.html
 
 ## Definition
 Mantle is an Ethereum Layer-2 network and DAO-governed ecosystem, with MNT as its native gas, staking, and governance token.

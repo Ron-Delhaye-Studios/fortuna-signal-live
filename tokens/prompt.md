@@ -1,6 +1,6 @@
 # PROMPT (PROMPT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/prompt.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/prompt.html
 
 ## Definition
 Wayfinder is an AI-agent blockchain navigation protocol where Shells (AI agents) execute tasks along community-created wayfinding paths.

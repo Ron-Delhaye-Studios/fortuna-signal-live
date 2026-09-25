@@ -1,6 +1,6 @@
 # Decentraland (MANA) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/mana.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/mana.html
 
 ## Definition
 Decentraland is a blockchain-based virtual world (metaverse) powered by Ethereum, where users create, experience, and monetize content and applications. Land is permanently owned by the community as scarce NFTs, giving owners full control over what content is published on their parcels.

@@ -1,6 +1,6 @@
 # XRP (XRP) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/xrp.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/xrp.html
 
 ## Definition
 XRP is the native asset of the XRP Ledger, a distributed payments network designed for fast, low-cost cross-border value transfer, developed alongside Ripple Labs.

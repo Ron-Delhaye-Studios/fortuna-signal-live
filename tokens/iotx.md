@@ -1,6 +1,6 @@
 # IOTX (IOTX) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/iotx.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/iotx.html
 
 ## Definition
 IoTeX is a DePIN, RWA, and verifiable-AI Layer 1 blockchain connecting real-world devices and machine data to the chain. Read the official IoTeX Foundation MiCA whitepaper v1.0 dated 2025-10-05.

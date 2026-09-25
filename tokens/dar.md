@@ -1,6 +1,6 @@
 # Mines of Dalarnia (DAR) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/dar.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/dar.html
 
 ## Definition
 DAR is the native token of Mines of Dalarnia, a browser-based action-adventure mining game by Chromia Studios and Workinman Interactive with a blockchain real-estate market, now evolving into the broader DAR Open Network.

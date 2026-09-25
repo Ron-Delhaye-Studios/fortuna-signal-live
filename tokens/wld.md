@@ -1,6 +1,6 @@
 # Worldcoin (WLD) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/wld.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/wld.html
 
 ## Definition
 Worldcoin (now branded 'World') is a digital identity and financial network aiming to establish global proof-of-personhood, so every human can prove uniqueness online and receive a share of the network's token.

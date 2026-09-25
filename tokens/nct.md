@@ -1,6 +1,6 @@
 # PolySwarm (NCT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/nct.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/nct.html
 
 ## Definition
 PolySwarm is a decentralized marketplace where security experts compete to detect malware and cyber threats, rewarding rapid and accurate threat intelligence.

@@ -1,6 +1,6 @@
 # XYO (XYO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/xyo.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/xyo.html
 
 ## Definition
 XYO is a decentralized physical infrastructure network (DePIN) providing trustless, cryptographically verified location data to smart contracts.

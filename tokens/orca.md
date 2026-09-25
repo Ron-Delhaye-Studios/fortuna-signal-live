@@ -1,6 +1,6 @@
 # ORCA (ORCA) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/orca.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/orca.html
 
 ## Definition
 Solana-based decentralized exchange and concentrated-liquidity market maker. Official docs describe providing liquidity and earning trading fees on what it calls Solana's most trusted DEX, with concentrated or full-range positions.

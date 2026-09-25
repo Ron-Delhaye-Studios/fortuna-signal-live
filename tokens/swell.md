@@ -1,6 +1,6 @@
 # SWELL (SWELL) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/swell.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/swell.html
 
 ## Definition
 Swell is a non-custodial Ethereum liquid staking and restaking protocol. Users stake or restake ETH and receive yield-bearing liquid tokens (swETH as an LST, rswETH as an LRT) that can be used across DeFi. (Swell publishes no standalone whitepaper PDF; its official docs are the canonical source.)

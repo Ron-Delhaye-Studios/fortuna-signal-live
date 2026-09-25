@@ -1,6 +1,6 @@
 # Maple Finance (SYRUP) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/syrup.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/syrup.html
 
 ## Definition
 Maple Finance is an onchain asset manager for institutional credit, and Syrup is its permissionless DeFi extension letting anyone deposit stablecoins (syrupUSDC/syrupUSDT) to earn yield sourced from overcollateralized loans to large crypto institutions.

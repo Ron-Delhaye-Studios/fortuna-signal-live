@@ -1,6 +1,6 @@
 # Render (RENDER) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/render.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/render.html
 
 ## Definition
 The Render Network is a decentralized marketplace connecting creators who need GPU rendering and AI compute with providers of idle GPU capacity.

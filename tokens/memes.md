@@ -1,6 +1,6 @@
 # MEMES (MEMES) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/memes.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/memes.html
 
 ## Definition
 Multiple unrelated Solana projects; no authenticated issuer identity established for any ticker; one token listed as GOLD is described as backed by real gold assets with no supporting documents.

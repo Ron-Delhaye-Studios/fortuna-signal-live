@@ -1,6 +1,6 @@
 # Parcl (PRCL) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/prcl.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/prcl.html
 
 ## Definition
 Parcl is a Solana-based decentralized exchange for trading perpetual futures on real-estate markets, letting traders speculate on real-estate price movements and LPs earn fees and trader PnL.

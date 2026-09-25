@@ -1,6 +1,6 @@
 # OriginTrail (TRAC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/trac.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/trac.html
 
 ## Definition
 OriginTrail is building a Decentralized Knowledge Graph (DKG): a verifiable, blockchain-anchored network for trusted data exchange, originally for supply chains and now positioned as trust infrastructure for AI.

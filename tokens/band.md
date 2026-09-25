@@ -1,6 +1,6 @@
 # Band Protocol (BAND) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/band.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/band.html
 
 ## Definition
 Band Protocol is a chain-agnostic decentralized data oracle: BandChain, a Cosmos-SDK blockchain, aggregates real-world data (prices and other signals) and delivers it to smart contracts on any blockchain via data tunnels.

@@ -1,6 +1,6 @@
 # ZKsync (ZK) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/zk.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/zk.html
 
 ## Definition
 ZKsync is an Ethereum ZK-rollup ecosystem (the Elastic Network) of interoperable ZK Chains built on the open-source ZK Stack. It uses zero-knowledge validity proofs settled to Ethereum for scaling with L1-grade security.

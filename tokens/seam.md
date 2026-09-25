@@ -1,6 +1,6 @@
 # Seamless (SEAM) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/seam.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/seam.html
 
 ## Definition
 Seamless Protocol is a decentralized lending and borrowing protocol on Coinbase's Base L2, known for Integrated Liquidity Markets (ILMs) that enable undercollateralized, purpose-specific loans (e.g., for LST or LP strategies) — a departure from standard overcollateralized lending.

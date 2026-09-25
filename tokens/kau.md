@@ -1,6 +1,6 @@
 # Kinesis gold (KAU) (KAU) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/kau.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/kau.html
 
 ## Definition
 Terms describe one KAU as 1 gram of 9999 fine allocated gold; a segregated option exists through Exchange-Physical-for-Digital.

@@ -1,6 +1,6 @@
 # SHIB (SHIB) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/shib.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/shib.html
 
 ## Definition
 Shiba Inu is an Ethereum-based token ecosystem with SHIB as its foundational token, originally launched as a community-driven meme token.

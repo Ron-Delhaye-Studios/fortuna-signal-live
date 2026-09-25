@@ -1,6 +1,6 @@
 # Bonk (BONK) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/bonk.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/bonk.html
 
 ## Definition
 Bonk is a Solana-based memecoin launched in December 2022 that airdropped 50% of its 100 trillion supply to the Solana community (NFT holders, traders, developers) in the wake of the FTX collapse. It aims to be the community coin of the Solana ecosystem.

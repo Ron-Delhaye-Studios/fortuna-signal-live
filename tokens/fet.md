@@ -1,6 +1,6 @@
 # Artificial Superintelligence Alliance (FET) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/fet.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/fet.html
 
 ## Definition
 The Artificial Superintelligence Alliance, formed in 2024 from Fetch.ai, SingularityNET, and Ocean Protocol, aims to build decentralized artificial superintelligence with open, community-governed AI infrastructure.

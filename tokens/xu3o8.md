@@ -1,6 +1,6 @@
 # xU3O8 (xU3O8) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/xu3o8.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/xu3o8.html
 
 ## Definition
 Fractional ownership of physical U3O8 yellowcake; tokens minted after registration and purchased with USDC under AML/sanctions screening.

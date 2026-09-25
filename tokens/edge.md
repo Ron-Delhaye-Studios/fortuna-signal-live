@@ -1,6 +1,6 @@
 # Definitive (EDGE) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/edge.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/edge.html
 
 ## Definition
 Definitive is an advanced non-custodial onchain trade-execution platform (live on Solana, Base and major EVM chains) that delivers a CeFi-like trading experience on DeFi rails.

@@ -1,6 +1,6 @@
 # Stellar Lumens (XLM) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/xlm.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/xlm.html
 
 ## Definition
 Stellar is an open-source payments network built for fast, ultra-cheap cross-currency and cross-border transfers, stewarded by the nonprofit Stellar Development Foundation.

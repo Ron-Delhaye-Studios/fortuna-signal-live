@@ -1,6 +1,6 @@
 # Litecoin (LTC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ltc.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ltc.html
 
 ## Definition
 Litecoin is a peer-to-peer cryptocurrency created by Charlie Lee in October 2011 as a 'lite' version of Bitcoin, positioned as silver to Bitcoin's gold for faster, low-cost everyday payments.

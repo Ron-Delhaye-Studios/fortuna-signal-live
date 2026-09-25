@@ -1,6 +1,6 @@
 # Horizen (ZEN) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/zen.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/zen.html
 
 ## Definition
 Horizen is a zero-knowledge-enabled blockchain platform whose Zendoo protocol allows customizable, zk-SNARK-verified sidechains to interoperate with the mainchain.

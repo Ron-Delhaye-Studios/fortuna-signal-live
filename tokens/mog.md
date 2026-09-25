@@ -1,6 +1,6 @@
 # Mog Coin (MOG) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/mog.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/mog.html
 
 ## Definition
 MOG is a decentralized, community-driven memecoin on Ethereum, launched in July 2023, built around internet meme culture with no formal issuer, foundation, or development team.

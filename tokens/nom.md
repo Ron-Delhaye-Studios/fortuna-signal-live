@@ -1,6 +1,6 @@
 # NOM (NOM) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/nom.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/nom.html
 
 ## Definition
 Nomina is the rebrand of Omni, a cross-rollup interoperability network for fast, secure communication between rollups.

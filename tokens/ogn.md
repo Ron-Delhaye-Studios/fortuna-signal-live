@@ -1,6 +1,6 @@
 # Origin Token (OGN) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ogn.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ogn.html
 
 ## Definition
 Origin Protocol is a decentralized platform for building peer-to-peer marketplaces, aiming to let buyers and sellers transact without intermediaries (positioned as open-source infrastructure for the sharing economy). Its official whitepaper defines open-source protocols and standards for marketplace functions like user identity, reputation, listing creation, and transaction stages.

@@ -1,6 +1,6 @@
 # Atomyze (ATOMYZE) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/atomyze.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/atomyze.html
 
 ## Definition
 One token equals one gram of Pt, Pd, Ru or Ir (a five-metal basket was later issued); cash-settled in rubles, not title to deliverable bullion.

@@ -1,6 +1,6 @@
 # WTIC (WTIC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/wtic.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/wtic.html
 
 ## Definition
 No exact token contract identified; the design (one WTIC = one barrel of WTI crude via a Volumetric Energy Receipt) is described only in secondary reporting, and governing terms were not obtained.

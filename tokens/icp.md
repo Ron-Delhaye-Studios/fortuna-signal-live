@@ -1,6 +1,6 @@
 # Internet Computer (ICP) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/icp.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/icp.html
 
 ## Definition
 The Internet Computer is a blockchain network designed to host software and services fully onchain, a decentralized alternative to traditional cloud infrastructure.

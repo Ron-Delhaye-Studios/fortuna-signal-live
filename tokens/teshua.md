@@ -1,6 +1,6 @@
 # TeshuaCoin (TESHUA) (TESHUA) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/teshua.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/teshua.html
 
 ## Definition
 The SEC alleged in Litigation Release 24787 (April 2020) that the 'alkaline water-backed' token was valueless and not actually backed by Teshuater - a filed complaint is an allegation, not a final judicial finding.

@@ -1,6 +1,6 @@
 # Succinct (PROVE) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/prove.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/prove.html
 
 ## Definition
 Succinct is a decentralized prover network — a two-sided marketplace on Ethereum where applications submit zero-knowledge proof requests and independent provers compete to fulfill them, making verifiable computation as simple as an API call. Mainnet and the PROVE token launched in August 2025; official documentation is at docs.succinct.xyz.

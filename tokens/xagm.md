@@ -1,6 +1,6 @@
 # XAGm (XAGm) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/xagm.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/xagm.html
 
 ## Definition
 Allocated silver under the Matrixdock structure (ozPerToken 0.999021918 in the July 2026 press-release account); XAGm-specific governing terms were not obtained.

@@ -1,6 +1,6 @@
 # Tezos (XTZ) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/xtz.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/xtz.html
 
 ## Definition
 Tezos is a self-amending proof-of-stake blockchain (2014, L.M. Goodman) designed so stakeholders can upgrade the protocol itself onchain without hard forks, and it supports Turing-complete smart contracts.

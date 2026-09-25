@@ -1,6 +1,6 @@
 # SWFTC (SWFTC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/swftc.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/swftc.html
 
 ## Definition
 SwftCoin is the native token of SWFT Blockchain, a cross-chain swap aggregator for swapping cryptocurrencies across chains.

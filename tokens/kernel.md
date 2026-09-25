@@ -1,6 +1,6 @@
 # KernelDAO (KERNEL) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/kernel.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/kernel.html
 
 ## Definition
 KernelDAO is a restaking protocol operating across BNB Chain and Ethereum with three product lines: Kernel (core restaking infrastructure for BTC, BNB, and reward-bearing tokens), Kelp (a liquid restaking token protocol on Ethereum), and Gain (tokenized reward-farming vaults across crypto and RWAs).

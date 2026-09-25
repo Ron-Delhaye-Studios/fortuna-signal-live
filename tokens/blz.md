@@ -1,6 +1,6 @@
 # Bluzelle (BLZ) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/blz.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/blz.html
 
 ## Definition
 Bluzelle is a decentralized database protocol that provides dApps with fast, scalable data storage and retrieval via a global network of node operators.

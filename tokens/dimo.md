@@ -1,6 +1,6 @@
 # DIMO (DIMO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/dimo.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/dimo.html
 
 ## Definition
 DIMO is a vehicle-connectivity network that turns cars into user-controlled connected devices and API-accessible data sources.

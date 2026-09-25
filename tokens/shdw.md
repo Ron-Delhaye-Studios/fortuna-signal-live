@@ -1,6 +1,6 @@
 # Shadow Token (SHDW) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/shdw.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/shdw.html
 
 ## Definition
 SHDW powers Shadow, a decentralized physical infrastructure (DePIN) network built by GenesysGo providing decentralized storage (Shadow Drive), compute, and RPC services for the Solana ecosystem.

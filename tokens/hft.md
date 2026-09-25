@@ -1,6 +1,6 @@
 # Hashflow (HFT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/hft.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/hft.html
 
 ## Definition
 Hashflow is a decentralized exchange using a request-for-quote model with professional market makers to deliver zero-slippage, MEV-protected trades across chains.

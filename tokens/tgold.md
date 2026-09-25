@@ -1,6 +1,6 @@
 # tGOLD (Aurus) (tGOLD) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/tgold.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/tgold.html
 
 ## Definition
 tGOLD = 1g 99.99 pct LBMA gold; tSILVER = 1g 99.9 pct silver; tPLATINUM = 1g 99.95 pct LPPM platinum - per issuer materials.

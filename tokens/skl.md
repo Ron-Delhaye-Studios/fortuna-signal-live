@@ -1,6 +1,6 @@
 # SKALE (SKL) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/skl.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/skl.html
 
 ## Definition
 SKALE is a network of independent EVM-compatible layer-1 shards (SKALE Chains) with pooled validator security and Ethereum anchoring. End users transact gas-free via sFUEL.

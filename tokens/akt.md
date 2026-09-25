@@ -1,6 +1,6 @@
 # Akash Network (AKT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/akt.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/akt.html
 
 ## Definition
 Akash Network is a decentralized cloud-compute marketplace that lets providers sell unused compute capacity and lets developers deploy workloads far below hyperscaler prices.

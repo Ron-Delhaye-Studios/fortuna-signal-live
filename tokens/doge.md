@@ -1,6 +1,6 @@
 # Dogecoin (DOGE) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/doge.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/doge.html
 
 ## Definition
 Dogecoin is the original memecoin, launched December 6, 2013 by Billy Markus and Jackson Palmer as a lighthearted fork of Litecoin. It has no official whitepaper — the closest canonical document is the informal README in the dogecoin GitHub repository — and its stated ethos is simply being 'the internet currency' for tipping and payments.

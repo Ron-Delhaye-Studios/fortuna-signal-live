@@ -1,6 +1,6 @@
 # Bio Protocol (BIO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/bio.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/bio.html
 
 ## Definition
 Bio Protocol is decentralized science (DeSci) infrastructure for funding, developing, and commercializing biotech research and intellectual property. It works through BioDAOs, tokenized IP, launch mechanisms, liquidity, and research agents.

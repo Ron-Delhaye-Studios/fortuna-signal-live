@@ -1,6 +1,6 @@
 # Degen (DEGEN) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/degen.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/degen.html
 
 ## Definition
 DEGEN is the community tipping and rewards token originating on Farcaster and the gas token of Degen Chain. Degen Chain is an Arbitrum Orbit layer-3 settling to Base.

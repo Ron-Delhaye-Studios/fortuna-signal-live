@@ -1,6 +1,6 @@
 # Pluton (PLU) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/plu.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/plu.html
 
 ## Definition
 Pluton (PLU) is the rewards token of Plutus, a UK/EU fintech whose 2015 whitepaper by founder Danial Daychopan introduced the concept of tokenised loyalty rewards — and is the first recorded document to coin the term 'DEX' for its non-custodial crypto-to-fiat exchange, PlutusDEX. Cardholders earned PLU as cashback on real-world spending via the Plutus Card.

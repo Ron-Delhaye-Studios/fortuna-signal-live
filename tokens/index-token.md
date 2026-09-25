@@ -1,6 +1,6 @@
 # Index Cooperative (INDEX) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/index-token.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/index-token.html
 
 ## Definition
 INDEX is the governance token of Index Cooperative, a DAO launched in October 2020 by Set Labs that builds structured on-chain products — tokenizing asset-management strategies as ERC-20 tokens, including index products like the DeFi Pulse Index (DPI), leverage tokens, and yield products.

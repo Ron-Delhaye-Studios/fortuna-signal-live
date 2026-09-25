@@ -1,6 +1,6 @@
 # The Graph (GRT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/grt.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/grt.html
 
 ## Definition
 The Graph is a decentralized protocol for indexing, caching, and querying data from blockchains and decentralized storage networks via GraphQL. It aims to let anyone access blockchain data without relying on trusted centralized services.

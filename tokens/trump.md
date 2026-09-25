@@ -1,6 +1,6 @@
 # OFFICIAL TRUMP (TRUMP) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/trump.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/trump.html
 
 ## Definition
 A Solana-based political memecoin launched in January 2025 and associated with Donald Trump, marketed as the 'only official Trump meme.' Its own disclaimer states it is not intended as an investment opportunity or security and has nothing to do with any political campaign, office, or government agency.

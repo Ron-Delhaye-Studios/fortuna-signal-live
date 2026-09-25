@@ -1,6 +1,6 @@
 # PAX Gold (PAXG) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/paxg.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/paxg.html
 
 ## Definition
 PAX Gold is a regulated, gold-backed ERC-20 token issued by Paxos Trust Company, where each token represents ownership of one fine troy ounce of LBMA-accredited London Good Delivery gold held in custody.

@@ -1,6 +1,6 @@
 # Tether Gold (XAUT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/xaut.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/xaut.html
 
 ## Definition
 Issuer legal terms describe one XAUT as one fine troy oz and undivided gold rights in an identifiable London Good Delivery bar.

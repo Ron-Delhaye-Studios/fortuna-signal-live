@@ -1,6 +1,6 @@
 # Newton (NEWT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/newt.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/newt.html
 
 ## Definition
 Newton Protocol (by the Magic Newton Foundation / Magic Labs) is a decentralized policy and verifiable-automation layer: builders define on-chain 'policies' (compliance rules, spend limits, sanctions checks) that AI agents and transactions must satisfy, with attestations verified on-chain before execution.

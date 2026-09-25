@@ -1,6 +1,6 @@
 # ATH (ATH) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ath.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ath.html
 
 ## Definition
 Decentralized GPU cloud (DePIN) aggregating enterprise-grade GPUs for AI, gaming, rendering, and virtualized compute. The whitepaper describes a marketplace matching compute supply (Containers) with demand via Indexers and service-quality Checkers.

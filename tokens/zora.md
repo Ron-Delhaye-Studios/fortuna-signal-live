@@ -1,6 +1,6 @@
 # Zora (ZORA) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/zora.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/zora.html
 
 ## Definition
 Zora is a decentralized, open-source protocol for publishing, discovering, and transacting media onchain, built around an onchain creator economy on Base. The ZORA token launched in April 2025 with 10% of supply airdropped to the community; no classic project whitepaper exists — the project documents itself via docs.zora.co and exchange MiCA filings.

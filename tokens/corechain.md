@@ -1,6 +1,6 @@
 # Core (CORECHAIN) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/corechain.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/corechain.html
 
 ## Definition
 Core is a Bitcoin-aligned, EVM-compatible Layer 1 blockchain whose mission is to bring scalability and smart-contract functionality to Bitcoin's security model. Its official whitepaper (v1.0.5, hosted on Core DAO's docs site) introduces 'Satoshi Plus' consensus.

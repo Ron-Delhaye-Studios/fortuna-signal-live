@@ -1,6 +1,6 @@
 # USD Coin (USDC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/usdc.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/usdc.html
 
 ## Definition
 USDC is a United States dollar-pegged stablecoin issued by Circle, redeemable one-to-one for dollars and backed by reserves of cash and short-dated US Treasury assets held in segregated accounts.

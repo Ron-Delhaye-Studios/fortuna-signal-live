@@ -1,6 +1,6 @@
 # Cartesi (CTSI) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ctsi.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ctsi.html
 
 ## Definition
 Cartesi is a rollup and computation platform that brings a full Linux environment to blockchain dApps, letting developers use familiar languages and tools while settling verifiably on-chain.

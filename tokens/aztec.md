@@ -1,6 +1,6 @@
 # AZTEC (AZTEC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/aztec.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/aztec.html
 
 ## Definition
 Privacy-first Layer 2 on Ethereum enabling a fully programmable smart-contract environment with an encrypted state ledger, using zk-SNARKs. Designed around the Noir universal ZK language with client-side proving so sensitive data never leaves the user's device.

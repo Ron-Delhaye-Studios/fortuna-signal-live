@@ -1,6 +1,6 @@
 # Wrapped Bitcoin (WBTC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/wbtc.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/wbtc.html
 
 ## Definition
 Wrapped Bitcoin is an Ethereum token backed 1 to 1 by Bitcoin held in custody, created to let Bitcoin holders participate in DeFi applications. It launched in January 2019 as a joint effort by BitGo, Kyber Network and Ren.

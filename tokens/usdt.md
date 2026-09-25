@@ -1,6 +1,6 @@
 # Tether USD (USDT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/usdt.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/usdt.html
 
 ## Definition
 Tether USD (USDT) is a fiat-backed stablecoin issued by Tether, designed to track the value of one US dollar. Per Tether's own terms, each token in circulation is one hundred percent backed by Tether's reserves and redeemable at face value less fees by verified customers.

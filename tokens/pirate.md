@@ -1,6 +1,6 @@
 # Pirate Nation Token (PIRATE) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/pirate.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/pirate.html
 
 ## Definition
 PIRATE is the utility token of Pirate Nation, a fully on-chain pirate-themed RPG, used as the game's economic currency for progression, crafting, and rewards.

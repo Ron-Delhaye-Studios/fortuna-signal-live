@@ -1,6 +1,6 @@
 # NEAR (NEAR) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/near.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/near.html
 
 ## Definition
 NEAR is a decentralized application platform described as a community-run cloud for building decentralized applications.

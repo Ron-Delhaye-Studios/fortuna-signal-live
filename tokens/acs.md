@@ -1,6 +1,6 @@
 # Access (ACS) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/acs.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/acs.html
 
 ## Definition
 Access Protocol is a Web3 content-monetization platform where readers stake ACS tokens to unlock premium content instead of paying subscriptions, giving creators recurring token-based revenue.

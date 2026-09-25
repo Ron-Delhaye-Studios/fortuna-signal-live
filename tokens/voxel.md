@@ -1,6 +1,6 @@
 # Voxies (VOXEL) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/voxel.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/voxel.html
 
 ## Definition
 VOXEL is the ERC-20 utility token of Voxie Tactics, a free-to-play 3D turn-based strategy RPG built on Polygon by AlwaysGeeky Games. Players earn VOXEL through gameplay in a classic tactics-style game with NFT characters.

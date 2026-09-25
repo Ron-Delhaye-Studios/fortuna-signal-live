@@ -1,6 +1,6 @@
 # Jito Staked SOL (JitoSOL) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/jitosol.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/jitosol.html
 
 ## Definition
 JitoSOL is Solana's leading liquid staking token, issued by the Jito Network: users deposit SOL into Jito's stake pool and receive JitoSOL, which appreciates against SOL as staking and MEV rewards accrue — while remaining freely transferable and usable across Solana DeFi.

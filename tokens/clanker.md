@@ -1,6 +1,6 @@
 # tokenbot (CLANKER) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/clanker.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/clanker.html
 
 ## Definition
 Clanker (tokenbot) is an AI agent that automates ERC-20 token deployment and liquidity-pool initialization on Base from Farcaster commands.

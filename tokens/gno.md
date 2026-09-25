@@ -1,6 +1,6 @@
 # GNO (GNO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/gno.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/gno.html
 
 ## Definition
 GNO is the staking and governance token of the Gnosis ecosystem, anchored by Gnosis Chain, a stable-payments EVM layer-1.

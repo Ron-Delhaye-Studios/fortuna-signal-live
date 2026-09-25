@@ -1,6 +1,6 @@
 # H2ON (H2ON) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/h2on.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/h2on.html
 
 ## Definition
 A financing/payment utility for water infrastructure; the whitepaper expressly offers 'no promise of any benefit by simply buying and holding' H2ON - not a claim on water or water rights.

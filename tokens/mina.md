@@ -1,6 +1,6 @@
 # Mina (MINA) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/mina.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/mina.html
 
 ## Definition
 Mina is a succinct blockchain: a lightweight payment-oriented proof-of-stake chain using recursively composed zk-SNARKs so the full chain stays constant-size (about 22KB) and verifiable in roughly 200ms on modest devices.

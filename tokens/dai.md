@@ -1,6 +1,6 @@
 # Dai (DAI) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/dai.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/dai.html
 
 ## Definition
 Dai is the decentralized, overcollateralized stablecoin of the Maker Protocol, soft-pegged to the value of the US dollar. It is maintained by immutable Ethereum smart contracts and governed by MakerDAO token holders.

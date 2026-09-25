@@ -1,6 +1,6 @@
 # Hivemapper (HONEY) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/honey.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/honey.html
 
 ## Definition
 Hivemapper is a decentralized global mapping network on Solana that crowdsources fresh street-level imagery: drivers install 4K dashcams (camera plus blockchain mining device) and earn HONEY via drive-to-earn, while annotators label traffic signs to train the network's ML models. Customers including major mapping companies consume the data via map APIs.

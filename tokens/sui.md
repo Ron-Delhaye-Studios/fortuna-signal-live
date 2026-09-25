@@ -1,6 +1,6 @@
 # SUI (SUI) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/sui.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/sui.html
 
 ## Definition
 Sui is an object-centric Layer-1 smart-contract platform built by Mysten Labs for high-throughput, low-latency applications.

@@ -1,6 +1,6 @@
 # Sky (SKY) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/sky.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/sky.html
 
 ## Definition
 Sky (formerly MakerDAO) is one of the oldest and largest DeFi lending protocols, issuing the USDS stablecoin (upgraded DAI) through overcollateralized vaults under its 'Endgame' overhaul.

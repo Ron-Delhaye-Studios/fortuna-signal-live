@@ -1,6 +1,6 @@
 # HYPER (HYPER) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/hyper.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/hyper.html
 
 ## Definition
 Hyperlane is a permissionless interoperability protocol for cross-chain communication. HYPER is its native token, used to secure cross-chain communication via staking and to reward network participants.

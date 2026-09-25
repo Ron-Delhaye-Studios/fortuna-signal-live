@@ -1,6 +1,6 @@
 # Karrat (KARRAT) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/karrat.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/karrat.html
 
 ## Definition
 KARRAT is the governance token of the KARRAT Protocol, a decentralized infrastructure for gaming, entertainment, and AI that empowers community decision-making over integrated games and products.

@@ -1,6 +1,6 @@
 # Zetachain (ZETA) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/zeta.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/zeta.html
 
 ## Definition
 ZetaChain is a public proof-of-stake layer-1 blockchain enabling universal cross-chain smart contracts and asset transfers across both smart-contract and non-smart-contract chains.

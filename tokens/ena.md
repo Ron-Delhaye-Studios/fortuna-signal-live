@@ -1,6 +1,6 @@
 # ENA (ENA) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/ena.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/ena.html
 
 ## Definition
 Ethena is a crypto-native dollar protocol issuing USDe, a synthetic dollar backed by crypto assets and corresponding short futures positions, plus the staked version sUSDe.

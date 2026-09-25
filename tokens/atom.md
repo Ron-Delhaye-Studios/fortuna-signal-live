@@ -1,6 +1,6 @@
 # Cosmos (ATOM) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/atom.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/atom.html
 
 ## Definition
 Cosmos is a network of independent, parallel blockchains ('zones') connected through the Cosmos Hub, designed as an 'internet of blockchains' where assets move between chains without trusted third parties. The canonical whitepaper (Jae Kwon, Ethan Buchman) presents it as a solution to blockchain scalability, interoperability, and upgradability.

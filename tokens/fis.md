@@ -1,6 +1,6 @@
 # StaFi (FIS) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/fis.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/fis.html
 
 ## Definition
 StaFi is a cross-chain liquid staking protocol issuing rTokens that represent staked principal plus staking rewards. It lets users keep liquidity while their assets are staked.

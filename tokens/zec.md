@@ -1,6 +1,6 @@
 # ZEC (ZEC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/zec.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/zec.html
 
 ## Definition
 Privacy-focused cryptocurrency combining Bitcoin-style transparent payments with shielded payments secured by zk-SNARKs. Read the official protocol specification, v2026.7.0 dated 2026-09-03.

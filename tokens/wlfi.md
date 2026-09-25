@@ -1,6 +1,6 @@
 # World Liberty Financial (WLFI) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/wlfi.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/wlfi.html
 
 ## Definition
 World Liberty Financial is a US-based DeFi platform (branded around Donald J. Trump) whose stated mission is to democratize access to DeFi and fortify the US dollar's global status by promoting USD-based stablecoins.

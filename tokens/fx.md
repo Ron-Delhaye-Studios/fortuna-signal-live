@@ -1,6 +1,6 @@
 # FX (FX) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/fx.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/fx.html
 
 ## Definition
 Function X is a multi-chain architecture blockchain network (core: f(x)Core) aiming at a decentralized internet, developed by Pundi X Labs.

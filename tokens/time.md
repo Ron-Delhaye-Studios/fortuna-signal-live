@@ -1,6 +1,6 @@
 # Chrono.tech (TIME) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/time.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/time.html
 
 ## Definition
 TIME is the native token of the Chrono.tech ecosystem (established 2017 via crowdsale), which builds blockchain tools for HR and recruitment — notably LaborX, a freelance job platform, and TimeX — where TIME underpins payments, staking, and premium memberships.

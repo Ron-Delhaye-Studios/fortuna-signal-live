@@ -1,6 +1,6 @@
 # Cookie DAO (COOKIE) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/cookie.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/cookie.html
 
 ## Definition
 COOKIE is the token of Cookie DAO, a decentralized data collective focused on AI agents: it aggregates 7TB+ of live social (X) and on-chain data (via partner Cookie3) into cookie.fun — an index and dashboard of the AI-agent market — plus DataSwarm APIs and the Agent Cookie terminal for DeFAI analytics.

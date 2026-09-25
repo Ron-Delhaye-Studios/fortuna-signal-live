@@ -1,6 +1,6 @@
 # Spell Token (SPELL) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/spell.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/spell.html
 
 ## Definition
 SPELL is the reward and governance token of Abracadabra.money, a DeFi lending platform where users post interest-bearing tokens (ibTKN, e.g., yield-bearing LP tokens) as collateral to mint MIM (Magic Internet Money), a USD-pegged stablecoin, through isolated lending markets based on SushiSwap's Kashi technology.

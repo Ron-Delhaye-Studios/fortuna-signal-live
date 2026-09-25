@@ -1,6 +1,6 @@
 # Toshi (TOSHI) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/toshi.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/toshi.html
 
 ## Definition
 Toshi is a community-driven memecoin on Coinbase's Base network, named after Coinbase co-founder Brian Armstrong's cat Toshi (itself a nod to Satoshi Nakamoto). It has no project whitepaper; the project publishes no technical documentation beyond its website (toshithecat.com).

@@ -1,6 +1,6 @@
 # CRO (CRO) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/cro.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/cro.html
 
 ## Definition
 EVM-compatible blockchain built with the Cosmos SDK, interoperating via IBC, positioned as the chain powering the Crypto.com ecosystem.

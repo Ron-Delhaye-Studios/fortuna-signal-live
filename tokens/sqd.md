@@ -1,6 +1,6 @@
 # SQD (SQD) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/sqd.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/sqd.html
 
 ## Definition
 Decentralized data lake and distributed query engine for blockchain data. Workers and Gateways provide storage, computation, and streaming of indexed chain data to applications.

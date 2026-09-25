@@ -1,6 +1,6 @@
 # Magic Eden (ME) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/me.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/me.html
 
 ## Definition
 Magic Eden is a multichain NFT and digital-asset marketplace (originated on Solana, expanded to Bitcoin, Ethereum, Polygon, and Base) that launched ME as its official ecosystem token in December 2024 via the ME Foundation. No project whitepaper exists; token details come from foundation announcements and exchange MiCA filings.

@@ -1,6 +1,6 @@
 # SAPIEN (SAPIEN) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/sapien.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/sapien.html
 
 ## Definition
 SAPIEN is the native Base-chain ERC-20 utility token of Sapien, a decentralized network for AI data annotation and validation.

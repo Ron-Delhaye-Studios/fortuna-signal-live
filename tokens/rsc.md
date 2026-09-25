@@ -1,6 +1,6 @@
 # ResearchCoin (RSC) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/rsc.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/rsc.html
 
 ## Definition
 ResearchCoin (RSC) is the token of ResearchHub, an open-science platform co-founded by Coinbase CEO Brian Armstrong that rewards researchers for publishing, peer reviewing, and sharing scientific work — aiming to realign science's incentives away from legacy journals.

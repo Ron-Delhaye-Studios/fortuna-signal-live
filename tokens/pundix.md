@@ -1,6 +1,6 @@
 # Pundi X (New) (PUNDIX) — machine-readable summary
 
-> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://whitewizard888.github.io/fortuna-signal-live/tokens/pundix.html
+> FORTUNA SIGNAL · FORA-01 evidence dossier · Researched 2026-09-15 · https://ron-delhaye-studios.github.io/fortuna-signal-live/tokens/pundix.html
 
 ## Definition
 Pundi X is a blockchain payments company whose XPOS terminals and wallet infrastructure let merchants accept cryptocurrency in physical retail; PUNDIX is its ecosystem utility token.

@@ -1,7 +1,7 @@
 {
  "meta": {
   "snapshot_version": "1.0",
-  "generated_at": "2026-09-24T11:48:05+00:00",
+  "generated_at": "2026-09-25T11:52:48+00:00",
   "generated_by": "dashboard-refresh.yml (CI site layer)",
   "kill_floor_usd": 70.0,
   "start_bankroll_usd": 100.0
@@ -154,11 +154,11 @@
   "all_green": true
  },
  "site": {
-  "reachable": true,
-  "http_status": 200,
-  "as_of": "2026-09-24T11:48:05+00:00",
+  "reachable": false,
+  "error": "HTTPError",
+  "as_of": "2026-09-25T11:52:48+00:00",
   "url": "https://whitewizard888.github.io/fortuna-signal-live/",
-  "status": "live",
+  "status": "unreachable",
   "dossiers": 146,
   "analytics": "live"
  },

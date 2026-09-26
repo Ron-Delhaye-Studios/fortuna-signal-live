@@ -81,6 +81,14 @@
     .dossier .q-hint{font-size:12.5px;color:#5b6a62;margin:2px 0 0}
     .dossier .q-note{font-size:14.5px;color:#30423d;margin:8px 0 0}
     .dossier .conf{font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;color:#4f5d56;display:block;margin-top:8px}
+    /* Reliability bubbles — rounded confidence badges (methodology legend + dossier use) */
+    .rel-row{display:flex;flex-wrap:wrap;gap:18px;margin:10px 0 0}
+    .rel-item{flex:1 1 200px;background:rgba(255,255,255,.03);border:1px solid rgba(198,167,106,.25);border-radius:12px;padding:18px}
+    .rel-item p{margin:10px 0 0;font-size:13.5px;color:var(--sage)}
+    .rel-bubble{display:inline-flex;align-items:center;gap:8px;padding:8px 18px;border-radius:999px;font:700 12px var(--data);letter-spacing:.1em;text-transform:uppercase;border:2px solid;white-space:nowrap}
+    .rel-high{border-color:#3f9e74;color:#80DDB2;background:rgba(63,158,116,.12)}
+    .rel-medium{border-color:#8a6d1f;color:#F0C27A;background:rgba(240,194,122,.10)}
+    .rel-low{border-color:#8f2d2d;color:#e08a8a;background:rgba(143,45,45,.12)}
     .dossier .q-evidence{font-size:12.5px;color:#5b6a62;margin:6px 0 0}
     .dossier .q-evidence a{color:#755b29;font-weight:700;text-decoration:underline}
     .chip{display:inline-flex;align-items:center;gap:6px;min-height:30px;padding:0 11px;border-radius:4px;font:700 10px var(--data);letter-spacing:.08em;text-transform:uppercase;border:1px solid;white-space:nowrap}
@@ -201,6 +209,13 @@
       <div class="record-row"><span>🟡 Partially verified</span><strong>Some elements corroborated; material gaps remain</strong><span class="state">Publish with gaps</span></div>
       <div class="record-row"><span>❔ Unverified</span><strong>Insufficient evidence either way — a legitimate result</strong><span class="state">Publish as open</span></div>
       <div class="record-row"><span>🚫 Contradicted</span><strong>Evidence weighs against the claim</strong><span class="state">Publish the finding</span></div>
+    </div>
+    <div class="section-head" style="margin-top:60px"><div><div class="kicker">Reliability</div><h2>How sure are we? Read the bubble.</h2></div>
+    <p class="section-intro">Every verdict carries a reliability bubble — our confidence in the evidence behind it. A bubble never upgrades a verdict; it only tells you how hard the evidence was to shake.</p></div>
+    <div class="rel-row">
+      <div class="rel-item"><span class="rel-bubble rel-high">🟢 High</span><p>Multiple independent sources agree. The evidence chain is closed and hard to shake.</p></div>
+      <div class="rel-item"><span class="rel-bubble rel-medium">🟡 Medium</span><p>Credible evidence with real gaps — enough to publish, open about what's missing.</p></div>
+      <div class="rel-item"><span class="rel-bubble rel-low">🔴 Low</span><p>Thin or single-source evidence. Treat the verdict as provisional until more arrives.</p></div>
     </div>
     <div class="section-head" style="margin-top:60px"><div><div class="kicker">Verification class</div><h2>One class per token. Computed, not judged.</h2></div>
     <p class="section-intro">Every token page carries a verification class — a single chip derived mechanically from the five question verdicts at build time. No analyst assigns it; the build computes it, and the build refuses to publish any page it cannot classify.</p></div>

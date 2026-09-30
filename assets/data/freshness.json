@@ -1,11 +1,7 @@
 {
-  "degraded": true,
-  "degraded_note": "Source unreachable (CoinGecko returned errors through all retry attempts); showing last-known prices flagged stale. No data was guessed or fabricated.",
-  "generated_at": "2026-09-29T21:27:01.981736+00:00",
+  "generated_at": "2026-09-30T18:21:50.270107+00:00",
   "missing_ids": [],
-  "ok_ids": [],
-  "rule": "price data older than 48h is stale; unknown ids are missing, never guessed",
-  "stale_ids": [
+  "ok_ids": [
     "aethir",
     "algorand",
     "band-protocol",
@@ -62,12 +58,15 @@
     "the-graph",
     "toshi",
     "usd-coin",
-    "worldcoin",
     "wormhole",
     "wrapped-bitcoin",
     "zcash",
     "zeta",
     "zksync",
     "zora"
+  ],
+  "rule": "price data older than 48h is stale; unknown ids are missing, never guessed",
+  "stale_ids": [
+    "worldcoin"
   ]
 }

@@ -42,6 +42,10 @@ import urllib.request
 from datetime import datetime, timezone
 
 COINGECKO_SIMPLE_PRICE = "https://api.coingecko.com/api/v3/simple/price"
+# Optional free "Demo" API key (CoinGecko dashboard → API). When present it is
+# sent as the x-cg-demo-api-key header, which restores authenticated requests
+# while unauthenticated cloud traffic is blocked. Absent = public requests.
+COINGECKO_API_KEY = os.environ.get("COINGECKO_API_KEY", "").strip()
 BATCH_SIZE = 40          # ids per API call
 BATCH_SLEEP_S = 65       # free-tier politeness between batches
 REQUEST_TIMEOUT_S = 30
@@ -89,10 +93,13 @@ def fetch_batch(ids):
         "include_last_updated_at": "true",
     })
     url = COINGECKO_SIMPLE_PRICE + "?" + params
+    headers = {"User-Agent": "fortuna-signal-daily-refresh/1.0"}
+    if COINGECKO_API_KEY:
+        headers["x-cg-demo-api-key"] = COINGECKO_API_KEY
     last_err = None
     for attempt in (1, 2):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "fortuna-signal-daily-refresh/1.0"})
+            req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_S) as resp:
                 if resp.status != 200:
                     raise RuntimeError(f"HTTP {resp.status}")
@@ -220,6 +227,7 @@ def main():
         return 2
     cg_ids = [a["cg_id"] for a in tracked]
 
+    print(f"coingecko auth: {'demo key' if COINGECKO_API_KEY else 'none (public requests)'}", flush=True)
     raw = fetch_with_backoff(cg_ids)
     fetched_at = now_iso()
 

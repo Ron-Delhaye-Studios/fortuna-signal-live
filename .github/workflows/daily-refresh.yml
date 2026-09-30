@@ -33,6 +33,10 @@ jobs:
           python-version: "3.12"
 
       - name: Refresh market evidence
+        env:
+          # Optional free CoinGecko "Demo" key (repo Settings → Secrets → Actions).
+          # Absent = public requests; the script degrades honestly either way.
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
         run: python3 scripts/daily_refresh.py --data-dir assets/data
 
       - name: Commit evidence-layer changes (if any)

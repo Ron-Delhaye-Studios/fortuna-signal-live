@@ -3,7 +3,7 @@
  * network-first for HTML pages with cache fallback. Never caches POSTs.
  * Bumping CACHE_VERSION forces a clean refresh on next visit.
  */
-var CACHE_VERSION = "fortuna-v1";
+var CACHE_VERSION = "fortuna-v2";
 var STATIC_CACHE = CACHE_VERSION + "-static";
 var PAGES_CACHE = CACHE_VERSION + "-pages";
 
@@ -46,7 +46,9 @@ function networkFirst(req) {
       return res;
     }).catch(function () {
       return cache.match(req).then(function (hit) {
-        return hit || cache.match("/fortuna-signal-live/404.html");
+        /* 404 fallback resolved against this worker's own scope, so it works
+         * at a domain root and under the GitHub Pages project subpath. */
+        return hit || cache.match(new URL("404.html", self.registration.scope).href);
       });
     });
   });
@@ -57,7 +59,9 @@ self.addEventListener("fetch", function (e) {
   if (req.method !== "GET") return;
   var url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
-  if (url.pathname.indexOf("/fortuna-signal-live/") !== 0) return;
+  /* Only handle requests inside this worker's scope (the domain root on a
+   * root host, the project subpath on GitHub Pages) — never a hardcoded base. */
+  if (url.pathname.indexOf(new URL(self.registration.scope).pathname) !== 0) return;
   if (STATIC_RE.test(url.pathname)) {
     e.respondWith(cacheFirst(req));
   } else {

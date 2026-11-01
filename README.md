@@ -53,3 +53,16 @@ judgment-shaped stays human-gated — always.
 Cloudflare Web Analytics (free, privacy-friendly, no cookie banner).
 Setup takes ~10 minutes: see `ANALYTICS_SETUP.md`.
 Until a beacon token is configured, pages render no analytics script.
+
+## Public luxury presentation
+
+`assets/css/luxury.css` maps THALEIA's 0029 §III.A palette, hairlines,
+card spacing, data typography and focus treatment to the existing public markup.
+It does not change evidence, classifications, copy, imagery or destinations.
+After exporting from the private generator, run `python scripts/apply_luxury.py`;
+the command adds the relative stylesheet link without rewriting the document.
+CI runs `python scripts/apply_luxury.py --check` to detect an export that omitted
+this layer. Dashboard pages and head-only redirects are excluded. No new signup
+form or endpoint is introduced; the spec's form/table selectors had no matching
+public elements at this revision. The existing search input receives the input
+and focus treatment. Existing light evidence panels retain their dark text.

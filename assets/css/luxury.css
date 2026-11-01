@@ -1,0 +1,37 @@
+/* THALEIA 0029 §III.A mapped to FORTUNA's public evidence pages.
+   Styling only: no claims, classifications, formulas, destinations or image bytes. */
+:root{--obsidian:#06080c;--emerald:#0d1117;--forest:#0d1117;--gold:#d4af37;--ivory:#f0f6fc;--sage:#9aa4af;--focus:#d4af37;--line:rgba(255,255,255,.16);--body:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--data:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+body{color:#c9d1d9;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,strong{color:var(--ivory)}
+.utility{background:var(--obsidian);border-bottom:1px solid var(--line)}
+.nav a{min-height:44px;display:inline-flex;align-items:center}
+.hero{background:var(--emerald)}
+.hero::after{background:linear-gradient(90deg,#06080c 0%,rgba(6,8,12,.96) 52%,rgba(6,8,12,.75) 100%)}
+.hero::before,.page-hero::before{background:none;animation:none}.quantum-field{display:none}
+.hero h1{background:none;color:var(--ivory);-webkit-text-fill-color:var(--ivory);animation:none}
+.edition-strip .wrap::before{background:var(--obsidian);box-shadow:none;animation:none}
+.card,.token-card,.vocab article{background:var(--forest);border:1px solid var(--line);border-radius:4px;padding:2rem;box-shadow:none}
+.card:hover,.token-card:hover{transform:none;box-shadow:none;border-color:rgba(212,175,55,.5)}
+.token-grid .token-card{--accent:var(--gold);--accent-glow:transparent}
+.token-card .ticker{color:var(--gold)}
+.kicker,.meta,.descriptor,.count-line,.crumbs,.market-line,.record-date,.status-line{font-family:var(--data);font-variant-numeric:tabular-nums}
+.section-intro,.lede{color:var(--sage)}
+.action{border-radius:4px;min-height:48px}
+.search-bar input{background:#161b22;border-color:rgba(255,255,255,.35);color:var(--ivory);border-radius:4px;min-width:0;min-height:48px;font-family:var(--body);font-size:16px}
+.search-bar input::placeholder{color:var(--sage)}
+.search-bar button{min-height:48px;border-radius:4px}
+.dossier{border-radius:4px;border:1px solid #bdc4cb}
+.dossier .qrow{padding-top:1.25rem;padding-bottom:1.25rem}
+.dossier h2,.dossier strong,.dossier b,.ledger h2,.ledger h3,.ledger strong,.ledger b{color:var(--obsidian)}
+.dossier .q-status,.dossier .conf,.vclass-row,.chip{font-variant-numeric:tabular-nums}
+.record-row{padding-top:1.5rem;padding-bottom:1.5rem}
+footer{border-top:1px solid var(--line)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--focus);outline-offset:4px}
+.dossier a:focus-visible,.ledger a:focus-visible{outline-color:#755b29}
+@media(max-width:600px){.wrap{width:calc(100% - 40px)}.nav a{min-height:44px}.card,.token-card,.vocab article{padding:1.5rem}.search-bar{gap:.75rem}.search-bar input{flex-basis:100%;width:100%}.hero h1{font-size:clamp(2.25rem,10vw,3rem)}.dossier{padding:1.5rem 1.25rem}.section{padding:4rem 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+/* Anatomy modules also occur outside the light ledger section. */
+.anatomy .num{color:var(--gold)}.anatomy p{color:#c9d1d9}
+.ledger .anatomy .num{color:#755b29}.ledger .anatomy p{color:#30423d}
+.crumbs a{text-decoration:underline;text-underline-offset:.2em}
+.ledger{--gold:#755b29;--sage:#4f5d66}

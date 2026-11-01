@@ -3,7 +3,7 @@
  * network-first for HTML pages with cache fallback. Never caches POSTs.
  * Bumping CACHE_VERSION forces a clean refresh on next visit.
  */
-var CACHE_VERSION = "fortuna-v3";
+var CACHE_VERSION = "fortuna-v4";
 var STATIC_CACHE = CACHE_VERSION + "-static";
 var PAGES_CACHE = CACHE_VERSION + "-pages";
 

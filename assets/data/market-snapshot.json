@@ -1,286 +1,286 @@
 {
-  "fetched_at": "2026-11-21T20:00:54.182839+00:00",
+  "fetched_at": "2026-11-22T20:16:00.805482+00:00",
   "missing_ids": [],
   "prices": {
     "aethir": {
-      "last_updated_at": 1795291172,
-      "usd": 0.00358895,
-      "usd_24h_change": -1.8153951784540248
+      "last_updated_at": 1795378482,
+      "usd": 0.00359916,
+      "usd_24h_change": 0.5118014549029042
     },
     "algorand": {
-      "last_updated_at": 1795291164,
-      "usd": 0.074352,
-      "usd_24h_change": 3.134017710772462
+      "last_updated_at": 1795378472,
+      "usd": 0.074745,
+      "usd_24h_change": 0.6310448007815457
     },
     "band-protocol": {
-      "last_updated_at": 1795291172,
-      "usd": 0.137518,
-      "usd_24h_change": 3.035717367083918
+      "last_updated_at": 1795378491,
+      "usd": 0.14069,
+      "usd_24h_change": 2.1553821626137912
     },
     "bitcoin": {
-      "last_updated_at": 1795291164,
-      "usd": 60192.0,
-      "usd_24h_change": 2.842058616062528
+      "last_updated_at": 1795378482,
+      "usd": 60646.0,
+      "usd_24h_change": 0.6798672461769643
     },
     "bonk": {
-      "last_updated_at": 1795291164,
-      "usd": 2.04e-06,
-      "usd_24h_change": -1.651556088958598
+      "last_updated_at": 1795378482,
+      "usd": 2.06e-06,
+      "usd_24h_change": 1.474950494915447
     },
     "cardano": {
-      "last_updated_at": 1795291172,
-      "usd": 0.14491,
-      "usd_24h_change": 3.7590938075443567
+      "last_updated_at": 1795378491,
+      "usd": 0.144144,
+      "usd_24h_change": -0.32529519213063474
     },
     "cartesi": {
-      "last_updated_at": 1795291172,
-      "usd": 0.02078105,
-      "usd_24h_change": 4.676542558211687
+      "last_updated_at": 1795378472,
+      "usd": 0.02078485,
+      "usd_24h_change": -0.04186252586832429
     },
     "celestia": {
-      "last_updated_at": 1795291236,
-      "usd": 0.323549,
-      "usd_24h_change": 2.0199691925274523
+      "last_updated_at": 1795378542,
+      "usd": 0.334456,
+      "usd_24h_change": 3.6378391571847226
     },
     "chainlink": {
-      "last_updated_at": 1795291172,
-      "usd": 8.63,
-      "usd_24h_change": 3.089409466042941
+      "last_updated_at": 1795378462,
+      "usd": 8.79,
+      "usd_24h_change": 1.7828229696685332
     },
     "cosmos": {
-      "last_updated_at": 1795291172,
-      "usd": 1.18,
-      "usd_24h_change": -3.1240501002488736
+      "last_updated_at": 1795378472,
+      "usd": 1.17,
+      "usd_24h_change": -0.5587249509698338
     },
     "crypto-com-chain": {
-      "last_updated_at": 1795291172,
-      "usd": 0.04162123,
-      "usd_24h_change": 5.748258203619029
+      "last_updated_at": 1795378482,
+      "usd": 0.04047586,
+      "usd_24h_change": -2.1538792479976605
     },
     "dai": {
-      "last_updated_at": 1795291172,
+      "last_updated_at": 1795378472,
       "usd": 1.0,
-      "usd_24h_change": 0.01681715047009948
+      "usd_24h_change": -0.011552455523694775
     },
     "decentraland": {
-      "last_updated_at": 1795291172,
-      "usd": 0.055466,
-      "usd_24h_change": 0.21477552915334855
+      "last_updated_at": 1795378482,
+      "usd": 0.055948,
+      "usd_24h_change": 0.8304174880117997
     },
     "dogecoin": {
-      "last_updated_at": 1795291172,
-      "usd": 0.055164,
-      "usd_24h_change": 3.7802827939613612
+      "last_updated_at": 1795378472,
+      "usd": 0.055054,
+      "usd_24h_change": -0.18704600185797002
     },
     "ethena": {
-      "last_updated_at": 1795291164,
-      "usd": 0.0978,
-      "usd_24h_change": 0.5985474885472699
+      "last_updated_at": 1795378472,
+      "usd": 0.100741,
+      "usd_24h_change": 3.1451337265068124
     },
     "ethereum": {
-      "last_updated_at": 1795291164,
-      "usd": 1682.75,
-      "usd_24h_change": 4.660855050782181
+      "last_updated_at": 1795378482,
+      "usd": 1711.53,
+      "usd_24h_change": 1.6730408726029131
     },
     "flare-networks": {
-      "last_updated_at": 1795291164,
-      "usd": 0.00503191,
-      "usd_24h_change": 5.2005589826364345
+      "last_updated_at": 1795378472,
+      "usd": 0.00515286,
+      "usd_24h_change": 2.3244547150355235
     },
     "floki": {
-      "last_updated_at": 1795291164,
-      "usd": 1.604e-05,
-      "usd_24h_change": 0.5085189226652254
+      "last_updated_at": 1795378491,
+      "usd": 1.623e-05,
+      "usd_24h_change": 1.0273619209605762
     },
     "gnosis": {
-      "last_updated_at": 1795291172,
-      "usd": 90.09,
-      "usd_24h_change": -0.8700971057779305
+      "last_updated_at": 1795378482,
+      "usd": 87.65,
+      "usd_24h_change": -2.9229939376085277
     },
     "hedera-hashgraph": {
-      "last_updated_at": 1795291164,
-      "usd": 0.051691,
-      "usd_24h_change": 2.088349657427493
+      "last_updated_at": 1795378472,
+      "usd": 0.051353,
+      "usd_24h_change": -0.7467506179311285
     },
     "hyperliquid": {
-      "last_updated_at": 1795291172,
-      "usd": 61.08,
-      "usd_24h_change": 0.6175271537563178
+      "last_updated_at": 1795378462,
+      "usd": 62.4,
+      "usd_24h_change": 2.080715864972653
     },
     "internet-computer": {
-      "last_updated_at": 1795291172,
-      "usd": 1.91,
-      "usd_24h_change": -4.991079172911548
+      "last_updated_at": 1795378472,
+      "usd": 1.97,
+      "usd_24h_change": 3.7026744440218926
     },
     "iotex": {
-      "last_updated_at": 1795291172,
-      "usd": 0.00234157,
-      "usd_24h_change": 3.022712746447479
+      "last_updated_at": 1795378491,
+      "usd": 0.00230575,
+      "usd_24h_change": -1.6912989364394049
     },
     "jito-governance-token": {
-      "last_updated_at": 1795291172,
-      "usd": 0.219656,
-      "usd_24h_change": -2.373859936777992
+      "last_updated_at": 1795378482,
+      "usd": 0.23574,
+      "usd_24h_change": 7.287819304221388
     },
     "jito-staked-sol": {
-      "last_updated_at": 1795291172,
-      "usd": 92.38,
-      "usd_24h_change": 3.321005862307813
+      "last_updated_at": 1795378472,
+      "usd": 91.78,
+      "usd_24h_change": -0.5992807165321795
     },
     "litecoin": {
-      "last_updated_at": 1795291164,
-      "usd": 40.06,
-      "usd_24h_change": 0.2410007613061396
+      "last_updated_at": 1795378482,
+      "usd": 39.82,
+      "usd_24h_change": -0.34798617308961155
     },
     "livepeer": {
-      "last_updated_at": 1795291172,
-      "usd": 1.007,
-      "usd_24h_change": 0.6410667029829749
+      "last_updated_at": 1795378482,
+      "usd": 1.012,
+      "usd_24h_change": 0.47341784460421404
     },
     "magic": {
-      "last_updated_at": 1795291172,
-      "usd": 0.06651,
-      "usd_24h_change": 2.454311153726291
+      "last_updated_at": 1795378482,
+      "usd": 0.065637,
+      "usd_24h_change": -0.7977935393383734
     },
     "mina-protocol": {
-      "last_updated_at": 1795291164,
-      "usd": 0.0414963,
-      "usd_24h_change": 0.7397296394601574
+      "last_updated_at": 1795378472,
+      "usd": 0.04076875,
+      "usd_24h_change": -1.4734622442196024
     },
     "mog-coin": {
-      "last_updated_at": 1795291164,
-      "usd": 7.8973e-08,
-      "usd_24h_change": 5.162087419883912
+      "last_updated_at": 1795378482,
+      "usd": 8.004e-08,
+      "usd_24h_change": 1.5493253794157316
     },
     "near": {
-      "last_updated_at": 1795291164,
-      "usd": 2.87,
-      "usd_24h_change": 1.139561082106023
+      "last_updated_at": 1795378472,
+      "usd": 2.97,
+      "usd_24h_change": 3.266395950221786
     },
     "official-trump": {
-      "last_updated_at": 1795291251,
-      "usd": 0.877917,
-      "usd_24h_change": 4.113451573897191
+      "last_updated_at": 1795378542,
+      "usd": 0.892342,
+      "usd_24h_change": 1.8376514659517669
     },
     "ondo-finance": {
-      "last_updated_at": 1795291164,
-      "usd": 0.279845,
-      "usd_24h_change": 0.8530052983254509
+      "last_updated_at": 1795378472,
+      "usd": 0.283155,
+      "usd_24h_change": 1.1219657152463518
     },
     "optimism": {
-      "last_updated_at": 1795291164,
-      "usd": 0.069809,
-      "usd_24h_change": 0.354201438824738
+      "last_updated_at": 1795378491,
+      "usd": 0.071152,
+      "usd_24h_change": 1.8225038453093596
     },
     "orca": {
-      "last_updated_at": 1795291172,
-      "usd": 1.17,
-      "usd_24h_change": 10.857827774679492
+      "last_updated_at": 1795378482,
+      "usd": 1.18,
+      "usd_24h_change": 0.44359706494837586
     },
     "origin-protocol": {
-      "last_updated_at": 1795291172,
-      "usd": 0.01890338,
-      "usd_24h_change": 2.972112713450069
+      "last_updated_at": 1795378482,
+      "usd": 0.01899271,
+      "usd_24h_change": 0.3944957393773786
     },
     "pax-gold": {
-      "last_updated_at": 1795291164,
-      "usd": 3556.29,
-      "usd_24h_change": 1.180363324064586
+      "last_updated_at": 1795378482,
+      "usd": 3544.26,
+      "usd_24h_change": -0.2906153431619758
     },
     "polygon-ecosystem-token": {
-      "last_updated_at": 1795291164,
-      "usd": 0.075678,
-      "usd_24h_change": 1.8969470630872658
+      "last_updated_at": 1795378491,
+      "usd": 0.075486,
+      "usd_24h_change": -0.20060094764997793
     },
     "pump-fun": {
-      "last_updated_at": 1795291172,
-      "usd": 0.00238275,
-      "usd_24h_change": -1.2627588073653282
+      "last_updated_at": 1795378482,
+      "usd": 0.00256993,
+      "usd_24h_change": 7.81613012498374
     },
     "render-token": {
-      "last_updated_at": 1795291172,
-      "usd": 1.31,
-      "usd_24h_change": 4.900001820353283
+      "last_updated_at": 1795378482,
+      "usd": 1.34,
+      "usd_24h_change": 2.6075407726920323
     },
     "ripple": {
-      "last_updated_at": 1795291236,
-      "usd": 0.935186,
-      "usd_24h_change": 4.638347271760551
+      "last_updated_at": 1795378542,
+      "usd": 0.924639,
+      "usd_24h_change": -1.0473202950102174
     },
     "sei-network": {
-      "last_updated_at": 1795291164,
-      "usd": 0.03427369,
-      "usd_24h_change": -1.4519558390349714
+      "last_updated_at": 1795378462,
+      "usd": 0.03447079,
+      "usd_24h_change": 0.4424238654863145
     },
     "shiba-inu": {
-      "last_updated_at": 1795291236,
-      "usd": 3.62e-06,
-      "usd_24h_change": 2.7654865046603185
+      "last_updated_at": 1795378542,
+      "usd": 3.58e-06,
+      "usd_24h_change": -1.0517921279267162
     },
     "skale": {
-      "last_updated_at": 1795291252,
-      "usd": 0.00288614,
-      "usd_24h_change": 2.2085820801800162
+      "last_updated_at": 1795378554,
+      "usd": 0.0029073,
+      "usd_24h_change": 0.6653090857943151
     },
     "sky": {
-      "last_updated_at": 1795291236,
-      "usd": 0.04372463,
-      "usd_24h_change": 1.5775541077500892
+      "last_updated_at": 1795378531,
+      "usd": 0.04171318,
+      "usd_24h_change": -5.080203711501531
     },
     "solana": {
-      "last_updated_at": 1795291236,
-      "usd": 70.47,
-      "usd_24h_change": 3.457053819867237
+      "last_updated_at": 1795378542,
+      "usd": 70.02,
+      "usd_24h_change": -0.4693697188906473
     },
     "spell-token": {
-      "last_updated_at": 1795291252,
-      "usd": 6.048e-05,
-      "usd_24h_change": 0.3883442457603108
+      "last_updated_at": 1795378554,
+      "usd": 6.107e-05,
+      "usd_24h_change": 0.9774441269685739
     },
     "staked-ether": {
-      "last_updated_at": 1795291236,
-      "usd": 1681.59,
-      "usd_24h_change": 4.7729632703104246
+      "last_updated_at": 1795378542,
+      "usd": 1711.97,
+      "usd_24h_change": 1.7483695159636152
     },
     "stellar": {
-      "last_updated_at": 1795291236,
-      "usd": 0.129534,
-      "usd_24h_change": 2.7956581455431686
+      "last_updated_at": 1795378542,
+      "usd": 0.12761,
+      "usd_24h_change": -1.432467685922067
     },
     "sui": {
-      "last_updated_at": 1795291236,
-      "usd": 0.645664,
-      "usd_24h_change": 0.8150995784228325
+      "last_updated_at": 1795378554,
+      "usd": 0.654739,
+      "usd_24h_change": 1.42360650101815
     },
     "tether": {
-      "last_updated_at": 1795291236,
-      "usd": 0.998376,
-      "usd_24h_change": -0.051834812506797515
+      "last_updated_at": 1795378542,
+      "usd": 0.998754,
+      "usd_24h_change": 0.04861887479433738
     },
     "tether-gold": {
-      "last_updated_at": 1795291236,
-      "usd": 3553.9,
-      "usd_24h_change": 1.183242106995666
+      "last_updated_at": 1795378542,
+      "usd": 3544.26,
+      "usd_24h_change": -0.1959867532449367
     },
     "tezos": {
-      "last_updated_at": 1795291228,
-      "usd": 0.200482,
-      "usd_24h_change": 3.380968917081483
+      "last_updated_at": 1795378542,
+      "usd": 0.209364,
+      "usd_24h_change": 4.424351715779866
     },
     "the-graph": {
-      "last_updated_at": 1795291172,
-      "usd": 0.01598334,
-      "usd_24h_change": 1.7694986542035243
+      "last_updated_at": 1795378482,
+      "usd": 0.01588109,
+      "usd_24h_change": -0.7781798317620228
     },
     "toshi": {
-      "last_updated_at": 1795291236,
-      "usd": 7.535e-05,
-      "usd_24h_change": 2.6602664687406246
+      "last_updated_at": 1795378554,
+      "usd": 7.901e-05,
+      "usd_24h_change": 4.795138880661366
     },
     "usd-coin": {
-      "last_updated_at": 1795291236,
-      "usd": 0.999248,
-      "usd_24h_change": -0.031247444359179217
+      "last_updated_at": 1795378554,
+      "usd": 0.999353,
+      "usd_24h_change": 0.016288077511575356
     },
     "worldcoin": {
       "last_updated_at": 1754615460,
@@ -288,34 +288,34 @@
       "usd_24h_change": null
     },
     "wormhole": {
-      "last_updated_at": 1795291236,
-      "usd": 0.00805071,
-      "usd_24h_change": 1.6516460804232505
+      "last_updated_at": 1795378542,
+      "usd": 0.00834818,
+      "usd_24h_change": 3.789270620315994
     },
     "wrapped-bitcoin": {
-      "last_updated_at": 1795291236,
-      "usd": 60379.0,
-      "usd_24h_change": 2.8563610598356592
+      "last_updated_at": 1795378531,
+      "usd": 60857.0,
+      "usd_24h_change": 0.8028574030437571
     },
     "zcash": {
-      "last_updated_at": 1795291236,
-      "usd": 790.61,
-      "usd_24h_change": 4.147274894655073
+      "last_updated_at": 1795378542,
+      "usd": 788.01,
+      "usd_24h_change": -0.20092218642961648
     },
     "zeta": {
-      "last_updated_at": 1795291252,
-      "usd": 0.00090155,
-      "usd_24h_change": 1.1806960176232333
+      "last_updated_at": 1795378554,
+      "usd": 0.00083252,
+      "usd_24h_change": -7.667550500178033
     },
     "zksync": {
-      "last_updated_at": 1795291236,
-      "usd": 0.00687071,
-      "usd_24h_change": 0.03574631970654068
+      "last_updated_at": 1795378554,
+      "usd": 0.00681882,
+      "usd_24h_change": -0.7267240268991113
     },
     "zora": {
-      "last_updated_at": 1795291252,
-      "usd": 0.00439405,
-      "usd_24h_change": -4.666297320560756
+      "last_updated_at": 1795378542,
+      "usd": 0.00435834,
+      "usd_24h_change": -0.8790637551707269
     }
   },
   "source": "coingecko-public-api",
